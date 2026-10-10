@@ -1,9 +1,24 @@
 import Foundation
 import UserNotifications
+import UIKit
 
 /// Yerel bildirim izinlerini yöneten ve günlük düstur hatırlatıcısını planlayan servis.
 public enum NotificationManager {
     public static let notificationIdentifier = "dustur.daily.reminder"
+
+    /// Uygulama açılışında iOS sistemine bildirim kaydı yaptırır.
+    /// Bu çağrı sayesinde iPhone Ayarları -> Düstur altında "Bildirimler" menüsü anında belirir.
+    public static func registerWithSystem(completion: ((Bool) -> Void)? = nil) {
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { granted, _ in
+            DispatchQueue.main.async {
+                if granted {
+                    AppSettings.notificationsEnabled = true
+                    scheduleDailyNotification(at: AppSettings.notificationTime)
+                }
+                completion?(granted)
+            }
+        }
+    }
 
     /// Kullanıcıdan bildirim izni talep eder.
     public static func requestAuthorization(completion: @escaping (Bool) -> Void) {
@@ -18,8 +33,25 @@ public enum NotificationManager {
     public static func checkAuthorization(completion: @escaping (Bool) -> Void) {
         UNUserNotificationCenter.current().getNotificationSettings { settings in
             DispatchQueue.main.async {
-                completion(settings.authorizationStatus == .authorized)
+                let isAuthorized = settings.authorizationStatus == .authorized || settings.authorizationStatus == .provisional
+                completion(isAuthorized)
             }
+        }
+    }
+
+    /// Kullanıcıyı doğrudan iPhone Ayarları uygulamasındaki Düstur bildirim sayfasına yönlendirir.
+    public static func openSystemSettings() {
+        let selector = NSSelectorFromString("sharedApplication")
+        guard let appClass = NSClassFromString("UIApplication") as AnyObject?,
+              let app = appClass.perform(selector)?.takeUnretainedValue() as? UIApplication else {
+            return
+        }
+        if #available(iOS 16.0, *),
+           let url = URL(string: UIApplication.openNotificationSettingsURLString),
+           app.canOpenURL(url) {
+            app.open(url)
+        } else if let url = URL(string: UIApplication.openSettingsURLString) {
+            app.open(url)
         }
     }
 
