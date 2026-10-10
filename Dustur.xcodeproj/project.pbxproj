@@ -9,25 +9,43 @@
 /* Begin PBXBuildFile section */
 		0782C56A6A6DD464E3D00BEB /* RuleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D9693332D062EC3AF956C /* RuleListView.swift */; };
 		0A67A417E00059CB30250345 /* RuleCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B3896EA1AEEDD7986AB075 /* RuleCategory.swift */; };
+		0E54A3A781086E8D9FA7DE2B /* zihin.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B828485F3945AAEEF3EA1E5 /* zihin.png */; };
+		135DD440A5E1989FD268BCFC /* kariyer.png in Resources */ = {isa = PBXBuildFile; fileRef = 5021521B59AAB6E672BAC10F /* kariyer.png */; };
 		1919D3AA2BB7A97A7254DC43 /* Rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31825B28EC2D5201B4E0F23 /* Rule.swift */; };
+		1928D5C96DB4F29E932991E7 /* iliski.png in Resources */ = {isa = PBXBuildFile; fileRef = 6201A3B0AE9C9CFBAC433EC7 /* iliski.png */; };
+		220E692FD31A278A04598D54 /* dijital.png in Resources */ = {isa = PBXBuildFile; fileRef = F95D457003449933CB0AE74F /* dijital.png */; };
+		238CF1B1ED88153AB590E996 /* para.png in Resources */ = {isa = PBXBuildFile; fileRef = 88714A13590B2F4802B09F0B /* para.png */; };
 		2607006A5851EE3FA93CB1A7 /* WidgetModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BCE75962692940F0A15D2B /* WidgetModels.swift */; };
 		32268316DAEA4FE20CBD79F4 /* RuleCardViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0568276646006E4E52050EE /* RuleCardViews.swift */; };
+		41FC114F18888B3E1805962B /* iliski.png in Resources */ = {isa = PBXBuildFile; fileRef = 6201A3B0AE9C9CFBAC433EC7 /* iliski.png */; };
 		43F97EE7F65B161B23298300 /* DusturWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658B37C247BA26899E7DEEBE /* DusturWidget.swift */; };
+		49B6775D336B4C505E79269F /* dijital.png in Resources */ = {isa = PBXBuildFile; fileRef = F95D457003449933CB0AE74F /* dijital.png */; };
+		51272DBD24F29DEB8280276B /* saglik.png in Resources */ = {isa = PBXBuildFile; fileRef = CB995C47519D523FD1DE2621 /* saglik.png */; };
 		54353AE348B364BDC0C4F12B /* WidgetModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BCE75962692940F0A15D2B /* WidgetModels.swift */; };
 		5636FC5ED49FF84468590992 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A172DE0A88C083BC9F7327 /* AppSettings.swift */; };
 		574E8CF9BAC76CCD72BA9A68 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529D8A3A7D9A7487159BA397 /* HomeView.swift */; };
+		58B1283B16708EFFEAAB021D /* saglik.png in Resources */ = {isa = PBXBuildFile; fileRef = CB995C47519D523FD1DE2621 /* saglik.png */; };
+		5BA808707158DC6E041D95AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EFFBC16C7541F8C0345DD89 /* Assets.xcassets */; };
 		5C8A5E9EC53A0DC991B2104E /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F244D7A39FEB5A10B2A9C2 /* NotificationManager.swift */; };
+		5F166D9945421BCA4A1F674A /* pratik.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A716A0FAA21F4910E47076D /* pratik.png */; };
 		616A8F5C26EE418244DEAAFB /* RuleCardViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0568276646006E4E52050EE /* RuleCardViews.swift */; };
+		61898FDFCB2B35B3A34400E2 /* gorgu.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D70BD2EA31BAEB36924C33 /* gorgu.png */; };
+		64E0FA773B31C037031A26D3 /* kariyer.png in Resources */ = {isa = PBXBuildFile; fileRef = 5021521B59AAB6E672BAC10F /* kariyer.png */; };
 		657334C4F7BF02380FC3ACF0 /* AppGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AC3128EDC784A3AC15626 /* AppGender.swift */; };
+		6DE10BD5D46A8E0363FAB0BD /* gorgu.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D70BD2EA31BAEB36924C33 /* gorgu.png */; };
 		787AFDBFC5035ABFC2D98938 /* RotationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FC280522D1D5A3647A1DC8 /* RotationEngine.swift */; };
 		7ADB9B309354F69C3BCC006C /* RuleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8298CA3567603114437FF92E /* RuleRepository.swift */; };
 		7CDCDB44EC02242DAF71161D /* AppGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AC3128EDC784A3AC15626 /* AppGender.swift */; };
+		8570F297D548A56D7AC33F21 /* para.png in Resources */ = {isa = PBXBuildFile; fileRef = 88714A13590B2F4802B09F0B /* para.png */; };
 		8B65F049048C404988F396CE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1244D36F2A9037DF80D7406E /* Theme.swift */; };
 		8FE995EE35410913A57A1656 /* rules.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E125DC4E62B042BFD4A2600 /* rules.json */; };
+		901A87F8F380749F12F652E8 /* gorunum.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE89D5CE58F603FFDBD111A /* gorunum.png */; };
 		9D1C3D7EAF4C5D5782161C2C /* CategoryTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554DFAC271D5C0B4D60565F1 /* CategoryTile.swift */; };
 		A027B40FBF2742DBDCC59F19 /* AddWidgetSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C24D86953DD877AD95DC9C1 /* AddWidgetSheet.swift */; };
+		A84C8878A3805087E5A68566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EFFBC16C7541F8C0345DD89 /* Assets.xcassets */; };
 		A95DB442E302C9F1298A109E /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D51A3DADBDDCB18A1E4A0FB /* AppInfo.swift */; };
 		B0FAB58ED6FE9B69CD85B77D /* DusturWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CAC2E3F3987CB1546BE0E68A /* DusturWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C763979DBE4563513C13EB19 /* hukuk.png in Resources */ = {isa = PBXBuildFile; fileRef = F7603921C3221E432148A82A /* hukuk.png */; };
 		CB2C3BDCE0F015C6422DBB50 /* RuleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8298CA3567603114437FF92E /* RuleRepository.swift */; };
 		CC23DB687EBE5020A64D0E33 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F244D7A39FEB5A10B2A9C2 /* NotificationManager.swift */; };
 		CE4BDC44D6577122BFCE470E /* RuleCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B3896EA1AEEDD7986AB075 /* RuleCategory.swift */; };
@@ -35,10 +53,14 @@
 		DCE8D2697DC62FF4DE289A57 /* RotationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FC280522D1D5A3647A1DC8 /* RotationEngine.swift */; };
 		E1AF37D71491058548386072 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A172DE0A88C083BC9F7327 /* AppSettings.swift */; };
 		E8F60F757C6EE9D4DBD07EE8 /* rules.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E125DC4E62B042BFD4A2600 /* rules.json */; };
+		EB5BFB907AE07F08259CCD30 /* hukuk.png in Resources */ = {isa = PBXBuildFile; fileRef = F7603921C3221E432148A82A /* hukuk.png */; };
+		EE993C74844651DE0961FDB4 /* gorunum.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE89D5CE58F603FFDBD111A /* gorunum.png */; };
 		F226DA069BEC600C05ACCCE2 /* Rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31825B28EC2D5201B4E0F23 /* Rule.swift */; };
 		F3CD286E9E2314A3CC7ECF26 /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB4311EE92699624B23B6E /* SettingsSheet.swift */; };
 		F616304444F88543A0E01225 /* DusturApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75B065E2A713F80D6BAA67D /* DusturApp.swift */; };
 		F8935D8F3430960B9F423273 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D51A3DADBDDCB18A1E4A0FB /* AppInfo.swift */; };
+		FEAAAA68F7115773956EA1B4 /* zihin.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B828485F3945AAEEF3EA1E5 /* zihin.png */; };
+		FF2750E32F703625FA7D480D /* pratik.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A716A0FAA21F4910E47076D /* pratik.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,30 +88,58 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04D70BD2EA31BAEB36924C33 /* gorgu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gorgu.png; sourceTree = "<group>"; };
 		0C24D86953DD877AD95DC9C1 /* AddWidgetSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWidgetSheet.swift; sourceTree = "<group>"; };
 		0E125DC4E62B042BFD4A2600 /* rules.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = rules.json; sourceTree = "<group>"; };
 		1244D36F2A9037DF80D7406E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		1B828485F3945AAEEF3EA1E5 /* zihin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zihin.png; sourceTree = "<group>"; };
 		1E9D9693332D062EC3AF956C /* RuleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleListView.swift; sourceTree = "<group>"; };
 		38FC280522D1D5A3647A1DC8 /* RotationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationEngine.swift; sourceTree = "<group>"; };
+		3FE89D5CE58F603FFDBD111A /* gorunum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gorunum.png; sourceTree = "<group>"; };
+		5021521B59AAB6E672BAC10F /* kariyer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kariyer.png; sourceTree = "<group>"; };
 		529D8A3A7D9A7487159BA397 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		53A172DE0A88C083BC9F7327 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		54BCE75962692940F0A15D2B /* WidgetModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetModels.swift; sourceTree = "<group>"; };
 		554DFAC271D5C0B4D60565F1 /* CategoryTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTile.swift; sourceTree = "<group>"; };
+		6201A3B0AE9C9CFBAC433EC7 /* iliski.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iliski.png; sourceTree = "<group>"; };
 		628E6E1F30AAAA5E7EBFF8E0 /* Dustur.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Dustur.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		658B37C247BA26899E7DEEBE /* DusturWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DusturWidget.swift; sourceTree = "<group>"; };
+		6A716A0FAA21F4910E47076D /* pratik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pratik.png; sourceTree = "<group>"; };
 		8298CA3567603114437FF92E /* RuleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleRepository.swift; sourceTree = "<group>"; };
 		82F244D7A39FEB5A10B2A9C2 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		88714A13590B2F4802B09F0B /* para.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = para.png; sourceTree = "<group>"; };
 		8D51A3DADBDDCB18A1E4A0FB /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
 		9A7AC3128EDC784A3AC15626 /* AppGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGender.swift; sourceTree = "<group>"; };
+		9EFFBC16C7541F8C0345DD89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B75B065E2A713F80D6BAA67D /* DusturApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DusturApp.swift; sourceTree = "<group>"; };
 		B7B3896EA1AEEDD7986AB075 /* RuleCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleCategory.swift; sourceTree = "<group>"; };
 		BCFB4311EE92699624B23B6E /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
 		C0568276646006E4E52050EE /* RuleCardViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleCardViews.swift; sourceTree = "<group>"; };
 		CAC2E3F3987CB1546BE0E68A /* DusturWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = DusturWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB995C47519D523FD1DE2621 /* saglik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saglik.png; sourceTree = "<group>"; };
 		F31825B28EC2D5201B4E0F23 /* Rule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rule.swift; sourceTree = "<group>"; };
+		F7603921C3221E432148A82A /* hukuk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hukuk.png; sourceTree = "<group>"; };
+		F95D457003449933CB0AE74F /* dijital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dijital.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		18B5E03924D6B63D5127BE9F /* MenuIcons */ = {
+			isa = PBXGroup;
+			children = (
+				F95D457003449933CB0AE74F /* dijital.png */,
+				04D70BD2EA31BAEB36924C33 /* gorgu.png */,
+				3FE89D5CE58F603FFDBD111A /* gorunum.png */,
+				F7603921C3221E432148A82A /* hukuk.png */,
+				6201A3B0AE9C9CFBAC433EC7 /* iliski.png */,
+				5021521B59AAB6E672BAC10F /* kariyer.png */,
+				88714A13590B2F4802B09F0B /* para.png */,
+				6A716A0FAA21F4910E47076D /* pratik.png */,
+				CB995C47519D523FD1DE2621 /* saglik.png */,
+				1B828485F3945AAEEF3EA1E5 /* zihin.png */,
+			);
+			path = MenuIcons;
+			sourceTree = "<group>";
+		};
 		3672A9D0460EB7F52E5DB6BC /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,7 +155,9 @@
 		38B693165807BB90A6F606A8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9EFFBC16C7541F8C0345DD89 /* Assets.xcassets */,
 				0E125DC4E62B042BFD4A2600 /* rules.json */,
+				18B5E03924D6B63D5127BE9F /* MenuIcons */,
 			);
 			name = Resources;
 			path = Dustur/Resources;
@@ -305,7 +357,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA808707158DC6E041D95AF /* Assets.xcassets in Resources */,
+				220E692FD31A278A04598D54 /* dijital.png in Resources */,
+				61898FDFCB2B35B3A34400E2 /* gorgu.png in Resources */,
+				901A87F8F380749F12F652E8 /* gorunum.png in Resources */,
+				EB5BFB907AE07F08259CCD30 /* hukuk.png in Resources */,
+				1928D5C96DB4F29E932991E7 /* iliski.png in Resources */,
+				135DD440A5E1989FD268BCFC /* kariyer.png in Resources */,
+				8570F297D548A56D7AC33F21 /* para.png in Resources */,
+				FF2750E32F703625FA7D480D /* pratik.png in Resources */,
 				8FE995EE35410913A57A1656 /* rules.json in Resources */,
+				51272DBD24F29DEB8280276B /* saglik.png in Resources */,
+				0E54A3A781086E8D9FA7DE2B /* zihin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +376,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A84C8878A3805087E5A68566 /* Assets.xcassets in Resources */,
+				49B6775D336B4C505E79269F /* dijital.png in Resources */,
+				6DE10BD5D46A8E0363FAB0BD /* gorgu.png in Resources */,
+				EE993C74844651DE0961FDB4 /* gorunum.png in Resources */,
+				C763979DBE4563513C13EB19 /* hukuk.png in Resources */,
+				41FC114F18888B3E1805962B /* iliski.png in Resources */,
+				64E0FA773B31C037031A26D3 /* kariyer.png in Resources */,
+				238CF1B1ED88153AB590E996 /* para.png in Resources */,
+				5F166D9945421BCA4A1F674A /* pratik.png in Resources */,
 				E8F60F757C6EE9D4DBD07EE8 /* rules.json in Resources */,
+				58B1283B16708EFFEAAB021D /* saglik.png in Resources */,
+				FEAAAA68F7115773956EA1B4 /* zihin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

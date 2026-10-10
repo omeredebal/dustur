@@ -23,7 +23,7 @@ targets:
       - path: Dustur/Models
       - path: Dustur/Services
       - path: Dustur/Views
-      - path: Dustur/Resources/rules.json
+      - path: Dustur/Resources
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.omeredebal.dustur
@@ -55,7 +55,7 @@ targets:
       - path: Dustur/Models
       - path: Dustur/Services
       - path: Dustur/Views/WidgetSetup/RuleCardViews.swift
-      - path: Dustur/Resources/rules.json
+      - path: Dustur/Resources
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.omeredebal.dustur.widget
