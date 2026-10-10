@@ -20,141 +20,77 @@ public struct AddWidgetSheet: View {
 
     public var body: some View {
         NavigationStack {
-            ZStack {
-                DusturTheme.bgDeep.ignoresSafeArea()
-
-                ScrollView(showsIndicators: false) {
-                    VStack(spacing: 24) {
-                        // MARK: - Şekil Seçimi (Segmented)
-                        VStack(alignment: .leading, spacing: 10) {
-                            Text("WİDGET BOYUTU")
-                                .font(.system(size: 11, weight: .bold))
-                                .foregroundStyle(DusturTheme.brass)
-                                .tracking(1.5)
-
-                            Picker("Şekil", selection: $shape) {
-                                ForEach(WidgetShape.allCases) { item in
-                                    Text(item.shortTitle).tag(item)
-                                }
-                            }
-                            .pickerStyle(.segmented)
-
-                            // Canlı Önizleme Sahnesi
-                            VStack {
-                                WidgetPreview(shape: shape, rule: sample.rule, category: sample.category)
-                                    .padding(.vertical, 16)
-                            }
-                            .frame(maxWidth: .infinity)
-                            .background(
-                                RoundedRectangle(cornerRadius: 22, style: .continuous)
-                                    .fill(DusturTheme.cardBg)
-                                    .overlay(
-                                        RoundedRectangle(cornerRadius: 22, style: .continuous)
-                                            .stroke(DusturTheme.glassStroke, lineWidth: 1)
-                                    )
-                            )
-
-                            Text(shape.note)
-                                .font(.caption)
-                                .foregroundStyle(.white.opacity(0.50))
-                                .padding(.horizontal, 4)
+            Form {
+                // MARK: - Şekil ve Canlı Önizleme
+                Section {
+                    Picker("Şekil", selection: $shape) {
+                        ForEach(WidgetShape.allCases) { item in
+                            Text(item.shortTitle).tag(item)
                         }
-
-                        // MARK: - Alarm Saati Stili Değişim Süresi Seçici
-                        VStack(alignment: .leading, spacing: 12) {
-                            Text("SÖZLERİN DEĞİŞİM SÜRESİ")
-                                .font(.system(size: 11, weight: .bold))
-                                .foregroundStyle(DusturTheme.brass)
-                                .tracking(1.5)
-
-                            VStack(spacing: 12) {
-                                HStack(spacing: 16) {
-                                    Spacer()
-
-                                    // Alarm Çarkı (Wheel Picker)
-                                    Picker("Saat", selection: $selectedHours) {
-                                        ForEach(1...24, id: \.self) { hour in
-                                            Text("\(hour)")
-                                                .font(DusturTheme.monoNumber(size: 26, weight: .bold))
-                                                .foregroundStyle(.white)
-                                                .tag(hour)
-                                        }
-                                    }
-                                    .pickerStyle(.wheel)
-                                    .frame(width: 80, height: 120)
-                                    .clipped()
-
-                                    VStack(alignment: .leading, spacing: 2) {
-                                        Text("saatte bir")
-                                            .font(DusturTheme.serifTitle(size: 20, weight: .bold))
-                                            .foregroundStyle(DusturTheme.goldLight)
-
-                                        Text("otomatik değişir")
-                                            .font(.footnote)
-                                            .foregroundStyle(.white.opacity(0.60))
-                                    }
-
-                                    Spacer()
-                                }
-
-                                Divider()
-                                    .overlay(DusturTheme.divider)
-
-                                HStack(spacing: 6) {
-                                    Image(systemName: "clock.arrow.circlepath")
-                                        .font(.caption.weight(.bold))
-                                        .foregroundStyle(DusturTheme.brass)
-                                    Text(AppSettings.cycleNote(for: selectedHours))
-                                        .font(.footnote)
-                                        .foregroundStyle(.white.opacity(0.65))
-                                }
-                            }
-                            .padding(18)
-                            .background(
-                                RoundedRectangle(cornerRadius: 22, style: .continuous)
-                                    .fill(DusturTheme.cardBg)
-                                    .overlay(
-                                        RoundedRectangle(cornerRadius: 22, style: .continuous)
-                                            .stroke(DusturTheme.glassStroke, lineWidth: 1)
-                                    )
-                            )
-                        }
-
-                        // MARK: - Kaydet ve Devam Butonu
-                        Button {
-                            AppSettings.intervalHours = selectedHours
-                            showSteps = true
-                        } label: {
-                            HStack {
-                                Spacer()
-                                Text("Süreyi Kaydet ve Adımları Gör")
-                                    .font(.headline.weight(.bold))
-                                    .foregroundStyle(DusturTheme.bgDeep)
-                                Spacer()
-                            }
-                            .padding(.vertical, 16)
-                            .background(
-                                DusturTheme.brassLight,
-                                in: RoundedRectangle(cornerRadius: 16, style: .continuous)
-                            )
-                            .shadow(color: DusturTheme.brass.opacity(0.30), radius: 10, x: 0, y: 5)
-                        }
-
-                        Text("iOS güvenlik kuralları gereği widget'ı kullanıcı ana ekrana ekler. Belirlediğin süre tüm widget'lara uygulanır.")
-                            .font(.caption2)
-                            .foregroundStyle(.white.opacity(0.40))
-                            .multilineTextAlignment(.center)
-                            .padding(.horizontal, 12)
                     }
-                    .padding(20)
+                    .pickerStyle(.segmented)
+
+                    WidgetPreview(shape: shape, rule: sample.rule, category: sample.category)
+                        .frame(maxWidth: .infinity)
+                        .listRowBackground(Color.clear)
+                        .padding(.vertical, 6)
+                } header: {
+                    Text("Şekil")
+                } footer: {
+                    Text(shape.note)
+                }
+
+                // MARK: - Değişim Süresi (Alarm Saati Stili Tekerlek)
+                Section {
+                    VStack(spacing: 8) {
+                        HStack {
+                            Spacer()
+                            Picker("Saat", selection: $selectedHours) {
+                                ForEach(1...24, id: \.self) { hour in
+                                    Text("\(hour)")
+                                        .font(.title2.monospacedDigit().weight(.semibold))
+                                        .tag(hour)
+                                }
+                            }
+                            .pickerStyle(.wheel)
+                            .frame(width: 90, height: 120)
+                            .clipped()
+
+                            Text("saatte bir")
+                                .font(.headline)
+                                .foregroundStyle(.primary)
+                            Spacer()
+                        }
+
+                        Text("Sözler her \(selectedHours) saatte bir otomatik değişir.")
+                            .font(.footnote)
+                            .foregroundStyle(.secondary)
+                    }
+                    .padding(.vertical, 2)
+                } header: {
+                    Text("Değişim Süresi")
+                } footer: {
+                    Text(AppSettings.cycleNote(for: selectedHours))
+                }
+
+                // MARK: - Kaydet Butonu
+                Section {
+                    Button {
+                        AppSettings.intervalHours = selectedHours
+                        showSteps = true
+                    } label: {
+                        Text("Kaydet ve nasıl ekleneceğini göster")
+                            .frame(maxWidth: .infinity)
+                    }
+                } footer: {
+                    Text("iOS kuralları gereği widget'ı kullanıcı ana ekrana ekler. Seçtiğin süre tüm Düstur widget'larına uygulanır.")
                 }
             }
-            .navigationTitle("Widget Stüdyosu")
+            .navigationTitle("Widget Ekle")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
                     Button("Kapat") { dismiss() }
-                        .foregroundStyle(DusturTheme.brassLight)
                 }
             }
             .sheet(isPresented: $showSteps) {
@@ -165,11 +101,10 @@ public struct AddWidgetSheet: View {
                 .presentationDetents([.medium])
             }
         }
-        .preferredColorScheme(.dark)
     }
 }
 
-/// Gerçek widget ile birebir aynı boyutta ve içerikte önizleme kutusu.
+/// Gerçek widget ile birebir aynı boyutta önizleme kutusu
 public struct WidgetPreview: View {
     public let shape: WidgetShape
     public let rule: Rule
@@ -187,8 +122,8 @@ public struct WidgetPreview: View {
 
         ZStack {
             if isLock {
-                RoundedRectangle(cornerRadius: 14, style: .continuous)
-                    .fill(Color.white.opacity(0.08))
+                RoundedRectangle(cornerRadius: 12, style: .continuous)
+                    .fill(Color(.secondarySystemFill))
             } else {
                 RuleCardBackground(category: category)
             }
@@ -199,15 +134,15 @@ public struct WidgetPreview: View {
                 family: shape.widgetFamily,
                 gender: AppSettings.gender
             )
+            .padding(isLock ? 10 : 16)
         }
         .frame(width: size.width, height: size.height)
-        .clipShape(RoundedRectangle(cornerRadius: isLock ? 14 : 22, style: .continuous))
-        .shadow(color: .black.opacity(0.40), radius: 14, x: 0, y: 6)
+        .clipShape(RoundedRectangle(cornerRadius: isLock ? 12 : 22, style: .continuous))
         .animation(.snappy, value: shape)
     }
 }
 
-/// Kullanıcının ana ekrana widget'ı nasıl ekleyeceğini gösteren lüks rehber.
+/// Kurulum Adımları
 public struct AddWidgetSteps: View {
     public let shape: WidgetShape
     public let hours: Int
@@ -231,61 +166,45 @@ public struct AddWidgetSteps: View {
         return [
             "Ana ekranda boş bir alana uygulamalar titreyene kadar basılı tutun.",
             "Sol üst köşedeki (+) artı düğmesine dokunun.",
-            "Arama çubuğuna \"\(AppInfo.name)\" yazın.",
-            "\(shape.title) boyutunu seçip Widget Ekle'ye dokunun."
+            "\(AppInfo.name) uygulamasını bulun ve \(shape.title) boyutu seçin.",
+            "Widget Ekle'ye dokunun ve Bitti'ye basın."
         ]
     }
 
     public var body: some View {
-        ZStack {
-            DusturTheme.bgDeep.ignoresSafeArea()
+        VStack(alignment: .leading, spacing: 16) {
+            VStack(alignment: .leading, spacing: 2) {
+                Text("Süre kaydedildi: Her \(hours) saatte bir")
+                    .font(.headline)
+                Text("Widget galerisinden aşağıdaki adımlarla ekleyebilirsiniz:")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+            }
 
-            VStack(alignment: .leading, spacing: 20) {
-                VStack(alignment: .leading, spacing: 4) {
-                    Text("Süre Başarıyla Kaydedildi")
-                        .font(DusturTheme.serifTitle(size: 20, weight: .bold))
-                        .foregroundStyle(.white)
+            VStack(alignment: .leading, spacing: 10) {
+                ForEach(Array(steps.enumerated()), id: \.offset) { index, step in
+                    HStack(alignment: .firstTextBaseline, spacing: 10) {
+                        Text("\(index + 1)")
+                            .font(.footnote.monospacedDigit().weight(.bold))
+                            .frame(width: 22, height: 22)
+                            .background(Circle().fill(Color(.secondarySystemFill)))
 
-                    Text("Widget her \(hours) saatte bir yeni kural gösterecek.")
-                        .font(.subheadline)
-                        .foregroundStyle(DusturTheme.brassLight)
-                }
-
-                VStack(alignment: .leading, spacing: 14) {
-                    ForEach(Array(steps.enumerated()), id: \.offset) { index, step in
-                        HStack(alignment: .firstTextBaseline, spacing: 12) {
-                            Text("\(index + 1)")
-                                .font(DusturTheme.monoNumber(size: 13, weight: .bold))
-                                .foregroundStyle(DusturTheme.bgDeep)
-                                .frame(width: 24, height: 24)
-                                .background(
-                                    Circle().fill(DusturTheme.brassLight)
-                                )
-
-                            Text(step)
-                                .font(.body)
-                                .foregroundStyle(.white.opacity(0.90))
-                                .lineSpacing(2)
-                        }
+                        Text(step)
+                            .font(.body)
                     }
                 }
-
-                Spacer()
-
-                Button(action: onDone) {
-                    Text("Tamam")
-                        .font(.headline.weight(.bold))
-                        .foregroundStyle(DusturTheme.bgDeep)
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, 14)
-                        .background(
-                            DusturTheme.brassLight,
-                            in: RoundedRectangle(cornerRadius: 14, style: .continuous)
-                        )
-                }
             }
-            .padding(24)
+
+            Spacer()
+
+            Button(action: onDone) {
+                Text("Tamam")
+                    .font(.headline)
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 12)
+            }
+            .buttonStyle(.borderedProminent)
         }
-        .preferredColorScheme(.dark)
+        .padding(24)
     }
 }
