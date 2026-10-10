@@ -16,49 +16,84 @@ public struct RuleListView: View {
             // Arka Plan (Derin Siyah/Obsidyen)
             Color.black.ignoresSafeArea()
 
-            ScrollView(showsIndicators: false) {
-                VStack(spacing: 16) {
-                    // 3D Krom İkonlu Kategori Başlık Kartı
-                    CategoryHeaderBanner(category: category)
-                        .padding(.top, 8)
+            VStack(spacing: 0) {
+                // MARK: - Özel Titremesiz Üst Gezinme Çubuğu
+                RuleListNavigationBar(
+                    title: category.name,
+                    onBack: { dismiss() }
+                )
 
-                    // 100 Kural Listesi
-                    LazyVStack(spacing: 10) {
-                        ForEach(Array(rules.enumerated()), id: \.element.id) { index, rule in
-                            RuleListItem(
-                                index: index + 1,
-                                rule: rule
-                            )
+                ScrollView(showsIndicators: false) {
+                    VStack(spacing: 16) {
+                        // 3D Krom İkonlu Kategori Başlık Kartı
+                        CategoryHeaderBanner(category: category)
+                            .padding(.top, 4)
+
+                        // 100 Kural Listesi
+                        LazyVStack(spacing: 10) {
+                            ForEach(Array(rules.enumerated()), id: \.element.id) { index, rule in
+                                RuleListItem(
+                                    index: index + 1,
+                                    rule: rule
+                                )
+                            }
                         }
+                        .padding(.bottom, 32)
                     }
-                    .padding(.bottom, 32)
+                    .padding(.horizontal, 16)
                 }
-                .padding(.horizontal, 16)
             }
         }
+        .toolbar(.hidden, for: .navigationBar)
         .navigationBarBackButtonHidden(true)
-        .toolbar {
-            ToolbarItem(placement: .topBarLeading) {
-                Button {
-                    dismiss()
-                } label: {
-                    HStack(spacing: 4) {
-                        Image(systemName: "chevron.left")
-                            .font(.system(size: 14, weight: .bold))
-                        Text("Düstur")
-                            .font(.system(size: 15, weight: .medium))
-                    }
-                    .foregroundStyle(.white.opacity(0.85))
+        .enableInteractivePopGesture()
+        .preferredColorScheme(.dark)
+    }
+}
+
+// MARK: - Titremesiz ve Akıcı Üst Gezinme Çubuğu
+
+struct RuleListNavigationBar: View {
+    let title: String
+    let onBack: () -> Void
+
+    var body: some View {
+        HStack(alignment: .center) {
+            Button(action: onBack) {
+                HStack(spacing: 5) {
+                    Image(systemName: "chevron.left")
+                        .font(.system(size: 15, weight: .bold))
+                    Text("Düstur")
+                        .font(.system(size: 15, weight: .medium))
                 }
+                .foregroundStyle(.white.opacity(0.85))
+                .padding(.vertical, 8)
+                .padding(.horizontal, 4)
+                .contentShape(Rectangle())
             }
 
-            ToolbarItem(placement: .principal) {
-                Text(category.name)
-                    .font(.system(size: 16, weight: .bold, design: .serif))
-                    .foregroundStyle(.white)
+            Spacer()
+
+            Text(title)
+                .font(.system(size: 16.5, weight: .bold, design: .serif))
+                .foregroundStyle(.white)
+                .lineLimit(1)
+                .minimumScaleFactor(0.85)
+
+            Spacer()
+
+            // Simetrik dengeleme için görünmez rezervasyon alanı
+            HStack(spacing: 5) {
+                Image(systemName: "chevron.left")
+                Text("Düstur")
             }
+            .font(.system(size: 15, weight: .medium))
+            .opacity(0)
+            .allowsHitTesting(false)
         }
-        .preferredColorScheme(.dark)
+        .padding(.horizontal, 16)
+        .padding(.vertical, 6)
+        .background(Color.black)
     }
 }
 

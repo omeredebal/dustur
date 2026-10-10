@@ -43,6 +43,7 @@ public struct HomeView: View {
                     .padding(.horizontal, 16)
                 }
             }
+            .toolbar(.hidden, for: .navigationBar)
             .navigationBarHidden(true)
             .navigationDestination(for: RuleCategory.self) { category in
                 RuleListView(category: category)

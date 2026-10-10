@@ -17,6 +17,7 @@
 		238CF1B1ED88153AB590E996 /* para.png in Resources */ = {isa = PBXBuildFile; fileRef = 88714A13590B2F4802B09F0B /* para.png */; };
 		2607006A5851EE3FA93CB1A7 /* WidgetModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BCE75962692940F0A15D2B /* WidgetModels.swift */; };
 		32268316DAEA4FE20CBD79F4 /* RuleCardViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0568276646006E4E52050EE /* RuleCardViews.swift */; };
+		366D30050088E5307AFDDC01 /* NavigationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CDC7C768355C1A32F62F3 /* NavigationExtensions.swift */; };
 		41FC114F18888B3E1805962B /* iliski.png in Resources */ = {isa = PBXBuildFile; fileRef = 6201A3B0AE9C9CFBAC433EC7 /* iliski.png */; };
 		43F97EE7F65B161B23298300 /* DusturWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658B37C247BA26899E7DEEBE /* DusturWidget.swift */; };
 		49B6775D336B4C505E79269F /* dijital.png in Resources */ = {isa = PBXBuildFile; fileRef = F95D457003449933CB0AE74F /* dijital.png */; };
@@ -50,6 +51,7 @@
 		CC23DB687EBE5020A64D0E33 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F244D7A39FEB5A10B2A9C2 /* NotificationManager.swift */; };
 		CE4BDC44D6577122BFCE470E /* RuleCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B3896EA1AEEDD7986AB075 /* RuleCategory.swift */; };
 		CEAF14DACA8E1D72BC376CDE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1244D36F2A9037DF80D7406E /* Theme.swift */; };
+		D50A2C0CACF87B0DD7B8BBAE /* NavigationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CDC7C768355C1A32F62F3 /* NavigationExtensions.swift */; };
 		DCE8D2697DC62FF4DE289A57 /* RotationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FC280522D1D5A3647A1DC8 /* RotationEngine.swift */; };
 		E1AF37D71491058548386072 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A172DE0A88C083BC9F7327 /* AppSettings.swift */; };
 		E8F60F757C6EE9D4DBD07EE8 /* rules.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E125DC4E62B042BFD4A2600 /* rules.json */; };
@@ -108,6 +110,7 @@
 		8298CA3567603114437FF92E /* RuleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleRepository.swift; sourceTree = "<group>"; };
 		82F244D7A39FEB5A10B2A9C2 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		88714A13590B2F4802B09F0B /* para.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = para.png; sourceTree = "<group>"; };
+		8A6CDC7C768355C1A32F62F3 /* NavigationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationExtensions.swift; sourceTree = "<group>"; };
 		8D51A3DADBDDCB18A1E4A0FB /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
 		9A7AC3128EDC784A3AC15626 /* AppGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGender.swift; sourceTree = "<group>"; };
 		9EFFBC16C7541F8C0345DD89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -206,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				8D51A3DADBDDCB18A1E4A0FB /* AppInfo.swift */,
+				8A6CDC7C768355C1A32F62F3 /* NavigationExtensions.swift */,
 				1244D36F2A9037DF80D7406E /* Theme.swift */,
 			);
 			name = Core;
@@ -402,6 +406,7 @@
 				F8935D8F3430960B9F423273 /* AppInfo.swift in Sources */,
 				E1AF37D71491058548386072 /* AppSettings.swift in Sources */,
 				43F97EE7F65B161B23298300 /* DusturWidget.swift in Sources */,
+				D50A2C0CACF87B0DD7B8BBAE /* NavigationExtensions.swift in Sources */,
 				CC23DB687EBE5020A64D0E33 /* NotificationManager.swift in Sources */,
 				DCE8D2697DC62FF4DE289A57 /* RotationEngine.swift in Sources */,
 				1919D3AA2BB7A97A7254DC43 /* Rule.swift in Sources */,
@@ -424,6 +429,7 @@
 				9D1C3D7EAF4C5D5782161C2C /* CategoryTile.swift in Sources */,
 				F616304444F88543A0E01225 /* DusturApp.swift in Sources */,
 				574E8CF9BAC76CCD72BA9A68 /* HomeView.swift in Sources */,
+				366D30050088E5307AFDDC01 /* NavigationExtensions.swift in Sources */,
 				5C8A5E9EC53A0DC991B2104E /* NotificationManager.swift in Sources */,
 				787AFDBFC5035ABFC2D98938 /* RotationEngine.swift in Sources */,
 				F226DA069BEC600C05ACCCE2 /* Rule.swift in Sources */,
