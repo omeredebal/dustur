@@ -3,11 +3,9 @@ import SwiftUI
 /// 3D Krom & Cam menü ikonlarıyla kaplanmış, ultra-lüks ve zarif kare kategori kartı.
 public struct CategoryTile: View {
     public let category: RuleCategory
-    private let count: Int
 
     public init(category: RuleCategory) {
         self.category = category
-        self.count = RuleRepository.rules(in: category.id).count
     }
 
     public var body: some View {
@@ -67,8 +65,8 @@ public struct CategoryTile: View {
 
                 Spacer()
 
-                // Alt Kısım: Kategori Adı ve Kural Sayısı
-                VStack(alignment: .leading, spacing: 3) {
+                // Alt Kısım: Kategori Adı ve Yönlendirme İkonu
+                HStack(alignment: .bottom, spacing: 6) {
                     Text(category.name)
                         .font(.system(size: 16.5, weight: .bold, design: .serif))
                         .foregroundStyle(.white)
@@ -77,19 +75,13 @@ public struct CategoryTile: View {
                         .multilineTextAlignment(.leading)
                         .shadow(color: .black.opacity(0.60), radius: 4, x: 0, y: 2)
 
-                    HStack(spacing: 4) {
-                        Text("\(count) İlke")
-                            .font(.system(size: 11, weight: .medium))
-                            .foregroundStyle(.white.opacity(0.70))
+                    Spacer(minLength: 0)
 
-                        Spacer()
-
-                        Image(systemName: "arrow.up.right")
-                            .font(.system(size: 9, weight: .bold))
-                            .foregroundStyle(.white.opacity(0.60))
-                            .padding(4)
-                            .background(Circle().fill(Color.white.opacity(0.12)))
-                    }
+                    Image(systemName: "arrow.up.right")
+                        .font(.system(size: 9, weight: .bold))
+                        .foregroundStyle(.white.opacity(0.60))
+                        .padding(5)
+                        .background(Circle().fill(Color.white.opacity(0.12)))
                 }
             }
             .padding(14)

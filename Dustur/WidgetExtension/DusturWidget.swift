@@ -101,7 +101,6 @@ public struct DusturWidget: Widget {
         .supportedFamilies([
             .systemSmall,
             .systemMedium,
-            .systemLarge,
             .accessoryRectangular
         ])
     }
