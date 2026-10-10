@@ -20,6 +20,7 @@
 		366D30050088E5307AFDDC01 /* NavigationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CDC7C768355C1A32F62F3 /* NavigationExtensions.swift */; };
 		41FC114F18888B3E1805962B /* iliski.png in Resources */ = {isa = PBXBuildFile; fileRef = 6201A3B0AE9C9CFBAC433EC7 /* iliski.png */; };
 		43F97EE7F65B161B23298300 /* DusturWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658B37C247BA26899E7DEEBE /* DusturWidget.swift */; };
+		44C14551C7CA405C63A2CA4F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F9007E95FE47273FA4AFDBD /* Settings.bundle */; };
 		49B6775D336B4C505E79269F /* dijital.png in Resources */ = {isa = PBXBuildFile; fileRef = F95D457003449933CB0AE74F /* dijital.png */; };
 		51272DBD24F29DEB8280276B /* saglik.png in Resources */ = {isa = PBXBuildFile; fileRef = CB995C47519D523FD1DE2621 /* saglik.png */; };
 		54353AE348B364BDC0C4F12B /* WidgetModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BCE75962692940F0A15D2B /* WidgetModels.swift */; };
@@ -39,6 +40,7 @@
 		7CDCDB44EC02242DAF71161D /* AppGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AC3128EDC784A3AC15626 /* AppGender.swift */; };
 		8570F297D548A56D7AC33F21 /* para.png in Resources */ = {isa = PBXBuildFile; fileRef = 88714A13590B2F4802B09F0B /* para.png */; };
 		8B65F049048C404988F396CE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1244D36F2A9037DF80D7406E /* Theme.swift */; };
+		8F57FC88DB41551973168CDE /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F9007E95FE47273FA4AFDBD /* Settings.bundle */; };
 		8FE995EE35410913A57A1656 /* rules.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E125DC4E62B042BFD4A2600 /* rules.json */; };
 		901A87F8F380749F12F652E8 /* gorunum.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE89D5CE58F603FFDBD111A /* gorunum.png */; };
 		9D1C3D7EAF4C5D5782161C2C /* CategoryTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554DFAC271D5C0B4D60565F1 /* CategoryTile.swift */; };
@@ -112,6 +114,7 @@
 		88714A13590B2F4802B09F0B /* para.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = para.png; sourceTree = "<group>"; };
 		8A6CDC7C768355C1A32F62F3 /* NavigationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationExtensions.swift; sourceTree = "<group>"; };
 		8D51A3DADBDDCB18A1E4A0FB /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		8F9007E95FE47273FA4AFDBD /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = wrapper.cfbundle; path = Settings.bundle; sourceTree = "<group>"; };
 		9A7AC3128EDC784A3AC15626 /* AppGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGender.swift; sourceTree = "<group>"; };
 		9EFFBC16C7541F8C0345DD89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B75B065E2A713F80D6BAA67D /* DusturApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DusturApp.swift; sourceTree = "<group>"; };
@@ -160,6 +163,7 @@
 			children = (
 				9EFFBC16C7541F8C0345DD89 /* Assets.xcassets */,
 				0E125DC4E62B042BFD4A2600 /* rules.json */,
+				8F9007E95FE47273FA4AFDBD /* Settings.bundle */,
 				18B5E03924D6B63D5127BE9F /* MenuIcons */,
 			);
 			name = Resources;
@@ -362,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BA808707158DC6E041D95AF /* Assets.xcassets in Resources */,
+				44C14551C7CA405C63A2CA4F /* Settings.bundle in Resources */,
 				220E692FD31A278A04598D54 /* dijital.png in Resources */,
 				61898FDFCB2B35B3A34400E2 /* gorgu.png in Resources */,
 				901A87F8F380749F12F652E8 /* gorunum.png in Resources */,
@@ -381,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A84C8878A3805087E5A68566 /* Assets.xcassets in Resources */,
+				8F57FC88DB41551973168CDE /* Settings.bundle in Resources */,
 				49B6775D336B4C505E79269F /* dijital.png in Resources */,
 				6DE10BD5D46A8E0363FAB0BD /* gorgu.png in Resources */,
 				EE993C74844651DE0961FDB4 /* gorunum.png in Resources */,

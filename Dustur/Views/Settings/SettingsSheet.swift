@@ -83,24 +83,10 @@ public struct SettingsSheet: View {
                             NotificationManager.scheduleDailyNotification(at: newTime)
                         }
                     }
-
-                    // Doğrudan iPhone Ayarları'na Yönlendiren Buton
-                    Button {
-                        NotificationManager.openSystemSettings()
-                    } label: {
-                        HStack {
-                            Text("iPhone Ayarları'nda Aç")
-                                .foregroundStyle(.primary)
-                            Spacer()
-                            Image(systemName: "arrow.up.forward.app")
-                                .font(.footnote)
-                                .foregroundStyle(.secondary)
-                        }
-                    }
                 } header: {
                     Text("Hatırlatıcılar")
                 } footer: {
-                    Text("Her gün belirlediğin saatte günün öne çıkan kuralı bildirim olarak iletilir. İzinleri doğrudan iPhone Ayarları'ndan da açıp kapatabilirsin.")
+                    Text("Her gün belirlediğin saatte günün öne çıkan kuralı bildirim olarak iletilir.")
                 }
 
                 // MARK: - Uygulama Bilgisi
@@ -127,15 +113,11 @@ public struct SettingsSheet: View {
                     Button("Tamam") { dismiss() }
                 }
             }
-            .onAppear {
-                NotificationManager.checkAuthorization { isAuthorized in
-                    self.notificationsEnabled = isAuthorized
-                    AppSettings.notificationsEnabled = isAuthorized
-                }
-            }
             .alert("Bildirim İzni Gerekli", isPresented: $showPermissionAlert) {
                 Button("Ayarlar'a Git") {
-                    NotificationManager.openSystemSettings()
+                    if let url = URL(string: UIApplication.openSettingsURLString) {
+                        UIApplication.shared.open(url)
+                    }
                 }
                 Button("Vazgeç", role: .cancel) {}
             } message: {
