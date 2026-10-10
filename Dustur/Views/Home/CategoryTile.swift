@@ -65,24 +65,15 @@ public struct CategoryTile: View {
 
                 Spacer()
 
-                // Alt Kısım: Kategori Adı ve Yönlendirme İkonu
-                HStack(alignment: .bottom, spacing: 6) {
-                    Text(category.name)
-                        .font(.system(size: 16.5, weight: .bold, design: .serif))
-                        .foregroundStyle(.white)
-                        .lineLimit(2)
-                        .minimumScaleFactor(0.85)
-                        .multilineTextAlignment(.leading)
-                        .shadow(color: .black.opacity(0.60), radius: 4, x: 0, y: 2)
-
-                    Spacer(minLength: 0)
-
-                    Image(systemName: "arrow.up.right")
-                        .font(.system(size: 9, weight: .bold))
-                        .foregroundStyle(.white.opacity(0.60))
-                        .padding(5)
-                        .background(Circle().fill(Color.white.opacity(0.12)))
-                }
+                // Alt Kısım: Kategori Adı
+                Text(category.name)
+                    .font(.system(size: 16.5, weight: .bold, design: .serif))
+                    .foregroundStyle(.white)
+                    .lineLimit(2)
+                    .minimumScaleFactor(0.85)
+                    .multilineTextAlignment(.leading)
+                    .shadow(color: .black.opacity(0.60), radius: 4, x: 0, y: 2)
+                    .frame(maxWidth: .infinity, alignment: .leading)
             }
             .padding(14)
         }
