@@ -1,0 +1,7195 @@
+{
+  "version": 2,
+  "title": "Düstur — Hayatın Temel Kuralları",
+  "rotation": {
+    "intervalHours": 12,
+    "orderField": "seq",
+    "totalSlots": 1000
+  },
+  "categories": [
+    {
+      "id": "para",
+      "name": "Para",
+      "symbol": "banknote",
+      "colorHex": "#2F6F5E",
+      "order": 1
+    },
+    {
+      "id": "hukuk",
+      "name": "Hukuk ve Bürokrasi",
+      "symbol": "building.columns",
+      "colorHex": "#3A4F7A",
+      "order": 2
+    },
+    {
+      "id": "gorgu",
+      "name": "Görgü ve Sosyal Hayat",
+      "symbol": "person.2",
+      "colorHex": "#7A5C3A",
+      "order": 3
+    },
+    {
+      "id": "iliski",
+      "name": "İlişkiler",
+      "symbol": "heart",
+      "colorHex": "#8A3F4D",
+      "order": 4
+    },
+    {
+      "id": "kariyer",
+      "name": "Kariyer",
+      "symbol": "briefcase",
+      "colorHex": "#2E5E8C",
+      "order": 5
+    },
+    {
+      "id": "saglik",
+      "name": "Sağlık ve Beden",
+      "symbol": "cross.case",
+      "colorHex": "#3F7F4F",
+      "order": 6
+    },
+    {
+      "id": "pratik",
+      "name": "Pratik Beceriler",
+      "symbol": "wrench.and.screwdriver",
+      "colorHex": "#8A5A2B",
+      "order": 7
+    },
+    {
+      "id": "gorunum",
+      "name": "Görünüm ve Bakım",
+      "symbol": "tshirt",
+      "colorHex": "#5A4A7A",
+      "order": 8
+    },
+    {
+      "id": "dijital",
+      "name": "Dijital Güvenlik",
+      "symbol": "lock.shield",
+      "colorHex": "#2B6A78",
+      "order": 9
+    },
+    {
+      "id": "zihin",
+      "name": "Zihin ve Karakter",
+      "symbol": "brain.head.profile",
+      "colorHex": "#6A4F4F",
+      "order": 10
+    }
+  ],
+  "rules": [
+    {
+      "id": 1,
+      "seq": 701,
+      "categoryId": "para",
+      "text": "Maaş yatınca önce birikimi ayır, kalanı harca; \"artarsa biriktiririm\" planı çoğu zaman işlemez.",
+      "verify": false
+    },
+    {
+      "id": 2,
+      "seq": 65,
+      "categoryId": "para",
+      "text": "Kredi kartı borcunu asgari ödemeyle taşıma; faiz borcu hızla büyütür.",
+      "verify": false
+    },
+    {
+      "id": 3,
+      "seq": 529,
+      "categoryId": "para",
+      "text": "Gideri kadar 3-6 aylık bir acil durum fonu oluştur.",
+      "verify": false
+    },
+    {
+      "id": 4,
+      "seq": 974,
+      "categoryId": "para",
+      "text": "Bir ay boyunca tüm harcamalarını yaz; neye harcadığını bilmeden bütçe yapamazsın.",
+      "verify": false
+    },
+    {
+      "id": 5,
+      "seq": 856,
+      "categoryId": "para",
+      "text": "Anlamadığın ürüne para yatırma; \"garanti yüksek kazanç\" vaadi dolandırıcılık işaretidir.",
+      "verify": false
+    },
+    {
+      "id": 6,
+      "seq": 620,
+      "categoryId": "para",
+      "text": "Tüm birikimini tek bir varlıkta tutma.",
+      "verify": false
+    },
+    {
+      "id": 7,
+      "seq": 629,
+      "categoryId": "para",
+      "text": "Büyük bir alışverişten önce 24-48 saat bekle; çoğu zaman ihtiyaç değil dürtüdür.",
+      "verify": false
+    },
+    {
+      "id": 8,
+      "seq": 483,
+      "categoryId": "para",
+      "text": "Abonelikleri üç ayda bir gözden geçir; kullanmadığın aboneliğe para ödeme.",
+      "verify": false
+    },
+    {
+      "id": 9,
+      "seq": 301,
+      "categoryId": "para",
+      "text": "Fatura ve taksit tarihlerini otomatik ödemeye ya da hatırlatıcıya bağla.",
+      "verify": false
+    },
+    {
+      "id": 10,
+      "seq": 38,
+      "categoryId": "para",
+      "text": "Arkadaşına borç verirken kaybetmeyi göze alabileceğin tutarı ver ve yazılı not al.",
+      "verify": false
+    },
+    {
+      "id": 11,
+      "seq": 120,
+      "categoryId": "para",
+      "text": "Gelirini artırmak harcamayı kısmaktan daha uzun vadeli bir çözümdür; ikisini birlikte yürüt.",
+      "verify": false
+    },
+    {
+      "id": 12,
+      "seq": 883,
+      "categoryId": "para",
+      "text": "Her harcamanın iki maliyeti vardır: para ve o parayı kazanmak için harcadığın zaman.",
+      "verify": false
+    },
+    {
+      "id": 13,
+      "seq": 392,
+      "categoryId": "para",
+      "text": "Satın almadan önce aynı ürünü en az üç yerde karşılaştır.",
+      "verify": false
+    },
+    {
+      "id": 14,
+      "seq": 920,
+      "categoryId": "para",
+      "text": "İndirim etiketine değil, ürüne gerçekten ihtiyacın olup olmadığına bak.",
+      "verify": false
+    },
+    {
+      "id": 15,
+      "seq": 983,
+      "categoryId": "para",
+      "text": "Taksitle alınan her şeyin gerçek fiyatı vitrindeki fiyattan yüksektir; toplam ödemeyi hesapla.",
+      "verify": false
+    },
+    {
+      "id": 16,
+      "seq": 83,
+      "categoryId": "para",
+      "text": "Borçlarını faiz oranına göre sırala ve en pahalı olanı önce kapat.",
+      "verify": false
+    },
+    {
+      "id": 17,
+      "seq": 547,
+      "categoryId": "para",
+      "text": "Kredi çekmeden önce toplam geri ödeme tutarını ve aylık yükü hesapla.",
+      "verify": false
+    },
+    {
+      "id": 18,
+      "seq": 929,
+      "categoryId": "para",
+      "text": "Aylık borç ödemelerin gelirinin makul bir kısmını aşmasın; aşıyorsa yeni borç alma.",
+      "verify": false
+    },
+    {
+      "id": 19,
+      "seq": 447,
+      "categoryId": "para",
+      "text": "Nakit akışını takip et: ayın hangi günü para giriyor, hangi gün çıkıyor bil.",
+      "verify": false
+    },
+    {
+      "id": 20,
+      "seq": 656,
+      "categoryId": "para",
+      "text": "Büyük hedefler için ayrı bir birikim hesabı aç: tatil, araba, ev peşinatı.",
+      "verify": false
+    },
+    {
+      "id": 21,
+      "seq": 692,
+      "categoryId": "para",
+      "text": "Yatırıma başlamadan önce acil durum fonunu tamamla.",
+      "verify": false
+    },
+    {
+      "id": 22,
+      "seq": 220,
+      "categoryId": "para",
+      "text": "Yatırımda \"ne kadar kazanırım\" değil, \"ne kadar kaybetmeyi göze alırım\" diye sor.",
+      "verify": false
+    },
+    {
+      "id": 23,
+      "seq": 583,
+      "categoryId": "para",
+      "text": "Başkasının ipucuyla alıp sattığın yatırım, kumara yaklaşır.",
+      "verify": false
+    },
+    {
+      "id": 24,
+      "seq": 420,
+      "categoryId": "para",
+      "text": "Düzenli ve küçük tutarlarla yatırım yapmak, doğru zamanı kollamaktan genellikle daha sağlıklıdır.",
+      "verify": false
+    },
+    {
+      "id": 25,
+      "seq": 601,
+      "categoryId": "para",
+      "text": "Geçmiş getiri, geleceği garanti etmez.",
+      "verify": false
+    },
+    {
+      "id": 26,
+      "seq": 765,
+      "categoryId": "para",
+      "text": "Yüksek getiri her zaman yüksek riskle gelir; risksiz yüksek getiri vaadine inanma.",
+      "verify": false
+    },
+    {
+      "id": 27,
+      "seq": 274,
+      "categoryId": "para",
+      "text": "Enflasyon birikimini sessizce eritir; sadece nakit tutmak da bir risktir.",
+      "verify": false
+    },
+    {
+      "id": 28,
+      "seq": 829,
+      "categoryId": "para",
+      "text": "Yatırım kararlarında duyguna değil planına güven; panikle satma, coşkuyla alma.",
+      "verify": false
+    },
+    {
+      "id": 29,
+      "seq": 938,
+      "categoryId": "para",
+      "text": "Kripto ve spekülatif varlıklara yalnızca kaybetmeyi göze alabileceğin kadarını ayır.",
+      "verify": false
+    },
+    {
+      "id": 30,
+      "seq": 820,
+      "categoryId": "para",
+      "text": "Piramit ve \"sen de getir, kazan\" tarzı sistemlerden uzak dur.",
+      "verify": false
+    },
+    {
+      "id": 31,
+      "seq": 201,
+      "categoryId": "para",
+      "text": "Telefonla ya da mesajla gelen \"özel yatırım fırsatı\"nı dolandırıcılık varsay.",
+      "verify": false
+    },
+    {
+      "id": 32,
+      "seq": 947,
+      "categoryId": "para",
+      "text": "Yatırım danışmanı diyen birinin yetkili olup olmadığını resmi kurumlardan sorgula.",
+      "verify": true
+    },
+    {
+      "id": 33,
+      "seq": 229,
+      "categoryId": "para",
+      "text": "Sigortasız büyük risk alma: sağlık, kasko ve konut risklerini gözden geçir.",
+      "verify": false
+    },
+    {
+      "id": 34,
+      "seq": 292,
+      "categoryId": "para",
+      "text": "Sigorta poliçesinin neyi kapsamadığını da oku.",
+      "verify": false
+    },
+    {
+      "id": 35,
+      "seq": 492,
+      "categoryId": "para",
+      "text": "Emeklilik birikimini işe başladığın ilk yıllarda düşünmeye başla.",
+      "verify": false
+    },
+    {
+      "id": 36,
+      "seq": 956,
+      "categoryId": "para",
+      "text": "Maaş zammı geldiğinde harcamanı değil birikimini artır.",
+      "verify": false
+    },
+    {
+      "id": 37,
+      "seq": 401,
+      "categoryId": "para",
+      "text": "Yılda bir gelirini, giderini ve borçlarını tek sayfaya dök.",
+      "verify": false
+    },
+    {
+      "id": 38,
+      "seq": 192,
+      "categoryId": "para",
+      "text": "Net değerini (varlıklar eksi borçlar) yılda bir hesapla.",
+      "verify": false
+    },
+    {
+      "id": 39,
+      "seq": 556,
+      "categoryId": "para",
+      "text": "Küçük ve sık harcamalar (kahve, paket servis) toplamda büyük bir kalem olur.",
+      "verify": false
+    },
+    {
+      "id": 40,
+      "seq": 429,
+      "categoryId": "para",
+      "text": "Dışarıda yemeyi tamamen yasaklama; bütçende ona bir pay ayır ve içinde kal.",
+      "verify": false
+    },
+    {
+      "id": 41,
+      "seq": 438,
+      "categoryId": "para",
+      "text": "Markete liste ile git ve aç karnına gitme.",
+      "verify": false
+    },
+    {
+      "id": 42,
+      "seq": 20,
+      "categoryId": "para",
+      "text": "Ürünün birim fiyatına bak; büyük paket her zaman ucuz değildir.",
+      "verify": false
+    },
+    {
+      "id": 43,
+      "seq": 1,
+      "categoryId": "para",
+      "text": "Ucuz olanı değil, ömrü boyunca toplam maliyeti en düşük olanı al.",
+      "verify": false
+    },
+    {
+      "id": 44,
+      "seq": 674,
+      "categoryId": "para",
+      "text": "Sık kullandığın şeyde kaliteden kısma: ayakkabı, yatak, sandalye, çanta.",
+      "verify": false
+    },
+    {
+      "id": 45,
+      "seq": 356,
+      "categoryId": "para",
+      "text": "Garanti belgesini ve faturayı sakla.",
+      "verify": false
+    },
+    {
+      "id": 46,
+      "seq": 156,
+      "categoryId": "para",
+      "text": "İkinci el alırken ürünün gerçek değerini araştır ve acele etme.",
+      "verify": false
+    },
+    {
+      "id": 47,
+      "seq": 520,
+      "categoryId": "para",
+      "text": "Pazarlık yapmaktan çekinme, ama saygılı ol.",
+      "verify": false
+    },
+    {
+      "id": 48,
+      "seq": 320,
+      "categoryId": "para",
+      "text": "Peşin fiyat ile taksitli fiyat arasındaki farkı mutlaka sor.",
+      "verify": false
+    },
+    {
+      "id": 49,
+      "seq": 165,
+      "categoryId": "para",
+      "text": "\"Son gün\" baskısıyla alınan şey genelde ihtiyaç dışıdır.",
+      "verify": false
+    },
+    {
+      "id": 50,
+      "seq": 256,
+      "categoryId": "para",
+      "text": "Hesap ekstreni her ay kontrol et; tanımadığın bir işlemi hemen bankana bildir.",
+      "verify": false
+    },
+    {
+      "id": 51,
+      "seq": 56,
+      "categoryId": "para",
+      "text": "Kredi kartı limitini ihtiyacın kadar tut.",
+      "verify": false
+    },
+    {
+      "id": 52,
+      "seq": 538,
+      "categoryId": "para",
+      "text": "Kredi notunu neyin etkilediğini öğren; gecikmiş ödemeler kredi geçmişine yansır.",
+      "verify": true
+    },
+    {
+      "id": 53,
+      "seq": 374,
+      "categoryId": "para",
+      "text": "Başkasına kefil olmak, borcu kendi borcun gibi üstlenmektir; kolay \"evet\" deme.",
+      "verify": false
+    },
+    {
+      "id": 54,
+      "seq": 747,
+      "categoryId": "para",
+      "text": "Ortaklıkta para konusunu en baştan yazılı netleştir.",
+      "verify": false
+    },
+    {
+      "id": 55,
+      "seq": 865,
+      "categoryId": "para",
+      "text": "Para, arkadaşlık ve akrabalığı bozmanın en kolay yoludur; net konuş.",
+      "verify": false
+    },
+    {
+      "id": 56,
+      "seq": 129,
+      "categoryId": "para",
+      "text": "Bir işe girişmeden önce en kötü senaryodaki maliyeti hesapla.",
+      "verify": false
+    },
+    {
+      "id": 57,
+      "seq": 138,
+      "categoryId": "para",
+      "text": "Yan gelir kaynağı, tek maaşa bağımlılığı azaltır.",
+      "verify": false
+    },
+    {
+      "id": 58,
+      "seq": 729,
+      "categoryId": "para",
+      "text": "Becerilerine yatırım yap; en getirili yatırımlardan biri kendindir.",
+      "verify": false
+    },
+    {
+      "id": 59,
+      "seq": 565,
+      "categoryId": "para",
+      "text": "Gelirinin kaç kaynaktan geldiğine bak; tek kaynak risklidir.",
+      "verify": false
+    },
+    {
+      "id": 60,
+      "seq": 329,
+      "categoryId": "para",
+      "text": "Hobini gelire çevirmeden önce küçük ölçekte dene.",
+      "verify": false
+    },
+    {
+      "id": 61,
+      "seq": 474,
+      "categoryId": "para",
+      "text": "Vergi yükümlülüklerini bil ve zamanında yerine getir.",
+      "verify": true
+    },
+    {
+      "id": 62,
+      "seq": 465,
+      "categoryId": "para",
+      "text": "Fatura, fiş ve makbuzları düzenli sakla; özellikle iş masrafları için.",
+      "verify": false
+    },
+    {
+      "id": 63,
+      "seq": 592,
+      "categoryId": "para",
+      "text": "Kira ödemelerini ve diğer sabit giderleri belgele.",
+      "verify": false
+    },
+    {
+      "id": 64,
+      "seq": 338,
+      "categoryId": "para",
+      "text": "Ev kirada mı kalsın satın mı alınsın kararını duyguyla değil hesapla ver.",
+      "verify": false
+    },
+    {
+      "id": 65,
+      "seq": 801,
+      "categoryId": "para",
+      "text": "Ev almadan önce peşinat dışında tapu harcı, tadilat ve aidat gibi ek maliyetleri hesapla.",
+      "verify": true
+    },
+    {
+      "id": 66,
+      "seq": 47,
+      "categoryId": "para",
+      "text": "Aidat, ortak gider ve bakım masrafını bütçene ekle.",
+      "verify": false
+    },
+    {
+      "id": 67,
+      "seq": 456,
+      "categoryId": "para",
+      "text": "Araba almadan önce sahip olma maliyetini hesapla: sigorta, bakım, yakıt, vergi.",
+      "verify": false
+    },
+    {
+      "id": 68,
+      "seq": 638,
+      "categoryId": "para",
+      "text": "Arabayı yatırım değil, değer kaybeden bir harcama olarak gör.",
+      "verify": false
+    },
+    {
+      "id": 69,
+      "seq": 574,
+      "categoryId": "para",
+      "text": "Lüks tüketimde \"başkaları ne der\" diye değil \"bütçem ne der\" diye sor.",
+      "verify": false
+    },
+    {
+      "id": 70,
+      "seq": 892,
+      "categoryId": "para",
+      "text": "Sosyal medyadaki gösterişe bakarak harcama yapma; çoğu görüntü borçla finanse edilir.",
+      "verify": false
+    },
+    {
+      "id": 71,
+      "seq": 74,
+      "categoryId": "para",
+      "text": "Düğün ve tatil gibi büyük harcamalara borçla başlama.",
+      "verify": false
+    },
+    {
+      "id": 72,
+      "seq": 774,
+      "categoryId": "para",
+      "text": "Organizasyonlarda bütçeyi baştan belirle ve ona sadık kal.",
+      "verify": false
+    },
+    {
+      "id": 73,
+      "seq": 147,
+      "categoryId": "para",
+      "text": "Hediye alırken fiyatı değil düşünceyi öne çıkar.",
+      "verify": false
+    },
+    {
+      "id": 74,
+      "seq": 101,
+      "categoryId": "para",
+      "text": "Ailene finansal destek verirken sınırını önceden belirle.",
+      "verify": false
+    },
+    {
+      "id": 75,
+      "seq": 347,
+      "categoryId": "para",
+      "text": "Aile içinde para konusunu açık ve şeffaf konuş.",
+      "verify": false
+    },
+    {
+      "id": 76,
+      "seq": 874,
+      "categoryId": "para",
+      "text": "Eşinle ya da partnerinle ortak finans kurallarını erkenden netleştir.",
+      "verify": false
+    },
+    {
+      "id": 77,
+      "seq": 183,
+      "categoryId": "para",
+      "text": "Maaş pazarlığında piyasa verisini öğren ve rakamla konuş.",
+      "verify": false
+    },
+    {
+      "id": 78,
+      "seq": 792,
+      "categoryId": "para",
+      "text": "Prim, ikramiye ve zammı hesaba katarak plan yapma; garantisi olanı baz al.",
+      "verify": false
+    },
+    {
+      "id": 79,
+      "seq": 92,
+      "categoryId": "para",
+      "text": "Yıllık izin ve kıdem gibi haklarını ve işverenin yükümlülüklerini bil.",
+      "verify": true
+    },
+    {
+      "id": 80,
+      "seq": 665,
+      "categoryId": "para",
+      "text": "Sigortalı çalışıp çalışmadığını düzenli kontrol et.",
+      "verify": true
+    },
+    {
+      "id": 81,
+      "seq": 247,
+      "categoryId": "para",
+      "text": "Birikimi otomatikleştir: maaş gününde otomatik transfer talimatı ver.",
+      "verify": false
+    },
+    {
+      "id": 82,
+      "seq": 992,
+      "categoryId": "para",
+      "text": "Birikim hedeflerini isim ve tutarla yaz.",
+      "verify": false
+    },
+    {
+      "id": 83,
+      "seq": 647,
+      "categoryId": "para",
+      "text": "Hedefsiz biriken para harcanır; her birikime bir amaç ver.",
+      "verify": false
+    },
+    {
+      "id": 84,
+      "seq": 265,
+      "categoryId": "para",
+      "text": "Her ay küçük de olsa birikim yapma alışkanlığı, tutardan önemlidir.",
+      "verify": false
+    },
+    {
+      "id": 85,
+      "seq": 783,
+      "categoryId": "para",
+      "text": "Borçla yaşamaya alıştığında bunu normal sanma.",
+      "verify": false
+    },
+    {
+      "id": 86,
+      "seq": 383,
+      "categoryId": "para",
+      "text": "Ay başında harcama planını yap; maaş gününü beklemekle yetinme.",
+      "verify": false
+    },
+    {
+      "id": 87,
+      "seq": 901,
+      "categoryId": "para",
+      "text": "\"Nasılsa bir şekilde hallederim\" cümlesi finansal plan değildir.",
+      "verify": false
+    },
+    {
+      "id": 88,
+      "seq": 283,
+      "categoryId": "para",
+      "text": "Ödeme gününden bir hafta önce hesabında yeterli para olduğunu kontrol et.",
+      "verify": false
+    },
+    {
+      "id": 89,
+      "seq": 838,
+      "categoryId": "para",
+      "text": "İhtiyaç ile isteği ayır: bu olmazsa ne olur?",
+      "verify": false
+    },
+    {
+      "id": 90,
+      "seq": 756,
+      "categoryId": "para",
+      "text": "Para konusunda utanma; bilmediğini öğren, sormaktan çekinme.",
+      "verify": false
+    },
+    {
+      "id": 91,
+      "seq": 683,
+      "categoryId": "para",
+      "text": "Hesaplarını rastgele bırakma; hangi hesabın ne için olduğunu bil.",
+      "verify": false
+    },
+    {
+      "id": 92,
+      "seq": 29,
+      "categoryId": "para",
+      "text": "Fazladan gelen parayı (ikramiye, vergi iadesi, hediye) önce planına yönlendir.",
+      "verify": false
+    },
+    {
+      "id": 93,
+      "seq": 174,
+      "categoryId": "para",
+      "text": "İhtiyaç olmadan alınan \"fırsat ürünü\" fırsat değil harcamadır.",
+      "verify": false
+    },
+    {
+      "id": 94,
+      "seq": 738,
+      "categoryId": "para",
+      "text": "Takip edilmeyen küçük kayıplar büyük açıklar yaratır; düzenli kontrol et.",
+      "verify": false
+    },
+    {
+      "id": 95,
+      "seq": 965,
+      "categoryId": "para",
+      "text": "Para yönetimi bir kerelik iş değil, yıllık bir alışkanlıktır.",
+      "verify": false
+    },
+    {
+      "id": 96,
+      "seq": 720,
+      "categoryId": "para",
+      "text": "Çocuk sahibi olmadan önce maliyetini ve gelir planını konuş.",
+      "verify": false
+    },
+    {
+      "id": 97,
+      "seq": 238,
+      "categoryId": "para",
+      "text": "Kendi finansal güvenliğini kurmadan başkalarını yatırıma ya da borca teşvik etme.",
+      "verify": false
+    },
+    {
+      "id": 98,
+      "seq": 847,
+      "categoryId": "para",
+      "text": "Çok kazanmak değil, kazandığından az harcamak servete götürür.",
+      "verify": false
+    },
+    {
+      "id": 99,
+      "seq": 365,
+      "categoryId": "para",
+      "text": "Hızlı zenginleşme vaadi çoğunlukla tuzaktır; zenginlik sabırla birikir.",
+      "verify": false
+    },
+    {
+      "id": 100,
+      "seq": 501,
+      "categoryId": "para",
+      "text": "Parayı amaç değil, özgürlük ve güvenlik için bir araç olarak gör.",
+      "verify": false
+    },
+    {
+      "id": 101,
+      "seq": 593,
+      "categoryId": "hukuk",
+      "text": "İmzalamadan önce oku; okumadığın şeyi imzalama.",
+      "verify": false
+    },
+    {
+      "id": 102,
+      "seq": 230,
+      "categoryId": "hukuk",
+      "text": "Kiralık eve girişte teslim tutanağı yap ve her odanın fotoğraf ya da videosunu çek.",
+      "verify": false
+    },
+    {
+      "id": 103,
+      "seq": 193,
+      "categoryId": "hukuk",
+      "text": "Kirayı banka yoluyla öde ve açıklamaya ay ile adresi yaz.",
+      "verify": false
+    },
+    {
+      "id": 104,
+      "seq": 266,
+      "categoryId": "hukuk",
+      "text": "Önemli belgelerin (sözleşme, fatura, garanti, tapu) fotoğrafını çekip bulutta sakla.",
+      "verify": false
+    },
+    {
+      "id": 105,
+      "seq": 157,
+      "categoryId": "hukuk",
+      "text": "Ayıplı mal veya hizmette yasal haklarının olduğunu bil; önce satıcıya yazılı bildir.",
+      "verify": true
+    },
+    {
+      "id": 106,
+      "seq": 30,
+      "categoryId": "hukuk",
+      "text": "Trafik cezasına itiraz süresi kısıtlıdır; tebligatı kaçırma ve süreyi öğren.",
+      "verify": true
+    },
+    {
+      "id": 107,
+      "seq": 730,
+      "categoryId": "hukuk",
+      "text": "Vekâlet verirken kapsamı ve süreyi dar tut.",
+      "verify": true
+    },
+    {
+      "id": 108,
+      "seq": 566,
+      "categoryId": "hukuk",
+      "text": "Başkasına kefil olmadan önce sonuçlarını öğren.",
+      "verify": true
+    },
+    {
+      "id": 109,
+      "seq": 675,
+      "categoryId": "hukuk",
+      "text": "e-Devlet'ten SGK, araç ve tapu kayıtlarını düzenli kontrol et.",
+      "verify": false
+    },
+    {
+      "id": 110,
+      "seq": 348,
+      "categoryId": "hukuk",
+      "text": "Sözlü anlaşmaları mesajla ya da e-postayla yazıya dök.",
+      "verify": false
+    },
+    {
+      "id": 111,
+      "seq": 457,
+      "categoryId": "hukuk",
+      "text": "Sözleşmede iptal, fesih ve cezai şart maddelerini özellikle oku.",
+      "verify": false
+    },
+    {
+      "id": 112,
+      "seq": 739,
+      "categoryId": "hukuk",
+      "text": "Sözleşmenin imzalı bir kopyasını mutlaka al.",
+      "verify": false
+    },
+    {
+      "id": 113,
+      "seq": 357,
+      "categoryId": "hukuk",
+      "text": "Boşluk bırakılmış belgeyi asla imzalama.",
+      "verify": false
+    },
+    {
+      "id": 114,
+      "seq": 39,
+      "categoryId": "hukuk",
+      "text": "Ödemeleri nakit yerine kayıt bırakan yöntemlerle yap.",
+      "verify": false
+    },
+    {
+      "id": 115,
+      "seq": 711,
+      "categoryId": "hukuk",
+      "text": "Elden verdiğin paranın karşılığında imzalı bir makbuz al.",
+      "verify": false
+    },
+    {
+      "id": 116,
+      "seq": 284,
+      "categoryId": "hukuk",
+      "text": "İmzadan önce noterde yaptığın işlemin hukuki sonucunu sor.",
+      "verify": true
+    },
+    {
+      "id": 117,
+      "seq": 430,
+      "categoryId": "hukuk",
+      "text": "Resmi bir yazıya cevap vermek için verilen süreyi takvimine yaz.",
+      "verify": false
+    },
+    {
+      "id": 118,
+      "seq": 875,
+      "categoryId": "hukuk",
+      "text": "Tebligat adresini güncel tut; tebligatı açmamak seni korumaz.",
+      "verify": true
+    },
+    {
+      "id": 119,
+      "seq": 893,
+      "categoryId": "hukuk",
+      "text": "İcra veya mahkeme evrakı geldiğinde paniğe kapılma; süreleri not al ve hemen bir avukata danış.",
+      "verify": true
+    },
+    {
+      "id": 120,
+      "seq": 702,
+      "categoryId": "hukuk",
+      "text": "Hukuki bir sorunda ne yapacağını bilmiyorsan sosyal medyaya değil avukata ya da baroya danış.",
+      "verify": true
+    },
+    {
+      "id": 121,
+      "seq": 693,
+      "categoryId": "hukuk",
+      "text": "Barolar ve belediyeler bazı durumlarda ücretsiz hukuki destek sunabilir; imkânlarını araştır.",
+      "verify": true
+    },
+    {
+      "id": 122,
+      "seq": 493,
+      "categoryId": "hukuk",
+      "text": "Avukatla çalışırken ücreti ve kapsamı yazılı netleştir.",
+      "verify": false
+    },
+    {
+      "id": 123,
+      "seq": 66,
+      "categoryId": "hukuk",
+      "text": "Tüketici olarak şikâyet hakkını bil ve başvuru kanallarını öğren.",
+      "verify": true
+    },
+    {
+      "id": 124,
+      "seq": 339,
+      "categoryId": "hukuk",
+      "text": "Online alışverişte iade ve cayma haklarını satın almadan önce öğren.",
+      "verify": true
+    },
+    {
+      "id": 125,
+      "seq": 57,
+      "categoryId": "hukuk",
+      "text": "Online alışverişte sipariş ekran görüntülerini ve yazışmaları sakla.",
+      "verify": false
+    },
+    {
+      "id": 126,
+      "seq": 84,
+      "categoryId": "hukuk",
+      "text": "Kargoyu kuryenin yanında kontrol et; hasar varsa tutanak tut.",
+      "verify": false
+    },
+    {
+      "id": 127,
+      "seq": 11,
+      "categoryId": "hukuk",
+      "text": "Garanti süresi ve kapsamı belgede yazar; belgeyi kaybetme.",
+      "verify": false
+    },
+    {
+      "id": 128,
+      "seq": 993,
+      "categoryId": "hukuk",
+      "text": "Abonelik iptal taleplerini yazılı ya da kayıt bırakan bir yoldan yap.",
+      "verify": false
+    },
+    {
+      "id": 129,
+      "seq": 775,
+      "categoryId": "hukuk",
+      "text": "Operatör veya abonelik kapatırken kapatma teyidini sakla.",
+      "verify": false
+    },
+    {
+      "id": 130,
+      "seq": 448,
+      "categoryId": "hukuk",
+      "text": "Şikâyet yazarken olguları, tarihleri ve talebini net yaz; duygusal değil somut ol.",
+      "verify": false
+    },
+    {
+      "id": 131,
+      "seq": 184,
+      "categoryId": "hukuk",
+      "text": "Kira sözleşmesinde artış koşullarını ve süreyi oku; yasal sınırları bil.",
+      "verify": true
+    },
+    {
+      "id": 132,
+      "seq": 866,
+      "categoryId": "hukuk",
+      "text": "Kiracı da olsan ev sahibi de olsan depozito ve iade koşullarını yazılı belirle.",
+      "verify": false
+    },
+    {
+      "id": 133,
+      "seq": 639,
+      "categoryId": "hukuk",
+      "text": "Kiracıysan evde yapacağın değişiklikler için ev sahibinden yazılı onay al.",
+      "verify": false
+    },
+    {
+      "id": 134,
+      "seq": 884,
+      "categoryId": "hukuk",
+      "text": "Kira zamanında ödenmezse doğabilecek sonuçları bil.",
+      "verify": true
+    },
+    {
+      "id": 135,
+      "seq": 548,
+      "categoryId": "hukuk",
+      "text": "Taşınırken tüm sayaçların (elektrik, su, doğalgaz) son endeksini fotoğrafla ve abonelikleri kapat.",
+      "verify": false
+    },
+    {
+      "id": 136,
+      "seq": 611,
+      "categoryId": "hukuk",
+      "text": "Tapu işlemlerinde yalnızca resmi kanalları kullan; aracı kişinin sözüne güvenme.",
+      "verify": true
+    },
+    {
+      "id": 137,
+      "seq": 293,
+      "categoryId": "hukuk",
+      "text": "Satın alacağın taşınmazın tapu kaydını, ipotek ve haciz durumunu kontrol et.",
+      "verify": true
+    },
+    {
+      "id": 138,
+      "seq": 302,
+      "categoryId": "hukuk",
+      "text": "Satış vaadi ve ön sözleşmelerin bağlayıcılığını öğren.",
+      "verify": true
+    },
+    {
+      "id": 139,
+      "seq": 75,
+      "categoryId": "hukuk",
+      "text": "Araç almadan önce hasar, haciz ve rehin sorgusu yap.",
+      "verify": true
+    },
+    {
+      "id": 140,
+      "seq": 366,
+      "categoryId": "hukuk",
+      "text": "Araç satışında resmi devir dışında \"sözlü anlaşma\"ya güvenme.",
+      "verify": true
+    },
+    {
+      "id": 141,
+      "seq": 966,
+      "categoryId": "hukuk",
+      "text": "Zorunlu trafik sigortası ve muayene tarihlerini takvime yaz.",
+      "verify": true
+    },
+    {
+      "id": 142,
+      "seq": 502,
+      "categoryId": "hukuk",
+      "text": "Kaza anında tutanak, fotoğraf ve karşı tarafın bilgilerini topla.",
+      "verify": true
+    },
+    {
+      "id": 143,
+      "seq": 148,
+      "categoryId": "hukuk",
+      "text": "Kaza sonrası suçu kabul eden bir şey yazma veya söyleme; olguları anlat.",
+      "verify": false
+    },
+    {
+      "id": 144,
+      "seq": 584,
+      "categoryId": "hukuk",
+      "text": "Trafik cezası tebligatını ve ödeme indirimi süresini takip et.",
+      "verify": true
+    },
+    {
+      "id": 145,
+      "seq": 139,
+      "categoryId": "hukuk",
+      "text": "Polis veya görevli durdurduğunda sakin kal, kimlik ve belgeni göster, sorularını sakin biçimde sor.",
+      "verify": true
+    },
+    {
+      "id": 146,
+      "seq": 330,
+      "categoryId": "hukuk",
+      "text": "İfade ve tutanağı okumadan imzalama; anlamadığın yerde açıklama iste.",
+      "verify": true
+    },
+    {
+      "id": 147,
+      "seq": 784,
+      "categoryId": "hukuk",
+      "text": "İfade sürecinde avukat isteme hakkını bil.",
+      "verify": true
+    },
+    {
+      "id": 148,
+      "seq": 202,
+      "categoryId": "hukuk",
+      "text": "Kimliğini ya da belgelerini kaybettiğinde hemen ilgili kuruma bildir ve yenisini başvur.",
+      "verify": false
+    },
+    {
+      "id": 149,
+      "seq": 657,
+      "categoryId": "hukuk",
+      "text": "Kimlik fotokopisi verirken üzerine amacı ve tarihi yaz.",
+      "verify": false
+    },
+    {
+      "id": 150,
+      "seq": 666,
+      "categoryId": "hukuk",
+      "text": "Başkasına ait kimlik, banka kartı veya şifreyi kullanma ve kullandırma.",
+      "verify": false
+    },
+    {
+      "id": 151,
+      "seq": 930,
+      "categoryId": "hukuk",
+      "text": "Askerlik ve nüfus işlemleri gibi resmi yükümlülüklerini resmi kanaldan takip et.",
+      "verify": true,
+      "variants": {
+        "male": "Askerlik durumunu ve süreçlerini resmi kanaldan takip et.",
+        "female": "Taciz veya şiddet durumunda başvurabileceğin resmi destek kanallarını (112, ALO 183, KADES) önceden öğren."
+      }
+    },
+    {
+      "id": 152,
+      "seq": 793,
+      "categoryId": "hukuk",
+      "text": "Pasaport ve vize gibi seyahat belgelerinin geçerlilik tarihlerini önceden kontrol et.",
+      "verify": false
+    },
+    {
+      "id": 153,
+      "seq": 93,
+      "categoryId": "hukuk",
+      "text": "Yurt dışına çıkmadan önce gidilecek ülkenin giriş koşullarını resmi kaynaktan öğren.",
+      "verify": true
+    },
+    {
+      "id": 154,
+      "seq": 239,
+      "categoryId": "hukuk",
+      "text": "Evlilik ve boşanma süreçlerinde mal rejimi, nafaka ve velayet gibi sonuçları önceden öğren.",
+      "verify": true
+    },
+    {
+      "id": 155,
+      "seq": 811,
+      "categoryId": "hukuk",
+      "text": "Evlilik öncesi mal rejimi hakkında bilgi edin.",
+      "verify": true
+    },
+    {
+      "id": 156,
+      "seq": 602,
+      "categoryId": "hukuk",
+      "text": "Çocuğun velayeti ve kişisel ilişkisi konularında hukuki desteği geç kalmadan al.",
+      "verify": true
+    },
+    {
+      "id": 157,
+      "seq": 484,
+      "categoryId": "hukuk",
+      "text": "Miras konusunda hak ve yükümlülükleri bil; reddetme gibi sürelerin sınırlı olduğunu unutma.",
+      "verify": true
+    },
+    {
+      "id": 158,
+      "seq": 2,
+      "categoryId": "hukuk",
+      "text": "Vasiyet ve miras planlaması için bir uzmana danış.",
+      "verify": true
+    },
+    {
+      "id": 159,
+      "seq": 902,
+      "categoryId": "hukuk",
+      "text": "Borç anlaşmalarını yazılı yap ve ödemeleri kayıt altına al.",
+      "verify": false
+    },
+    {
+      "id": 160,
+      "seq": 648,
+      "categoryId": "hukuk",
+      "text": "Senet ve çek düzenlemenin sonuçlarını bil; zorunlu olmadıkça imzalama.",
+      "verify": true
+    },
+    {
+      "id": 161,
+      "seq": 311,
+      "categoryId": "hukuk",
+      "text": "Hakkında icra takibi başlatıldığında sürelerin kısa olduğunu bil.",
+      "verify": true
+    },
+    {
+      "id": 162,
+      "seq": 48,
+      "categoryId": "hukuk",
+      "text": "İcra tebligatındaki itiraz süresini kaçırma.",
+      "verify": true
+    },
+    {
+      "id": 163,
+      "seq": 630,
+      "categoryId": "hukuk",
+      "text": "Alacağını yazılı belge olmadan ispat etmenin zor olduğunu unutma.",
+      "verify": false
+    },
+    {
+      "id": 164,
+      "seq": 939,
+      "categoryId": "hukuk",
+      "text": "Kişisel verilerinin nasıl işlendiğini sorgulama ve itiraz etme hakkını bil.",
+      "verify": true
+    },
+    {
+      "id": 165,
+      "seq": 439,
+      "categoryId": "hukuk",
+      "text": "Reklam amaçlı arama ve mesajları durdurma yollarını öğren.",
+      "verify": true
+    },
+    {
+      "id": 166,
+      "seq": 757,
+      "categoryId": "hukuk",
+      "text": "İnternette hakaret ve iftira hukuki sorumluluk doğurabilir.",
+      "verify": true
+    },
+    {
+      "id": 167,
+      "seq": 511,
+      "categoryId": "hukuk",
+      "text": "İzinsiz fotoğraf, video veya özel konuşma paylaşmak hukuka aykırı olabilir.",
+      "verify": true
+    },
+    {
+      "id": 168,
+      "seq": 111,
+      "categoryId": "hukuk",
+      "text": "Telif hakkı olan içeriği izinsiz kullanma.",
+      "verify": true
+    },
+    {
+      "id": 169,
+      "seq": 848,
+      "categoryId": "hukuk",
+      "text": "Yazılı olmayan \"güven\" anlaşmalarına dayanarak büyük iş yapma.",
+      "verify": false
+    },
+    {
+      "id": 170,
+      "seq": 166,
+      "categoryId": "hukuk",
+      "text": "İşe girerken imzalı bir sözleşme kopyası al.",
+      "verify": true
+    },
+    {
+      "id": 171,
+      "seq": 375,
+      "categoryId": "hukuk",
+      "text": "İşten çıkarılma, istifa ve tazminat haklarını iş bırakmadan önce öğren.",
+      "verify": true
+    },
+    {
+      "id": 172,
+      "seq": 857,
+      "categoryId": "hukuk",
+      "text": "İş kazasında yapılması gerekenleri ve bildirim sürelerini öğren.",
+      "verify": true
+    },
+    {
+      "id": 173,
+      "seq": 984,
+      "categoryId": "hukuk",
+      "text": "Fazla mesai, izin ve prim haklarını belgelerle takip et.",
+      "verify": true
+    },
+    {
+      "id": 174,
+      "seq": 402,
+      "categoryId": "hukuk",
+      "text": "İşyerinde yaşanan haksızlıkları tarihleriyle birlikte not al.",
+      "verify": false
+    },
+    {
+      "id": 175,
+      "seq": 830,
+      "categoryId": "hukuk",
+      "text": "Maaş bordronu düzenli sakla ve içeriğini kontrol et.",
+      "verify": false
+    },
+    {
+      "id": 176,
+      "seq": 539,
+      "categoryId": "hukuk",
+      "text": "SGK dökümünü ara sıra kontrol et; eksik gün veya prim olup olmadığına bak.",
+      "verify": true
+    },
+    {
+      "id": 177,
+      "seq": 530,
+      "categoryId": "hukuk",
+      "text": "Sigortasız çalışma, ileride emeklilik ve sağlık haklarını riske atar.",
+      "verify": true
+    },
+    {
+      "id": 178,
+      "seq": 175,
+      "categoryId": "hukuk",
+      "text": "Serbest çalışıyorsan fatura, vergi ve sigorta yükümlülüklerini öğren.",
+      "verify": true
+    },
+    {
+      "id": 179,
+      "seq": 575,
+      "categoryId": "hukuk",
+      "text": "Şirket kurmadan önce şirket türlerini ve sorumluluk farklarını öğren.",
+      "verify": true
+    },
+    {
+      "id": 180,
+      "seq": 130,
+      "categoryId": "hukuk",
+      "text": "Ortaklık sözleşmesini yazılı ve ayrıntılı yap.",
+      "verify": false
+    },
+    {
+      "id": 181,
+      "seq": 411,
+      "categoryId": "hukuk",
+      "text": "Rekabet yasağı ve gizlilik maddeleri içeren sözleşmeleri dikkatle oku.",
+      "verify": true
+    },
+    {
+      "id": 182,
+      "seq": 684,
+      "categoryId": "hukuk",
+      "text": "Kuruma yaptığın başvuruların dilekçe, tarih ve evrak numarasını sakla.",
+      "verify": false
+    },
+    {
+      "id": 183,
+      "seq": 911,
+      "categoryId": "hukuk",
+      "text": "Resmi dairelerde işlem yapmadan önce gerekli evrakları kontrol et ve fazladan fotokopi al.",
+      "verify": false
+    },
+    {
+      "id": 184,
+      "seq": 948,
+      "categoryId": "hukuk",
+      "text": "Randevulu işlemlerde randevuyu online sistemlerden önceden al ve çıktısını sakla.",
+      "verify": false
+    },
+    {
+      "id": 185,
+      "seq": 248,
+      "categoryId": "hukuk",
+      "text": "Bir memurla anlaşmazlık yaşarsan sakin kal ve üst makamın başvuru yollarını öğren.",
+      "verify": false
+    },
+    {
+      "id": 186,
+      "seq": 102,
+      "categoryId": "hukuk",
+      "text": "Kamu kurumlarından bilgi edinme hakkın olduğunu bil.",
+      "verify": true
+    },
+    {
+      "id": 187,
+      "seq": 275,
+      "categoryId": "hukuk",
+      "text": "Resmi kuruma yazdığın dilekçede açık, kısa ve tarihli ol.",
+      "verify": false
+    },
+    {
+      "id": 188,
+      "seq": 766,
+      "categoryId": "hukuk",
+      "text": "Dilekçe ve ihtarname gönderirken teslim kanıtı bırakan bir yöntem (noter, KEP vb.) tercih et.",
+      "verify": true
+    },
+    {
+      "id": 189,
+      "seq": 839,
+      "categoryId": "hukuk",
+      "text": "KEP adresi ve e-imza gibi dijital araçların ne işe yaradığını bil.",
+      "verify": true
+    },
+    {
+      "id": 190,
+      "seq": 475,
+      "categoryId": "hukuk",
+      "text": "Zamanaşımı ve itiraz gibi süreler geçerse hak kaybı olabileceğini unutma.",
+      "verify": true
+    },
+    {
+      "id": 191,
+      "seq": 557,
+      "categoryId": "hukuk",
+      "text": "Hukuki bir sorunu ertelemek çoğu zaman maliyetini artırır.",
+      "verify": false
+    },
+    {
+      "id": 192,
+      "seq": 975,
+      "categoryId": "hukuk",
+      "text": "Yasal haklarını bilmek, kavga etmeden kendini koruma yoludur.",
+      "verify": false
+    },
+    {
+      "id": 193,
+      "seq": 393,
+      "categoryId": "hukuk",
+      "text": "Bir uyuşmazlıkta arabuluculuk ve uzlaşma yollarını da değerlendir.",
+      "verify": true
+    },
+    {
+      "id": 194,
+      "seq": 748,
+      "categoryId": "hukuk",
+      "text": "Mahkeme çoğu zaman son çaredir; maliyetini, süresini ve riskini hesapla.",
+      "verify": false
+    },
+    {
+      "id": 195,
+      "seq": 211,
+      "categoryId": "hukuk",
+      "text": "Delil ve belgeleri sorun büyümeden önce topla.",
+      "verify": false
+    },
+    {
+      "id": 196,
+      "seq": 466,
+      "categoryId": "hukuk",
+      "text": "Telefon konuşmalarını kaydetmeden önce hukuki sonuçlarını öğren.",
+      "verify": true
+    },
+    {
+      "id": 197,
+      "seq": 257,
+      "categoryId": "hukuk",
+      "text": "Resmi belgede yanlış beyan verme; ciddi sonuçları olabilir.",
+      "verify": true
+    },
+    {
+      "id": 198,
+      "seq": 802,
+      "categoryId": "hukuk",
+      "text": "Başkası adına işlem yaparken yetki belgen olmadan hareket etme.",
+      "verify": false
+    },
+    {
+      "id": 199,
+      "seq": 384,
+      "categoryId": "hukuk",
+      "text": "Haklarını bilmek kadar yükümlülüklerini bilmek de seni korur.",
+      "verify": false
+    },
+    {
+      "id": 200,
+      "seq": 957,
+      "categoryId": "hukuk",
+      "text": "Hukuki konularda güncel bilgi için resmi kaynaklara ve uzmanlara başvur; buradaki bilgiler geneldir.",
+      "verify": true
+    },
+    {
+      "id": 201,
+      "seq": 858,
+      "categoryId": "gorgu",
+      "text": "Biriyle tanışınca ismini tekrar et; ismi hatırlamak saygı göstermektir.",
+      "verify": false
+    },
+    {
+      "id": 202,
+      "seq": 303,
+      "categoryId": "gorgu",
+      "text": "Zamanında gel; geç kalacaksan önceden haber ver.",
+      "verify": false
+    },
+    {
+      "id": 203,
+      "seq": 912,
+      "categoryId": "gorgu",
+      "text": "Verdiğin sözü tut; tutamayacaksan sorun çıkmadan söyle.",
+      "verify": false
+    },
+    {
+      "id": 204,
+      "seq": 549,
+      "categoryId": "gorgu",
+      "text": "Mesaja makul sürede dön; cevaplamayacaksan kibarca bildir.",
+      "verify": false
+    },
+    {
+      "id": 205,
+      "seq": 794,
+      "categoryId": "gorgu",
+      "text": "Birini dinlerken telefona bakma.",
+      "verify": false
+    },
+    {
+      "id": 206,
+      "seq": 221,
+      "categoryId": "gorgu",
+      "text": "Masada herkese servis edilmeden yemeğe başlama ve ağzın doluyken konuşma.",
+      "verify": false
+    },
+    {
+      "id": 207,
+      "seq": 503,
+      "categoryId": "gorgu",
+      "text": "Konuşmanın yarısını karşındakine bırak; soru sor ve gerçekten dinle.",
+      "verify": false
+    },
+    {
+      "id": 208,
+      "seq": 821,
+      "categoryId": "gorgu",
+      "text": "Eleştiriyi birebir yap, övgüyü herkesin yanında yap.",
+      "verify": false
+    },
+    {
+      "id": 209,
+      "seq": 940,
+      "categoryId": "gorgu",
+      "text": "Garson, kurye ve temizlik görevlisi gibi hizmet edenlere saygılı ol.",
+      "verify": false
+    },
+    {
+      "id": 210,
+      "seq": 849,
+      "categoryId": "gorgu",
+      "text": "Davete eli boş gitme; çiçek, tatlı ya da küçük bir hediye yeter.",
+      "verify": false
+    },
+    {
+      "id": 211,
+      "seq": 76,
+      "categoryId": "gorgu",
+      "text": "Tokalaşırken göz teması kur; sıkı ama ezmeyen bir el ver.",
+      "verify": false
+    },
+    {
+      "id": 212,
+      "seq": 376,
+      "categoryId": "gorgu",
+      "text": "Yaşça büyük birine ve yeni tanıştığın kişiye \"siz\" diye hitap etmeyi varsayılan yap.",
+      "verify": false
+    },
+    {
+      "id": 213,
+      "seq": 649,
+      "categoryId": "gorgu",
+      "text": "Ayakta kalan yaşlı, hamile ya da engelli birine yerini ver.",
+      "verify": false
+    },
+    {
+      "id": 214,
+      "seq": 212,
+      "categoryId": "gorgu",
+      "text": "Kapıyı arkandakine tut; teşekkür edilince karşılık ver.",
+      "verify": false
+    },
+    {
+      "id": 215,
+      "seq": 121,
+      "categoryId": "gorgu",
+      "text": "\"Lütfen\", \"teşekkürler\" ve \"özür dilerim\" kelimelerini eksik etme.",
+      "verify": false
+    },
+    {
+      "id": 216,
+      "seq": 967,
+      "categoryId": "gorgu",
+      "text": "Asansörde, kuyrukta ve toplu taşımada başkalarının alanına saygı göster.",
+      "verify": false
+    },
+    {
+      "id": 217,
+      "seq": 703,
+      "categoryId": "gorgu",
+      "text": "Toplu taşımada yüksek sesle konuşma ve hoparlörle müzik dinleme.",
+      "verify": false
+    },
+    {
+      "id": 218,
+      "seq": 367,
+      "categoryId": "gorgu",
+      "text": "Telefonla kalabalıkta konuşurken sesini ayarla.",
+      "verify": false
+    },
+    {
+      "id": 219,
+      "seq": 149,
+      "categoryId": "gorgu",
+      "text": "Sosyal ortamda telefonu masaya koyma; önündeki insana öncelik ver.",
+      "verify": false
+    },
+    {
+      "id": 220,
+      "seq": 40,
+      "categoryId": "gorgu",
+      "text": "Birinin sözünü kesme; kestiysen özür dileyip devam ettir.",
+      "verify": false
+    },
+    {
+      "id": 221,
+      "seq": 294,
+      "categoryId": "gorgu",
+      "text": "Tartışmada sesini yükseltme; ses yükseldikçe argüman azalır.",
+      "verify": false
+    },
+    {
+      "id": 222,
+      "seq": 467,
+      "categoryId": "gorgu",
+      "text": "Biri hakkında konuşurken, o kişi karşında olsaydı söyleyebileceğin şeyi söyle.",
+      "verify": false
+    },
+    {
+      "id": 223,
+      "seq": 603,
+      "categoryId": "gorgu",
+      "text": "Dedikodu yapma; duyduğunu doğrulamadan taşıma.",
+      "verify": false
+    },
+    {
+      "id": 224,
+      "seq": 103,
+      "categoryId": "gorgu",
+      "text": "Şaka yaparken karşındakinin sınırlarını gözet; kimsenin kusuruyla alay etme.",
+      "verify": false
+    },
+    {
+      "id": 225,
+      "seq": 658,
+      "categoryId": "gorgu",
+      "text": "Sosyal ortamlarda din, siyaset ve para konularında dayatmacı olma.",
+      "verify": false
+    },
+    {
+      "id": 226,
+      "seq": 485,
+      "categoryId": "gorgu",
+      "text": "Yeni biriyle tanışınca ilk sorun \"ne iş yapıyorsun\" olmak zorunda değil; ilgi alanlarını sor.",
+      "verify": false
+    },
+    {
+      "id": 227,
+      "seq": 585,
+      "categoryId": "gorgu",
+      "text": "Birinin ismini unuttuysan dürüstçe tekrar sor; tahmin etmeye çalışmak daha kötüdür.",
+      "verify": false
+    },
+    {
+      "id": 228,
+      "seq": 721,
+      "categoryId": "gorgu",
+      "text": "Tanıştırırken genç olanı yaşça büyüğe, daha az bilineni daha bilinene tanıştır.",
+      "verify": false
+    },
+    {
+      "id": 229,
+      "seq": 949,
+      "categoryId": "gorgu",
+      "text": "Bir sohbet grubunda herkesin dahil olduğundan emin ol.",
+      "verify": false
+    },
+    {
+      "id": 230,
+      "seq": 885,
+      "categoryId": "gorgu",
+      "text": "Mesaj gruplarında gece geç saatte gereksiz bildirim gönderme.",
+      "verify": false
+    },
+    {
+      "id": 231,
+      "seq": 758,
+      "categoryId": "gorgu",
+      "text": "Düğün, nişan ve cenaze gibi törenlerde ortama uygun giyin.",
+      "verify": false
+    },
+    {
+      "id": 232,
+      "seq": 958,
+      "categoryId": "gorgu",
+      "text": "Düğünde hediyeni verirken tutara değil, katılıma ve niyete önem ver.",
+      "verify": false
+    },
+    {
+      "id": 233,
+      "seq": 85,
+      "categoryId": "gorgu",
+      "text": "Cenazede sakin ol; taziyede kısa, samimi ve sade sözler söyle.",
+      "verify": false
+    },
+    {
+      "id": 234,
+      "seq": 112,
+      "categoryId": "gorgu",
+      "text": "Hasta ziyaretinde kısa kal ve hastayı yorma.",
+      "verify": false
+    },
+    {
+      "id": 235,
+      "seq": 412,
+      "categoryId": "gorgu",
+      "text": "Yakınını kaybeden birine \"Yanındayım\" demek çoğu zaman \"Hayırlısı\" demekten daha iyidir.",
+      "verify": false
+    },
+    {
+      "id": 236,
+      "seq": 749,
+      "categoryId": "gorgu",
+      "text": "Birine yardım etmeye çalışırken istenmeyen öğüt verme; önce ne istediğini sor.",
+      "verify": false
+    },
+    {
+      "id": 237,
+      "seq": 285,
+      "categoryId": "gorgu",
+      "text": "Misafirliğe önceden haber vererek git ve uzun kalma.",
+      "verify": false
+    },
+    {
+      "id": 238,
+      "seq": 94,
+      "categoryId": "gorgu",
+      "text": "Misafir ağırlarken ihtiyaçlarını sor ve rahat hissettir.",
+      "verify": false
+    },
+    {
+      "id": 239,
+      "seq": 140,
+      "categoryId": "gorgu",
+      "text": "Evinde konuk varken telefon ve işlerini ikinci plana at.",
+      "verify": false
+    },
+    {
+      "id": 240,
+      "seq": 58,
+      "categoryId": "gorgu",
+      "text": "Başkasının evine girerken ayakkabı ve ev kurallarına uy.",
+      "verify": false
+    },
+    {
+      "id": 241,
+      "seq": 321,
+      "categoryId": "gorgu",
+      "text": "Ev sahibinin yemeğine ve emeğine teşekkür et.",
+      "verify": false
+    },
+    {
+      "id": 242,
+      "seq": 521,
+      "categoryId": "gorgu",
+      "text": "Hesap bölüşme ya da ısmarlama konusunu rahatça konuş; tartışma çıkarma.",
+      "verify": false
+    },
+    {
+      "id": 243,
+      "seq": 785,
+      "categoryId": "gorgu",
+      "text": "Davet edildiysen karşılığını vermeyi unutma.",
+      "verify": false
+    },
+    {
+      "id": 244,
+      "seq": 921,
+      "categoryId": "gorgu",
+      "text": "Restoranda garsona saygılı ve rahat bir dille hitap et.",
+      "verify": false
+    },
+    {
+      "id": 245,
+      "seq": 349,
+      "categoryId": "gorgu",
+      "text": "Bahşişi hizmete göre bırak; uygun bahşişi bilmek de görgüdür.",
+      "verify": false
+    },
+    {
+      "id": 246,
+      "seq": 312,
+      "categoryId": "gorgu",
+      "text": "Yemekte telefonla uğraşma; fotoğraf çekeceksen hızlı ol.",
+      "verify": false
+    },
+    {
+      "id": 247,
+      "seq": 558,
+      "categoryId": "gorgu",
+      "text": "Bıçak ve çatalı doğru tutmayı ve peçeteyi doğru kullanmayı bil.",
+      "verify": false
+    },
+    {
+      "id": 248,
+      "seq": 21,
+      "categoryId": "gorgu",
+      "text": "Ortak tabaktan alırken kendi kullandığın çatalla karıştırma.",
+      "verify": false
+    },
+    {
+      "id": 249,
+      "seq": 49,
+      "categoryId": "gorgu",
+      "text": "Hata yaptığında hemen, kısa ve net özür dile.",
+      "verify": false
+    },
+    {
+      "id": 250,
+      "seq": 3,
+      "categoryId": "gorgu",
+      "text": "Başkasını azarlamak ya da küçümsemek seni büyütmez.",
+      "verify": false
+    },
+    {
+      "id": 251,
+      "seq": 458,
+      "categoryId": "gorgu",
+      "text": "Öfkeliyken mesaj yazma ve sosyal medyada paylaşım yapma.",
+      "verify": false
+    },
+    {
+      "id": 252,
+      "seq": 203,
+      "categoryId": "gorgu",
+      "text": "Başkasını izinsiz etiketleme ve fotoğrafını paylaşma.",
+      "verify": false
+    },
+    {
+      "id": 253,
+      "seq": 667,
+      "categoryId": "gorgu",
+      "text": "Haber teyit etmeden paylaşma; yanlış bilgi yaymak itibarını zedeler.",
+      "verify": false
+    },
+    {
+      "id": 254,
+      "seq": 421,
+      "categoryId": "gorgu",
+      "text": "Alkol aldığında davranışının sorumluluğu sana aittir; sınırını bil.",
+      "verify": false
+    },
+    {
+      "id": 255,
+      "seq": 494,
+      "categoryId": "gorgu",
+      "text": "Alkol aldıysan araç kullanma ve başkasının kullanmasına izin verme.",
+      "verify": false
+    },
+    {
+      "id": 256,
+      "seq": 567,
+      "categoryId": "gorgu",
+      "text": "İçki içmeyen birine ısrar etme.",
+      "verify": false
+    },
+    {
+      "id": 257,
+      "seq": 994,
+      "categoryId": "gorgu",
+      "text": "Birinin yemek tercihini (diyet, inanç hassasiyeti) sorgulamadan saygı göster.",
+      "verify": false
+    },
+    {
+      "id": 258,
+      "seq": 976,
+      "categoryId": "gorgu",
+      "text": "İnsanlara kişisel konularda (kilo, kazanç, evlilik, çocuk) soru sorma.",
+      "verify": false
+    },
+    {
+      "id": 259,
+      "seq": 276,
+      "categoryId": "gorgu",
+      "text": "Başkasının fiziksel özelliği hakkında yorum yapma.",
+      "verify": false
+    },
+    {
+      "id": 260,
+      "seq": 385,
+      "categoryId": "gorgu",
+      "text": "Sosyal ortamlarda kimseyi dışlama; herkesin rahat olduğundan emin ol.",
+      "verify": false
+    },
+    {
+      "id": 261,
+      "seq": 694,
+      "categoryId": "gorgu",
+      "text": "Yeni geldiği ortamda yalnız kalan birine yaklaş ve sohbete dahil et.",
+      "verify": false
+    },
+    {
+      "id": 262,
+      "seq": 594,
+      "categoryId": "gorgu",
+      "text": "Bir gruba katılırken önce dinle, sonra konuş.",
+      "verify": false
+    },
+    {
+      "id": 263,
+      "seq": 740,
+      "categoryId": "gorgu",
+      "text": "Birine yardım ettiysen bunu yüzüne vurma.",
+      "verify": false
+    },
+    {
+      "id": 264,
+      "seq": 440,
+      "categoryId": "gorgu",
+      "text": "Aldığın yardımı unutma ve fırsat bulunca karşılığını ver.",
+      "verify": false
+    },
+    {
+      "id": 265,
+      "seq": 640,
+      "categoryId": "gorgu",
+      "text": "Küçük jestler (tebrik, hatırlama, mesaj) büyük hediyelerden çok ilişki besler.",
+      "verify": false
+    },
+    {
+      "id": 266,
+      "seq": 767,
+      "categoryId": "gorgu",
+      "text": "Doğum günlerini ve önemli tarihleri takvimine yaz.",
+      "verify": false
+    },
+    {
+      "id": 267,
+      "seq": 985,
+      "categoryId": "gorgu",
+      "text": "Birini ziyarete giderken haber vermeden gitme.",
+      "verify": false
+    },
+    {
+      "id": 268,
+      "seq": 158,
+      "categoryId": "gorgu",
+      "text": "Komşularınla selamlaş; gürültü ve ortak alan kurallarına uy.",
+      "verify": false
+    },
+    {
+      "id": 269,
+      "seq": 185,
+      "categoryId": "gorgu",
+      "text": "Apartmanda yüksek sesli müzik ve geç saat gürültüsüne dikkat et.",
+      "verify": false
+    },
+    {
+      "id": 270,
+      "seq": 712,
+      "categoryId": "gorgu",
+      "text": "Ortak yaşam alanındaki düzensizliği başkalarının sorumluluğu yapma.",
+      "verify": false
+    },
+    {
+      "id": 271,
+      "seq": 894,
+      "categoryId": "gorgu",
+      "text": "Yeni taşındığında komşularına kendini tanıt.",
+      "verify": false
+    },
+    {
+      "id": 272,
+      "seq": 676,
+      "categoryId": "gorgu",
+      "text": "Evcil hayvanının başkalarına rahatsızlık vermemesini sağla.",
+      "verify": false
+    },
+    {
+      "id": 273,
+      "seq": 612,
+      "categoryId": "gorgu",
+      "text": "Sigara içiyorsan başkalarını dumana maruz bırakma.",
+      "verify": false
+    },
+    {
+      "id": 274,
+      "seq": 176,
+      "categoryId": "gorgu",
+      "text": "Trafikte kornayı gereksiz çalma; yayaya ve diğer sürücüye saygı göster.",
+      "verify": false
+    },
+    {
+      "id": 275,
+      "seq": 194,
+      "categoryId": "gorgu",
+      "text": "Park ederken başkasının çıkışını ve engelli alanlarını engelleme.",
+      "verify": false
+    },
+    {
+      "id": 276,
+      "seq": 903,
+      "categoryId": "gorgu",
+      "text": "Trafikte karşındaki hata yapsa bile kavgayı büyütme.",
+      "verify": false
+    },
+    {
+      "id": 277,
+      "seq": 249,
+      "categoryId": "gorgu",
+      "text": "Sırayı atlama; sıraya girerken adaletli ol.",
+      "verify": false
+    },
+    {
+      "id": 278,
+      "seq": 12,
+      "categoryId": "gorgu",
+      "text": "Kimse görmediğinde de sözünü tutmak, karakterinin asıl göstergesidir.",
+      "verify": false
+    },
+    {
+      "id": 279,
+      "seq": 621,
+      "categoryId": "gorgu",
+      "text": "Biri hata yaptığında utandırma; özelde ve nazikçe söyle.",
+      "verify": false
+    },
+    {
+      "id": 280,
+      "seq": 340,
+      "categoryId": "gorgu",
+      "text": "Teşekkür notları, küçük mesajlar ve zamanında dönüşler seni ayırır.",
+      "verify": false
+    },
+    {
+      "id": 281,
+      "seq": 840,
+      "categoryId": "gorgu",
+      "text": "İş ortamında günlük ortamdan farklı bir ton ve mesafe kullanmayı bil.",
+      "verify": false
+    },
+    {
+      "id": 282,
+      "seq": 576,
+      "categoryId": "gorgu",
+      "text": "Toplantıya hazırlıklı gir, zamanında başla ve zamanında bitir.",
+      "verify": false
+    },
+    {
+      "id": 283,
+      "seq": 240,
+      "categoryId": "gorgu",
+      "text": "E-postalarda selam, net konu ve kısa içerik kullan.",
+      "verify": false
+    },
+    {
+      "id": 284,
+      "seq": 394,
+      "categoryId": "gorgu",
+      "text": "Mesaj yazmadan önce asıl sorunu tek cümleyle belirle.",
+      "verify": false
+    },
+    {
+      "id": 285,
+      "seq": 776,
+      "categoryId": "gorgu",
+      "text": "Sesli mesaj göndermeden önce karşı tarafın dinleyebileceği bir ortamda olup olmadığını düşün.",
+      "verify": false
+    },
+    {
+      "id": 286,
+      "seq": 267,
+      "categoryId": "gorgu",
+      "text": "Birinin özel mesajını ya da ekran görüntüsünü izinsiz paylaşma.",
+      "verify": false
+    },
+    {
+      "id": 287,
+      "seq": 403,
+      "categoryId": "gorgu",
+      "text": "Kendi işini kendin yap; başkasından beklentin ağır olmasın.",
+      "verify": false
+    },
+    {
+      "id": 288,
+      "seq": 167,
+      "categoryId": "gorgu",
+      "text": "İnsanları kıyafetine ya da görünüşüne göre yargılama.",
+      "verify": false
+    },
+    {
+      "id": 289,
+      "seq": 812,
+      "categoryId": "gorgu",
+      "text": "Yabancı biriyle iletişimde nazik ol; sınır koyman gerekiyorsa net ama saygılı ol.",
+      "verify": false
+    },
+    {
+      "id": 290,
+      "seq": 67,
+      "categoryId": "gorgu",
+      "text": "Göz teması kur, ama bakışı kimseyi rahatsız etmeyecek kadar tut.",
+      "verify": false
+    },
+    {
+      "id": 291,
+      "seq": 876,
+      "categoryId": "gorgu",
+      "text": "Başkasının kişisel alanını (mesafe, eşyalar, telefon) izinsiz ihlal etme.",
+      "verify": false
+    },
+    {
+      "id": 292,
+      "seq": 258,
+      "categoryId": "gorgu",
+      "text": "İlk izlenimi hızlı al ama hükmünü yavaş ver.",
+      "verify": false
+    },
+    {
+      "id": 293,
+      "seq": 540,
+      "categoryId": "gorgu",
+      "text": "Sessizlik her zaman rahatsız edici değildir; her boşluğu doldurmak zorunda değilsin.",
+      "verify": false
+    },
+    {
+      "id": 294,
+      "seq": 803,
+      "categoryId": "gorgu",
+      "text": "Yaşlılara sabırlı ol; yavaşlıklarını acele ettirme.",
+      "verify": false
+    },
+    {
+      "id": 295,
+      "seq": 867,
+      "categoryId": "gorgu",
+      "text": "Çocukların yanında küfür, kavga ve kaba davranıştan kaçın.",
+      "verify": false
+    },
+    {
+      "id": 296,
+      "seq": 685,
+      "categoryId": "gorgu",
+      "text": "Kendi hikâyeni anlatırken başkasına da söz hakkı ver.",
+      "verify": false
+    },
+    {
+      "id": 297,
+      "seq": 449,
+      "categoryId": "gorgu",
+      "text": "Özgüven kendini büyütmek değil, başkasını küçültmeden rahat olabilmektir.",
+      "verify": false
+    },
+    {
+      "id": 298,
+      "seq": 358,
+      "categoryId": "gorgu",
+      "text": "İyi davranış, pahalı kıyafetten daha çok hatırlanır.",
+      "verify": false
+    },
+    {
+      "id": 299,
+      "seq": 512,
+      "categoryId": "gorgu",
+      "text": "Nezaket zayıflık değil, güçlü karakterin işaretidir.",
+      "verify": false
+    },
+    {
+      "id": 300,
+      "seq": 476,
+      "categoryId": "gorgu",
+      "text": "Herkese kibar ol; herkes hak etmese de sen hak ediyorsun.",
+      "verify": false
+    },
+    {
+      "id": 301,
+      "seq": 577,
+      "categoryId": "iliski",
+      "text": "Sınırlarını açıkça söyle, başkalarının sınırlarına saygı göster.",
+      "verify": false
+    },
+    {
+      "id": 302,
+      "seq": 113,
+      "categoryId": "iliski",
+      "text": "\"Hayır\" demeyi öğren; her şeye evet diyen kimse kimseye yetmez.",
+      "verify": false
+    },
+    {
+      "id": 303,
+      "seq": 59,
+      "categoryId": "iliski",
+      "text": "Tartışmada kazanmaya değil çözmeye çalış.",
+      "verify": false
+    },
+    {
+      "id": 304,
+      "seq": 304,
+      "categoryId": "iliski",
+      "text": "Çok sinirliyken büyük bir mesaj atma ve karar verme.",
+      "verify": false
+    },
+    {
+      "id": 305,
+      "seq": 586,
+      "categoryId": "iliski",
+      "text": "Biri derdini anlatırken önce çözüm mü yoksa dinlenmek mi istediğini sor.",
+      "verify": false
+    },
+    {
+      "id": 306,
+      "seq": 768,
+      "categoryId": "iliski",
+      "text": "Rıza olmadan dokunma, ısrar etme; \"hayır\"ı ve tereddüdü ciddiye al.",
+      "verify": false
+    },
+    {
+      "id": 307,
+      "seq": 968,
+      "categoryId": "iliski",
+      "text": "Özür dilerken \"ama\" ekleme; sorumluluğu üstüne al.",
+      "verify": false
+    },
+    {
+      "id": 308,
+      "seq": 977,
+      "categoryId": "iliski",
+      "text": "Aile ve yakın arkadaşlarına düzenli zaman ayır; ilişkiler ihmalle zayıflar.",
+      "verify": false
+    },
+    {
+      "id": 309,
+      "seq": 868,
+      "categoryId": "iliski",
+      "text": "Sana güvenle anlatılan sırları başkalarına anlatma.",
+      "verify": false
+    },
+    {
+      "id": 310,
+      "seq": 231,
+      "categoryId": "iliski",
+      "text": "Önemli tarihleri takvimine yaz ve hatırlatıcı kur.",
+      "verify": false
+    },
+    {
+      "id": 311,
+      "seq": 886,
+      "categoryId": "iliski",
+      "text": "Para konusunu ilişkide erken ve açık konuş.",
+      "verify": false
+    },
+    {
+      "id": 312,
+      "seq": 50,
+      "categoryId": "iliski",
+      "text": "Beklentilerini söylemeden karşındakinin tahmin etmesini bekleme.",
+      "verify": false
+    },
+    {
+      "id": 313,
+      "seq": 77,
+      "categoryId": "iliski",
+      "text": "Kıskançlık bir duygudur, hak değildir; kontrol etmeye çalışmak ilişkiyi bitirir.",
+      "verify": false
+    },
+    {
+      "id": 314,
+      "seq": 504,
+      "categoryId": "iliski",
+      "text": "Partnerinin telefonunu ve mesajlarını izinsiz karıştırma.",
+      "verify": false
+    },
+    {
+      "id": 315,
+      "seq": 150,
+      "categoryId": "iliski",
+      "text": "Güven kurulur; kontrol ederek elde edilmez.",
+      "verify": false
+    },
+    {
+      "id": 316,
+      "seq": 813,
+      "categoryId": "iliski",
+      "text": "Küçük ve düzenli ilgi, nadir büyük jestlerden daha çok işe yarar.",
+      "verify": false
+    },
+    {
+      "id": 317,
+      "seq": 650,
+      "categoryId": "iliski",
+      "text": "Aynı konuyu tekrar tekrar tartışıyorsan mesele konu değil, çözülmemiş bir ihtiyaçtır.",
+      "verify": false
+    },
+    {
+      "id": 318,
+      "seq": 268,
+      "categoryId": "iliski",
+      "text": "Tartışmayı \"sen hep...\" yerine \"ben ... hissediyorum\" diye başlat.",
+      "verify": false
+    },
+    {
+      "id": 319,
+      "seq": 422,
+      "categoryId": "iliski",
+      "text": "Geçmiş hataları her tartışmada gündeme getirme.",
+      "verify": false
+    },
+    {
+      "id": 320,
+      "seq": 386,
+      "categoryId": "iliski",
+      "text": "Yorgunken ve gece yarısı ağır konuları açma; çözüm için dinlenmiş bir zihin gerekir.",
+      "verify": false
+    },
+    {
+      "id": 321,
+      "seq": 913,
+      "categoryId": "iliski",
+      "text": "Tartışmadan sonra barışmayı ilk sen teklif etmekten çekinme.",
+      "verify": false
+    },
+    {
+      "id": 322,
+      "seq": 195,
+      "categoryId": "iliski",
+      "text": "İltifatı gerçek ve ayrıntılı yap; \"güzelsin\"den çok neyi sevdiğini söyle.",
+      "verify": false
+    },
+    {
+      "id": 323,
+      "seq": 468,
+      "categoryId": "iliski",
+      "text": "Partnerinin işini, hedeflerini ve arkadaşlarını ciddiye al.",
+      "verify": false
+    },
+    {
+      "id": 324,
+      "seq": 877,
+      "categoryId": "iliski",
+      "text": "Hayatının tek merkezi partnerin olmasın; kendi hayatını ve arkadaşlarını koru.",
+      "verify": false
+    },
+    {
+      "id": 325,
+      "seq": 186,
+      "categoryId": "iliski",
+      "text": "Partnerinin ailesine saygılı ol; sınırları birlikte belirleyin.",
+      "verify": false
+    },
+    {
+      "id": 326,
+      "seq": 86,
+      "categoryId": "iliski",
+      "text": "İki aile arasında kalırsan partnerinin yanında dur.",
+      "verify": false
+    },
+    {
+      "id": 327,
+      "seq": 695,
+      "categoryId": "iliski",
+      "text": "Evlilik ya da birlikte yaşam öncesi para, çocuk, iş ve aile konularını açıkça konuş.",
+      "verify": false
+    },
+    {
+      "id": 328,
+      "seq": 22,
+      "categoryId": "iliski",
+      "text": "Ev işlerini \"yardım\" değil ortak sorumluluk olarak gör.",
+      "verify": false
+    },
+    {
+      "id": 329,
+      "seq": 404,
+      "categoryId": "iliski",
+      "text": "Birlikte yaşarken görev dağılımını konuşarak belirleyin.",
+      "verify": false
+    },
+    {
+      "id": 330,
+      "seq": 622,
+      "categoryId": "iliski",
+      "text": "Gizli borç, gizli harcama ve gizli ilişkiler güveni en hızlı bitiren şeylerdir.",
+      "verify": false
+    },
+    {
+      "id": 331,
+      "seq": 831,
+      "categoryId": "iliski",
+      "text": "Bir yalanı örtmek için yenisini söylemek zorunda kalırsın; baştan dürüst ol.",
+      "verify": false
+    },
+    {
+      "id": 332,
+      "seq": 795,
+      "categoryId": "iliski",
+      "text": "Kötü haberi geciktirmeden ver.",
+      "verify": false
+    },
+    {
+      "id": 333,
+      "seq": 495,
+      "categoryId": "iliski",
+      "text": "Sessiz muamele bir cevap değil bir cezadır; ara istiyorsan söyle ve geri dön.",
+      "verify": false
+    },
+    {
+      "id": 334,
+      "seq": 704,
+      "categoryId": "iliski",
+      "text": "Partnerinin duygusunu \"abartıyorsun\" diyerek küçümseme.",
+      "verify": false
+    },
+    {
+      "id": 335,
+      "seq": 513,
+      "categoryId": "iliski",
+      "text": "Fiziksel ya da psikolojik şiddet hiçbir koşulda kabul edilemez; böyle bir durumda uzaklaş ve yardım al.",
+      "verify": false
+    },
+    {
+      "id": 336,
+      "seq": 359,
+      "categoryId": "iliski",
+      "text": "Ağır sorunlarda bir danışman ya da terapistten destek almak ilişkiyi kurtarabilir.",
+      "verify": false
+    },
+    {
+      "id": 337,
+      "seq": 550,
+      "categoryId": "iliski",
+      "text": "İlişki bittiğinde saygılı ve net ol; ısrar etme, hayalet gibi kaybolma.",
+      "verify": false
+    },
+    {
+      "id": 338,
+      "seq": 213,
+      "categoryId": "iliski",
+      "text": "Ayrıldığın kişiyi sosyal medyada kötüleme.",
+      "verify": false
+    },
+    {
+      "id": 339,
+      "seq": 631,
+      "categoryId": "iliski",
+      "text": "Eski partnerinin özel fotoğraf veya mesajlarını paylaşma; bu hem ahlaksızlıktır hem suç olabilir.",
+      "verify": true
+    },
+    {
+      "id": 340,
+      "seq": 559,
+      "categoryId": "iliski",
+      "text": "Yeni biriyle tanışırken dürüst ol; kendini olduğundan farklı göstermeye çalışma.",
+      "verify": false
+    },
+    {
+      "id": 341,
+      "seq": 986,
+      "categoryId": "iliski",
+      "text": "Flört ederken karşındakinin ilgisizliğini hakaret olarak alma; \"hayır\"ı kabul et.",
+      "verify": false
+    },
+    {
+      "id": 342,
+      "seq": 204,
+      "categoryId": "iliski",
+      "text": "İlk buluşmayı herkese açık, rahat ve güvenli bir yerde yap.",
+      "verify": false
+    },
+    {
+      "id": 343,
+      "seq": 159,
+      "categoryId": "iliski",
+      "text": "Bir insanı tanımak zaman ister; hızlı bağlanmaya dikkat et.",
+      "verify": false
+    },
+    {
+      "id": 344,
+      "seq": 277,
+      "categoryId": "iliski",
+      "text": "Aşırı hızlı ilerleyen bir ilişkide yavaşlamayı iste.",
+      "verify": false
+    },
+    {
+      "id": 345,
+      "seq": 168,
+      "categoryId": "iliski",
+      "text": "Kırmızı bayrakları görmezden gelme; bir kez görüleni \"değişir\" diye geçiştirme.",
+      "verify": false
+    },
+    {
+      "id": 346,
+      "seq": 259,
+      "categoryId": "iliski",
+      "text": "Bir insanı değiştirmeyi planlayarak ilişkiye başlama.",
+      "verify": false
+    },
+    {
+      "id": 347,
+      "seq": 95,
+      "categoryId": "iliski",
+      "text": "Cinsel konular da dahil, ilişkide sınır ve beklentileri açıkça konuş.",
+      "verify": false
+    },
+    {
+      "id": 348,
+      "seq": 322,
+      "categoryId": "iliski",
+      "text": "Korunma ve cinsel sağlık sorumluluğunu birlikte üstlen.",
+      "verify": true
+    },
+    {
+      "id": 349,
+      "seq": 595,
+      "categoryId": "iliski",
+      "text": "Çocuk sahibi olma kararını baskıyla değil, ortak karar olarak ver.",
+      "verify": false
+    },
+    {
+      "id": 350,
+      "seq": 250,
+      "categoryId": "iliski",
+      "text": "Çocuğunun yanında partnerine saygılı davran.",
+      "verify": false
+    },
+    {
+      "id": 351,
+      "seq": 659,
+      "categoryId": "iliski",
+      "text": "Ebeveyn olacaksan sadece geçim sağlayan değil, duygusal olarak da orada olan biri ol.",
+      "verify": false,
+      "variants": {
+        "male": "Baba olacaksan sadece \"ekmek getiren\" değil, duygusal olarak da orada olan biri ol.",
+        "female": "Anne olacaksan her şeyi tek başına üstlenmek zorunda olmadığını bil; ortak sorumluluk iste, yardım al."
+      }
+    },
+    {
+      "id": 352,
+      "seq": 822,
+      "categoryId": "iliski",
+      "text": "Çocuğuna zaman ayır; hediye zamanın yerini tutmaz.",
+      "verify": false
+    },
+    {
+      "id": 353,
+      "seq": 459,
+      "categoryId": "iliski",
+      "text": "Çocuğunla konuşurken önce dinle, sonra yönlendir.",
+      "verify": false
+    },
+    {
+      "id": 354,
+      "seq": 750,
+      "categoryId": "iliski",
+      "text": "Çocuğuna verdiğin sözü tut.",
+      "verify": false
+    },
+    {
+      "id": 355,
+      "seq": 122,
+      "categoryId": "iliski",
+      "text": "Çocuğa ceza değil, sonuç ve sınır öğret.",
+      "verify": false
+    },
+    {
+      "id": 356,
+      "seq": 222,
+      "categoryId": "iliski",
+      "text": "Çocuğunu başkalarıyla kıyaslama.",
+      "verify": false
+    },
+    {
+      "id": 357,
+      "seq": 4,
+      "categoryId": "iliski",
+      "text": "Kardeşlerinle ilişkini ihmal etme; en uzun süren bağlardan biridir.",
+      "verify": false
+    },
+    {
+      "id": 358,
+      "seq": 368,
+      "categoryId": "iliski",
+      "text": "Ebeveynlerin yaşlandıkça ihtiyaçlarına önceden hazırlıklı ol.",
+      "verify": false
+    },
+    {
+      "id": 359,
+      "seq": 522,
+      "categoryId": "iliski",
+      "text": "Annene ve babana düzenli ara; \"vaktim yoktu\" mazeret olmasın.",
+      "verify": false
+    },
+    {
+      "id": 360,
+      "seq": 604,
+      "categoryId": "iliski",
+      "text": "Ailenle eski kırgınlıkları konuşarak çöz; beklemek onları büyütür.",
+      "verify": false
+    },
+    {
+      "id": 361,
+      "seq": 313,
+      "categoryId": "iliski",
+      "text": "Anne babanla sınırlarını saygılı ama net çiz.",
+      "verify": false
+    },
+    {
+      "id": 362,
+      "seq": 950,
+      "categoryId": "iliski",
+      "text": "Aile buluşmalarında geçmiş tartışmaları açma.",
+      "verify": false
+    },
+    {
+      "id": 363,
+      "seq": 568,
+      "categoryId": "iliski",
+      "text": "Arkadaşlık bakım ister: mesaj at, buluş, hatırla.",
+      "verify": false
+    },
+    {
+      "id": 364,
+      "seq": 350,
+      "categoryId": "iliski",
+      "text": "İyi arkadaş kötü gününde yanında olandır; iyi gününde de sevinmeyi bilendir.",
+      "verify": false
+    },
+    {
+      "id": 365,
+      "seq": 931,
+      "categoryId": "iliski",
+      "text": "Arkadaşının başarısına sevinebilmek olgunluğun işaretidir.",
+      "verify": false
+    },
+    {
+      "id": 366,
+      "seq": 895,
+      "categoryId": "iliski",
+      "text": "Arkadaşın yanlış yapıyorsa özelde ve nazikçe söyle.",
+      "verify": false
+    },
+    {
+      "id": 367,
+      "seq": 722,
+      "categoryId": "iliski",
+      "text": "Arkadaşlar arası borç konusunda net ol.",
+      "verify": false
+    },
+    {
+      "id": 368,
+      "seq": 922,
+      "categoryId": "iliski",
+      "text": "Seni sürekli yoran ve küçümseyen ilişkilerden uzaklaş.",
+      "verify": false
+    },
+    {
+      "id": 369,
+      "seq": 295,
+      "categoryId": "iliski",
+      "text": "Her arkadaşlık sonsuza kadar sürmez; ayrışmayı kabul et.",
+      "verify": false
+    },
+    {
+      "id": 370,
+      "seq": 13,
+      "categoryId": "iliski",
+      "text": "Yeni arkadaşlıklar için inisiyatif al; ilk adımı sen at.",
+      "verify": false
+    },
+    {
+      "id": 371,
+      "seq": 668,
+      "categoryId": "iliski",
+      "text": "Yalnız kalmak ile yalnızlık farklı şeylerdir; kendi hâlinde rahat olmayı öğren.",
+      "verify": false
+    },
+    {
+      "id": 372,
+      "seq": 686,
+      "categoryId": "iliski",
+      "text": "Yardım istemeyi ve duygularını paylaşmayı zayıflık sanma.",
+      "verify": false
+    },
+    {
+      "id": 373,
+      "seq": 804,
+      "categoryId": "iliski",
+      "text": "Sevdiklerine \"seni seviyorum\", \"teşekkür ederim\" ve \"seninle gurur duyuyorum\" demeyi geciktirme.",
+      "verify": false
+    },
+    {
+      "id": 374,
+      "seq": 377,
+      "categoryId": "iliski",
+      "text": "Haklı olmak ile ilişkiyi korumak arasında çoğu zaman ikincisini seç.",
+      "verify": false
+    },
+    {
+      "id": 375,
+      "seq": 959,
+      "categoryId": "iliski",
+      "text": "Sorun çıkmadan önce düzenli olarak \"bizim için neler iyi gidiyor, neler zor?\" diye konuşun.",
+      "verify": false
+    },
+    {
+      "id": 376,
+      "seq": 413,
+      "categoryId": "iliski",
+      "text": "Birlikte yeni deneyimler yaşamak ilişkiyi canlı tutar.",
+      "verify": false
+    },
+    {
+      "id": 377,
+      "seq": 859,
+      "categoryId": "iliski",
+      "text": "Kaliteli zaman, telefonların kapalı olduğu zamandır.",
+      "verify": false
+    },
+    {
+      "id": 378,
+      "seq": 31,
+      "categoryId": "iliski",
+      "text": "Takdir etmek, sevgiyi göstermenin en ucuz ve en etkili yollarından biridir.",
+      "verify": false
+    },
+    {
+      "id": 379,
+      "seq": 331,
+      "categoryId": "iliski",
+      "text": "Partnerinin sevgi dilini öğren; sen verdiğin şekilde o almıyor olabilir.",
+      "verify": false
+    },
+    {
+      "id": 380,
+      "seq": 177,
+      "categoryId": "iliski",
+      "text": "Karşılıklılık ara; hep sen veriyorsan sorgula.",
+      "verify": false
+    },
+    {
+      "id": 381,
+      "seq": 731,
+      "categoryId": "iliski",
+      "text": "Başkalarının ilişkisine karışma ve kendi ilişkini onlarla kıyaslama.",
+      "verify": false
+    },
+    {
+      "id": 382,
+      "seq": 450,
+      "categoryId": "iliski",
+      "text": "İlişkindeki sorunu başkalarına anlatmadan önce partnerinle konuş.",
+      "verify": false
+    },
+    {
+      "id": 383,
+      "seq": 395,
+      "categoryId": "iliski",
+      "text": "Aile ve arkadaşlarının fikrini dinle ama kararı kendin ver.",
+      "verify": false
+    },
+    {
+      "id": 384,
+      "seq": 677,
+      "categoryId": "iliski",
+      "text": "Ayrılık, kayıp ya da boşanma zordur; kendine zaman ver ve destek al.",
+      "verify": false
+    },
+    {
+      "id": 385,
+      "seq": 477,
+      "categoryId": "iliski",
+      "text": "Üzgün birine \"üzülme\" demek yerine \"buradayım\" de.",
+      "verify": false
+    },
+    {
+      "id": 386,
+      "seq": 777,
+      "categoryId": "iliski",
+      "text": "Yas sürecindeki birine zaman tanı ve ara sıra yoklamayı sürdür.",
+      "verify": false
+    },
+    {
+      "id": 387,
+      "seq": 850,
+      "categoryId": "iliski",
+      "text": "Kıskanç, dominant ya da tehditkâr davranışlar bir ilişkide normal değildir.",
+      "verify": false
+    },
+    {
+      "id": 388,
+      "seq": 431,
+      "categoryId": "iliski",
+      "text": "Karşındaki ağlıyorsa hemen çözüm sunmak yerine yanında dur.",
+      "verify": false
+    },
+    {
+      "id": 389,
+      "seq": 759,
+      "categoryId": "iliski",
+      "text": "Öfken kontrolden çıkıyorsa ortamdan çık, sakinleşince geri dön.",
+      "verify": false
+    },
+    {
+      "id": 390,
+      "seq": 131,
+      "categoryId": "iliski",
+      "text": "Küçük hataları büyütme, büyük hataları geçiştirme.",
+      "verify": false
+    },
+    {
+      "id": 391,
+      "seq": 68,
+      "categoryId": "iliski",
+      "text": "Yıl dönümleri ve özel günleri unutma.",
+      "verify": false
+    },
+    {
+      "id": 392,
+      "seq": 613,
+      "categoryId": "iliski",
+      "text": "Birlikte uzun vadeli planlar yap ve yılda bir gözden geçir.",
+      "verify": false
+    },
+    {
+      "id": 393,
+      "seq": 286,
+      "categoryId": "iliski",
+      "text": "Partnerinle ortak bir hobi ya da alışkanlık geliştir.",
+      "verify": false
+    },
+    {
+      "id": 394,
+      "seq": 486,
+      "categoryId": "iliski",
+      "text": "Aynı evi paylaşsan bile kişisel alan ve zamana saygı göster.",
+      "verify": false
+    },
+    {
+      "id": 395,
+      "seq": 104,
+      "categoryId": "iliski",
+      "text": "Yeni biriyle ailenizi tanıştırma konusunda acele etme.",
+      "verify": false
+    },
+    {
+      "id": 396,
+      "seq": 995,
+      "categoryId": "iliski",
+      "text": "Eşinin başarılarına gölge etme, destek ol.",
+      "verify": false
+    },
+    {
+      "id": 397,
+      "seq": 531,
+      "categoryId": "iliski",
+      "text": "İlişkini başkalarının görüşüne göre değil, yaşadığın deneyime göre değerlendir.",
+      "verify": false
+    },
+    {
+      "id": 398,
+      "seq": 904,
+      "categoryId": "iliski",
+      "text": "Sevmek sahip olmak değil, özgür bırakırken yanında kalabilmektir.",
+      "verify": false
+    },
+    {
+      "id": 399,
+      "seq": 713,
+      "categoryId": "iliski",
+      "text": "İlişkilerde en önemli beceri dinlemek, ikincisi dürüstlüktür.",
+      "verify": false
+    },
+    {
+      "id": 400,
+      "seq": 786,
+      "categoryId": "iliski",
+      "text": "Başkalarına nasıl davranıyorsan ilişkilerin de öyle şekillenir.",
+      "verify": false
+    },
+    {
+      "id": 401,
+      "seq": 296,
+      "categoryId": "kariyer",
+      "text": "Maaş pazarlığından önce piyasa araştırması yap; ilk teklifi kabul etmek zorunda değilsin.",
+      "verify": false
+    },
+    {
+      "id": 402,
+      "seq": 960,
+      "categoryId": "kariyer",
+      "text": "Önemli iş kararlarını ve sözlü anlaşmaları e-postayla teyit et.",
+      "verify": false
+    },
+    {
+      "id": 403,
+      "seq": 505,
+      "categoryId": "kariyer",
+      "text": "İş sözleşmesinde deneme süresi, fazla mesai, rekabet yasağı ve çıkış koşullarını oku.",
+      "verify": true
+    },
+    {
+      "id": 404,
+      "seq": 669,
+      "categoryId": "kariyer",
+      "text": "Mülakattan önce şirketi araştır ve 2-3 soru hazırla.",
+      "verify": false
+    },
+    {
+      "id": 405,
+      "seq": 896,
+      "categoryId": "kariyer",
+      "text": "CV'ni 1-2 sayfa tut ve yaptığın işi mümkünse rakamla anlat.",
+      "verify": false
+    },
+    {
+      "id": 406,
+      "seq": 823,
+      "categoryId": "kariyer",
+      "text": "Başarılarını ve aldığın geri bildirimleri not al; terfi ve performans görüşmesinde işine yarar.",
+      "verify": false
+    },
+    {
+      "id": 407,
+      "seq": 523,
+      "categoryId": "kariyer",
+      "text": "Network'ü iş ararken değil, sürekli kur.",
+      "verify": false
+    },
+    {
+      "id": 408,
+      "seq": 60,
+      "categoryId": "kariyer",
+      "text": "Yılda en az bir yeni beceri öğren.",
+      "verify": false
+    },
+    {
+      "id": 409,
+      "seq": 278,
+      "categoryId": "kariyer",
+      "text": "İşten ayrılırken köprüleri yakma ve eski işvereni kötüleme.",
+      "verify": false
+    },
+    {
+      "id": 410,
+      "seq": 932,
+      "categoryId": "kariyer",
+      "text": "Bilmediğini söylemekten çekinme; bilmiyormuş gibi yapmak daha pahalıya patlar.",
+      "verify": false
+    },
+    {
+      "id": 411,
+      "seq": 560,
+      "categoryId": "kariyer",
+      "text": "İşe yeni girdiğinde ilk 90 günde beklentileri, ölçütleri ve çalışacağın kişileri netleştir.",
+      "verify": false
+    },
+    {
+      "id": 412,
+      "seq": 196,
+      "categoryId": "kariyer",
+      "text": "Yöneticinle düzenli birebir görüşme iste.",
+      "verify": false
+    },
+    {
+      "id": 413,
+      "seq": 478,
+      "categoryId": "kariyer",
+      "text": "Yöneticine sürpriz yapma; kötü haberi erken ver.",
+      "verify": false
+    },
+    {
+      "id": 414,
+      "seq": 760,
+      "categoryId": "kariyer",
+      "text": "Sorun getirirken çözüm önerisiyle gel.",
+      "verify": false
+    },
+    {
+      "id": 415,
+      "seq": 941,
+      "categoryId": "kariyer",
+      "text": "Bir işi yetiştiremeyeceksen bunu son güne bırakmadan söyle.",
+      "verify": false
+    },
+    {
+      "id": 416,
+      "seq": 578,
+      "categoryId": "kariyer",
+      "text": "Teslim tarihine uy; uyamayacaksan yeni tarih ve gerekçeyi önceden bildir.",
+      "verify": false
+    },
+    {
+      "id": 417,
+      "seq": 832,
+      "categoryId": "kariyer",
+      "text": "İş yazışmalarında net, kısa ve eyleme yönelik ol.",
+      "verify": false
+    },
+    {
+      "id": 418,
+      "seq": 569,
+      "categoryId": "kariyer",
+      "text": "Toplantıda söz alırken kısa ve net ifade et.",
+      "verify": false
+    },
+    {
+      "id": 419,
+      "seq": 860,
+      "categoryId": "kariyer",
+      "text": "Toplantı sonrası kararları ve sorumluları yazıp paylaş.",
+      "verify": false
+    },
+    {
+      "id": 420,
+      "seq": 914,
+      "categoryId": "kariyer",
+      "text": "Gün sonunda yarının en önemli üç işini yaz.",
+      "verify": false
+    },
+    {
+      "id": 421,
+      "seq": 696,
+      "categoryId": "kariyer",
+      "text": "En zor işi günün en enerjik saatine koy.",
+      "verify": false
+    },
+    {
+      "id": 422,
+      "seq": 387,
+      "categoryId": "kariyer",
+      "text": "Çoklu görev yerine tek işe odaklan.",
+      "verify": false
+    },
+    {
+      "id": 423,
+      "seq": 687,
+      "categoryId": "kariyer",
+      "text": "Derin çalışma saatlerinde bildirimleri kapat.",
+      "verify": false
+    },
+    {
+      "id": 424,
+      "seq": 14,
+      "categoryId": "kariyer",
+      "text": "\"Acil\" ile \"önemli\" arasındaki farkı ayır.",
+      "verify": false
+    },
+    {
+      "id": 425,
+      "seq": 514,
+      "categoryId": "kariyer",
+      "text": "Hayır demeyi öğren; her talep sana ait olmak zorunda değil.",
+      "verify": false
+    },
+    {
+      "id": 426,
+      "seq": 396,
+      "categoryId": "kariyer",
+      "text": "İş yükün aşıldığında öncelikleri yöneticinle birlikte netleştir.",
+      "verify": false
+    },
+    {
+      "id": 427,
+      "seq": 778,
+      "categoryId": "kariyer",
+      "text": "Mesai dışı iletişim konusunda sınırlarını baştan belirle.",
+      "verify": false
+    },
+    {
+      "id": 428,
+      "seq": 241,
+      "categoryId": "kariyer",
+      "text": "Tükenmişlik belirtilerini (sürekli yorgunluk, ilgisizlik) erken fark et ve önlem al.",
+      "verify": false
+    },
+    {
+      "id": 429,
+      "seq": 223,
+      "categoryId": "kariyer",
+      "text": "İzin kullanmaktan çekinme; dinlenmiş çalışan daha verimlidir.",
+      "verify": false
+    },
+    {
+      "id": 430,
+      "seq": 469,
+      "categoryId": "kariyer",
+      "text": "Yaptığın işi sessizce yapma; sonuçları uygun biçimde görünür kıl.",
+      "verify": false
+    },
+    {
+      "id": 431,
+      "seq": 705,
+      "categoryId": "kariyer",
+      "text": "Başkalarının katkısını açıkça an.",
+      "verify": false
+    },
+    {
+      "id": 432,
+      "seq": 769,
+      "categoryId": "kariyer",
+      "text": "Hatanı kabul et, nedenini anla ve tekrarlama.",
+      "verify": false
+    },
+    {
+      "id": 433,
+      "seq": 332,
+      "categoryId": "kariyer",
+      "text": "Geri bildirimi savunmaya geçmeden dinle; sonra düşün.",
+      "verify": false
+    },
+    {
+      "id": 434,
+      "seq": 87,
+      "categoryId": "kariyer",
+      "text": "\"Neyi daha iyi yapabilirdim?\" diye geri bildirim iste.",
+      "verify": false
+    },
+    {
+      "id": 435,
+      "seq": 160,
+      "categoryId": "kariyer",
+      "text": "Eleştiri verirken kişiyi değil davranışı hedef al.",
+      "verify": false
+    },
+    {
+      "id": 436,
+      "seq": 32,
+      "categoryId": "kariyer",
+      "text": "İşyerinde dedikodudan uzak dur.",
+      "verify": false
+    },
+    {
+      "id": 437,
+      "seq": 114,
+      "categoryId": "kariyer",
+      "text": "İş arkadaşlarınla iyi ilişki kur ama her şeyi paylaşma.",
+      "verify": false
+    },
+    {
+      "id": 438,
+      "seq": 360,
+      "categoryId": "kariyer",
+      "text": "İşyerinde yaşanan haksızlığı tarih ve olaylarla not al.",
+      "verify": false
+    },
+    {
+      "id": 439,
+      "seq": 314,
+      "categoryId": "kariyer",
+      "text": "Toksik bir ortamda kalmanın bedelini ve alternatiflerini düzenli değerlendir.",
+      "verify": false
+    },
+    {
+      "id": 440,
+      "seq": 814,
+      "categoryId": "kariyer",
+      "text": "Bir mentor bul; tek bir kişinin tecrübesi yıllarını kısaltabilir.",
+      "verify": false
+    },
+    {
+      "id": 441,
+      "seq": 78,
+      "categoryId": "kariyer",
+      "text": "Kendinden daha bilgili insanlarla çalışmaktan kaçınma; en çok onlardan öğrenirsin.",
+      "verify": false
+    },
+    {
+      "id": 442,
+      "seq": 232,
+      "categoryId": "kariyer",
+      "text": "LinkedIn profilini güncel tut.",
+      "verify": false
+    },
+    {
+      "id": 443,
+      "seq": 641,
+      "categoryId": "kariyer",
+      "text": "Yaptığın işleri düzenli olarak belgele ve portfolyoya dök.",
+      "verify": false
+    },
+    {
+      "id": 444,
+      "seq": 423,
+      "categoryId": "kariyer",
+      "text": "Sertifikayı unvan için değil, gerçek beceri için al.",
+      "verify": false
+    },
+    {
+      "id": 445,
+      "seq": 532,
+      "categoryId": "kariyer",
+      "text": "Sektördeki değişimleri takip et; beceri eskimesi sessiz bir risktir.",
+      "verify": false
+    },
+    {
+      "id": 446,
+      "seq": 787,
+      "categoryId": "kariyer",
+      "text": "Yazma ve konuşma becerisi hemen her meslekte en değerli becerilerdendir.",
+      "verify": false
+    },
+    {
+      "id": 447,
+      "seq": 805,
+      "categoryId": "kariyer",
+      "text": "Sunum yaparken tek bir ana mesaj belirle ve her şeyi onun etrafında kur.",
+      "verify": false
+    },
+    {
+      "id": 448,
+      "seq": 887,
+      "categoryId": "kariyer",
+      "text": "Sunuma çıkmadan önce yüksek sesle prova yap.",
+      "verify": false
+    },
+    {
+      "id": 449,
+      "seq": 432,
+      "categoryId": "kariyer",
+      "text": "Mülakatta \"bana bir örnek anlat\" sorularına durum, eylem, sonuç sırasıyla cevap ver.",
+      "verify": false
+    },
+    {
+      "id": 450,
+      "seq": 305,
+      "categoryId": "kariyer",
+      "text": "Mülakatta eski işvereni kötüleme.",
+      "verify": false
+    },
+    {
+      "id": 451,
+      "seq": 541,
+      "categoryId": "kariyer",
+      "text": "Mülakatta sen de soru sor: ekip, beklenti ve başarı ölçütü.",
+      "verify": false
+    },
+    {
+      "id": 452,
+      "seq": 623,
+      "categoryId": "kariyer",
+      "text": "Teklif geldiğinde hemen cevap verme; incelemek için zaman iste.",
+      "verify": false
+    },
+    {
+      "id": 453,
+      "seq": 723,
+      "categoryId": "kariyer",
+      "text": "Teklifi kabul etmeden önce maaş dışındaki yan hakları (izin, sigorta, esneklik) sor.",
+      "verify": false
+    },
+    {
+      "id": 454,
+      "seq": 214,
+      "categoryId": "kariyer",
+      "text": "Başka teklifin varsa bunu dürüstçe ve manipüle etmeden kullan.",
+      "verify": false
+    },
+    {
+      "id": 455,
+      "seq": 978,
+      "categoryId": "kariyer",
+      "text": "Zam isterken somut katkılarını ve piyasa verilerini yanında getir.",
+      "verify": false
+    },
+    {
+      "id": 456,
+      "seq": 841,
+      "categoryId": "kariyer",
+      "text": "Zam talebini şirketin bütçe dönemine göre zamanla.",
+      "verify": false
+    },
+    {
+      "id": 457,
+      "seq": 378,
+      "categoryId": "kariyer",
+      "text": "Zam ya da terfi talebin reddedilirse nedenini ve gelecekteki yol haritasını sor.",
+      "verify": false
+    },
+    {
+      "id": 458,
+      "seq": 123,
+      "categoryId": "kariyer",
+      "text": "Kariyer hedeflerini beş yıllık bir yön olarak yaz ve yılda bir güncelle.",
+      "verify": false
+    },
+    {
+      "id": 459,
+      "seq": 41,
+      "categoryId": "kariyer",
+      "text": "Her işe bir basamak gözüyle bak: bu işten ne öğreneceğim?",
+      "verify": false
+    },
+    {
+      "id": 460,
+      "seq": 405,
+      "categoryId": "kariyer",
+      "text": "İş değiştirmeden önce bulunduğun işte öğrenmen gerekenleri tamamla.",
+      "verify": false
+    },
+    {
+      "id": 461,
+      "seq": 187,
+      "categoryId": "kariyer",
+      "text": "İşten çıkarken devir teslimi düzenli yap.",
+      "verify": false
+    },
+    {
+      "id": 462,
+      "seq": 96,
+      "categoryId": "kariyer",
+      "text": "İstifa ederken yazılı bildir ve ihbar sürelerini bil.",
+      "verify": true
+    },
+    {
+      "id": 463,
+      "seq": 587,
+      "categoryId": "kariyer",
+      "text": "İşten çıkarılırsan sözleşmeni ve haklarını inceleyip bir uzmana danış.",
+      "verify": true
+    },
+    {
+      "id": 464,
+      "seq": 141,
+      "categoryId": "kariyer",
+      "text": "Yöneticiliğe geçtiğinde en büyük değişim, işi kendin yapmaktan işi yaptırmaya geçmektir.",
+      "verify": false
+    },
+    {
+      "id": 465,
+      "seq": 614,
+      "categoryId": "kariyer",
+      "text": "Yönetici olarak ekibine net beklenti ve sık geri bildirim ver.",
+      "verify": false
+    },
+    {
+      "id": 466,
+      "seq": 460,
+      "categoryId": "kariyer",
+      "text": "Ekibin başarısını paylaş, hatayı üstlen.",
+      "verify": false
+    },
+    {
+      "id": 467,
+      "seq": 287,
+      "categoryId": "kariyer",
+      "text": "Delege ederken sonucu ve sınırları net söyle; yönteme karışma.",
+      "verify": false
+    },
+    {
+      "id": 468,
+      "seq": 632,
+      "categoryId": "kariyer",
+      "text": "Ekibine adil ve tutarlı davran.",
+      "verify": false
+    },
+    {
+      "id": 469,
+      "seq": 660,
+      "categoryId": "kariyer",
+      "text": "Çatışmayı ertelemek onu büyütür; erken ve sakin konuş.",
+      "verify": false
+    },
+    {
+      "id": 470,
+      "seq": 905,
+      "categoryId": "kariyer",
+      "text": "Kendi işini kurmadan önce en az bir müşteri ya da talep kanıtı bul.",
+      "verify": false
+    },
+    {
+      "id": 471,
+      "seq": 996,
+      "categoryId": "kariyer",
+      "text": "Girişim başlatırken yan işle başla; hemen istifa etme.",
+      "verify": false
+    },
+    {
+      "id": 472,
+      "seq": 969,
+      "categoryId": "kariyer",
+      "text": "Girişimde nakit akışı ürün kadar önemlidir.",
+      "verify": false
+    },
+    {
+      "id": 473,
+      "seq": 678,
+      "categoryId": "kariyer",
+      "text": "Ortak seçerken sorumlulukları ve hisse paylaşımını baştan yazılı belirle.",
+      "verify": false
+    },
+    {
+      "id": 474,
+      "seq": 441,
+      "categoryId": "kariyer",
+      "text": "İlk müşterilerinle birebir konuş; ürünü en iyi onlardan öğrenirsin.",
+      "verify": false
+    },
+    {
+      "id": 475,
+      "seq": 878,
+      "categoryId": "kariyer",
+      "text": "Fiyatı düşürerek değil, değer katarak rekabet et.",
+      "verify": false
+    },
+    {
+      "id": 476,
+      "seq": 205,
+      "categoryId": "kariyer",
+      "text": "Serbest çalışırken sözleşme, ödeme koşulu ve kapsamı yazılı yap.",
+      "verify": true
+    },
+    {
+      "id": 477,
+      "seq": 5,
+      "categoryId": "kariyer",
+      "text": "Serbest çalışırken fatura ve tahsilat takibini düzenli yap.",
+      "verify": false
+    },
+    {
+      "id": 478,
+      "seq": 23,
+      "categoryId": "kariyer",
+      "text": "Tek müşteriye bağımlı olma.",
+      "verify": false
+    },
+    {
+      "id": 479,
+      "seq": 741,
+      "categoryId": "kariyer",
+      "text": "Yan projelerin ve hobilerin bazen en büyük kariyer fırsatlarına dönüşebileceğini unutma.",
+      "verify": false
+    },
+    {
+      "id": 480,
+      "seq": 269,
+      "categoryId": "kariyer",
+      "text": "Uzaktan çalışırken yazılı iletişimi güçlendir ve görünür kal.",
+      "verify": false
+    },
+    {
+      "id": 481,
+      "seq": 105,
+      "categoryId": "kariyer",
+      "text": "Evden çalışırken iş ile ev arasındaki sınırı fiziksel ve zamansal olarak çiz.",
+      "verify": false
+    },
+    {
+      "id": 482,
+      "seq": 323,
+      "categoryId": "kariyer",
+      "text": "Online toplantılarda ses, ışık ve görüntü kalitesine dikkat et.",
+      "verify": false
+    },
+    {
+      "id": 483,
+      "seq": 796,
+      "categoryId": "kariyer",
+      "text": "Takvimini yönet; boşluk bırakmazsan takvimin sahibi sen olmazsın.",
+      "verify": false
+    },
+    {
+      "id": 484,
+      "seq": 169,
+      "categoryId": "kariyer",
+      "text": "Kısa ve düzenli molalar odaklanmayı artırır.",
+      "verify": false
+    },
+    {
+      "id": 485,
+      "seq": 605,
+      "categoryId": "kariyer",
+      "text": "Gün içinde ayağa kalkıp hareket ederek çalışma süreni böl.",
+      "verify": false
+    },
+    {
+      "id": 486,
+      "seq": 260,
+      "categoryId": "kariyer",
+      "text": "Üretiğin değerin ölçütünü bil ve takip et.",
+      "verify": false
+    },
+    {
+      "id": 487,
+      "seq": 496,
+      "categoryId": "kariyer",
+      "text": "Verilerle konuş; \"bence\"den çok \"şu ölçüme göre\" güçlüdür.",
+      "verify": false
+    },
+    {
+      "id": 488,
+      "seq": 341,
+      "categoryId": "kariyer",
+      "text": "Tablo ve hesap yazılımlarını iyi kullanmak çoğu meslekte hâlâ büyük avantajdır.",
+      "verify": false
+    },
+    {
+      "id": 489,
+      "seq": 923,
+      "categoryId": "kariyer",
+      "text": "Yapay zekâ araçlarını işinde kullanmayı öğren; ama çıktıyı mutlaka kontrol et.",
+      "verify": false
+    },
+    {
+      "id": 490,
+      "seq": 369,
+      "categoryId": "kariyer",
+      "text": "Gizli iş bilgilerini yapay zekâ araçlarına yapıştırma.",
+      "verify": false
+    },
+    {
+      "id": 491,
+      "seq": 987,
+      "categoryId": "kariyer",
+      "text": "İşyerindeki kaynakları kişisel amaçla kötüye kullanma.",
+      "verify": false
+    },
+    {
+      "id": 492,
+      "seq": 714,
+      "categoryId": "kariyer",
+      "text": "Başkasının işini kaynak göstermeden sahiplenme.",
+      "verify": false
+    },
+    {
+      "id": 493,
+      "seq": 596,
+      "categoryId": "kariyer",
+      "text": "Başarısızlığı kariyerin bir parçası olarak gör; hatadan çıkan ders değerlidir.",
+      "verify": false
+    },
+    {
+      "id": 494,
+      "seq": 132,
+      "categoryId": "kariyer",
+      "text": "Rakiplerinle de iyi geçin; sektör küçüktür ve herkes herkesi tanır.",
+      "verify": false
+    },
+    {
+      "id": 495,
+      "seq": 487,
+      "categoryId": "kariyer",
+      "text": "Referans olabilecek insanlarla bağını koru.",
+      "verify": false
+    },
+    {
+      "id": 496,
+      "seq": 414,
+      "categoryId": "kariyer",
+      "text": "Ayrıldığın işlerden birkaç kişiyle iletişimi sürdür.",
+      "verify": false
+    },
+    {
+      "id": 497,
+      "seq": 732,
+      "categoryId": "kariyer",
+      "text": "İş hayatın tamamı değil; sağlık, ilişkiler ve dinlenme kariyerin altyapısıdır.",
+      "verify": false
+    },
+    {
+      "id": 498,
+      "seq": 69,
+      "categoryId": "kariyer",
+      "text": "Unvan peşinde koşmak yerine öğrenme hızı yüksek işleri seç.",
+      "verify": false
+    },
+    {
+      "id": 499,
+      "seq": 178,
+      "categoryId": "kariyer",
+      "text": "Kariyerini kimsenin senin yerine yönetmeyeceğini bil; sorumluluk sende.",
+      "verify": false
+    },
+    {
+      "id": 500,
+      "seq": 869,
+      "categoryId": "kariyer",
+      "text": "Zor dönemlerde işini kaybetsen bile becerin ve itibarın sende kalır; ikisine de yatırım yap.",
+      "verify": false
+    },
+    {
+      "id": 501,
+      "seq": 770,
+      "categoryId": "saglik",
+      "text": "Düzenli uyu: çoğu yetişkin için önerilen süre 7 saat ve üzeridir.",
+      "verify": true
+    },
+    {
+      "id": 502,
+      "seq": 479,
+      "categoryId": "saglik",
+      "text": "Haftada en az 150 dakika orta tempolu hareket et.",
+      "verify": true
+    },
+    {
+      "id": 503,
+      "seq": 470,
+      "categoryId": "saglik",
+      "text": "Haftada en az 2 gün kas güçlendirici egzersiz yap.",
+      "verify": true
+    },
+    {
+      "id": 504,
+      "seq": 197,
+      "categoryId": "saglik",
+      "text": "Günde iki kez diş fırçala, diş ipi kullan ve yılda bir diş hekimine git.",
+      "verify": true
+    },
+    {
+      "id": 505,
+      "seq": 424,
+      "categoryId": "saglik",
+      "text": "Yılda bir genel kontrol yaptır; tansiyon ve kan tahlilini ihmal etme.",
+      "verify": true
+    },
+    {
+      "id": 506,
+      "seq": 570,
+      "categoryId": "saglik",
+      "text": "Göğüs ağrısı, ani nefes darlığı, bayılma ve felç belirtilerinde (yüz sarkması, konuşma bozukluğu) bekleme, 112'yi ara.",
+      "verify": true
+    },
+    {
+      "id": 507,
+      "seq": 315,
+      "categoryId": "saglik",
+      "text": "Güneşte güneş kremi kullan; değişen ya da büyüyen bir beni dermatoloğa göster.",
+      "verify": true
+    },
+    {
+      "id": 508,
+      "seq": 288,
+      "categoryId": "saglik",
+      "text": "Sigara içme; içiyorsan bırakma desteği al.",
+      "verify": true
+    },
+    {
+      "id": 509,
+      "seq": 106,
+      "categoryId": "saglik",
+      "text": "Alkolü sınırlı tut; sınırı kendine göre değil sağlık kuruluşlarının önerisine göre belirle.",
+      "verify": true
+    },
+    {
+      "id": 510,
+      "seq": 488,
+      "categoryId": "saglik",
+      "text": "Temel ilk yardım eğitimi al.",
+      "verify": true
+    },
+    {
+      "id": 511,
+      "seq": 633,
+      "categoryId": "saglik",
+      "text": "Bol su iç; susadığını hissetmeden içmeyi alışkanlık yap.",
+      "verify": false
+    },
+    {
+      "id": 512,
+      "seq": 115,
+      "categoryId": "saglik",
+      "text": "Öğün atlama; düzenli ve dengeli beslen.",
+      "verify": false
+    },
+    {
+      "id": 513,
+      "seq": 497,
+      "categoryId": "saglik",
+      "text": "Tabağının büyük kısmını sebze, meyve ve tam tahıllarla doldur.",
+      "verify": false
+    },
+    {
+      "id": 514,
+      "seq": 297,
+      "categoryId": "saglik",
+      "text": "İşlenmiş gıdayı, şekerli içeceği ve fast food'u sınırla.",
+      "verify": false
+    },
+    {
+      "id": 515,
+      "seq": 506,
+      "categoryId": "saglik",
+      "text": "Porsiyonu ayarla; yavaş ye ve doyunca dur.",
+      "verify": false
+    },
+    {
+      "id": 516,
+      "seq": 988,
+      "categoryId": "saglik",
+      "text": "Yemek yerken ekrana bakmamaya çalış.",
+      "verify": false
+    },
+    {
+      "id": 517,
+      "seq": 870,
+      "categoryId": "saglik",
+      "text": "Kısa vadeli şok diyetlerden kaçın; sürdürülebilir alışkanlıkları seç.",
+      "verify": false
+    },
+    {
+      "id": 518,
+      "seq": 215,
+      "categoryId": "saglik",
+      "text": "Sağlıklı kilo hedefini doktor veya diyetisyenle birlikte belirle.",
+      "verify": true
+    },
+    {
+      "id": 519,
+      "seq": 624,
+      "categoryId": "saglik",
+      "text": "Takviye ve protein ürünlerini doktora danışmadan kullanma.",
+      "verify": true
+    },
+    {
+      "id": 520,
+      "seq": 515,
+      "categoryId": "saglik",
+      "text": "Anabolik steroid ve kontrolsüz hormon ürünlerinden uzak dur.",
+      "verify": true,
+      "variants": {
+        "male": "Kas kütlesi için anabolik steroid ve kontrolsüz hormon ürünlerinden uzak dur; kalıcı hasar bırakır.",
+        "female": "Hızlı kilo verme vaat eden kontrolsüz zayıflama çayları, hapları ve takviyelerinden uzak dur."
+      }
+    },
+    {
+      "id": 521,
+      "seq": 133,
+      "categoryId": "saglik",
+      "text": "Reçetesiz ilaçları bile prospektüsü okuyarak ve gerekirse eczacıya sorarak kullan.",
+      "verify": true
+    },
+    {
+      "id": 522,
+      "seq": 642,
+      "categoryId": "saglik",
+      "text": "Antibiyotiği doktor önerisi olmadan başlama ve yarıda kesme.",
+      "verify": true
+    },
+    {
+      "id": 523,
+      "seq": 824,
+      "categoryId": "saglik",
+      "text": "İlacını başkasıyla paylaşma, başkasının ilacını kullanma.",
+      "verify": true
+    },
+    {
+      "id": 524,
+      "seq": 188,
+      "categoryId": "saglik",
+      "text": "Evdeki ilaç dolabını düzenli kontrol et ve son kullanma tarihi geçenleri ayır.",
+      "verify": false
+    },
+    {
+      "id": 525,
+      "seq": 851,
+      "categoryId": "saglik",
+      "text": "Yeni bir egzersiz programına aşamalı başla.",
+      "verify": false
+    },
+    {
+      "id": 526,
+      "seq": 351,
+      "categoryId": "saglik",
+      "text": "Egzersize ısınma ve soğuma bölümlerini ekle.",
+      "verify": false
+    },
+    {
+      "id": 527,
+      "seq": 733,
+      "categoryId": "saglik",
+      "text": "Yorgunluk ile ağrıyı ayır; keskin ağrı varsa egzersizi bırak.",
+      "verify": false
+    },
+    {
+      "id": 528,
+      "seq": 679,
+      "categoryId": "saglik",
+      "text": "Spor yaparken ağırlıktan önce formu koy.",
+      "verify": false
+    },
+    {
+      "id": 529,
+      "seq": 206,
+      "categoryId": "saglik",
+      "text": "Ağır kaldırırken bel ve dizlerini korumak için doğru tekniği öğren.",
+      "verify": false
+    },
+    {
+      "id": 530,
+      "seq": 415,
+      "categoryId": "saglik",
+      "text": "Haftada en az bir gün dinlen; toparlanma gelişimin parçasıdır.",
+      "verify": false
+    },
+    {
+      "id": 531,
+      "seq": 442,
+      "categoryId": "saglik",
+      "text": "Düzenli yürüyüş, en az sakatlık riskli ve en sürdürülebilir spordur.",
+      "verify": false
+    },
+    {
+      "id": 532,
+      "seq": 370,
+      "categoryId": "saglik",
+      "text": "Gün boyu oturuyorsan her saat kalkıp birkaç dakika hareket et.",
+      "verify": false
+    },
+    {
+      "id": 533,
+      "seq": 615,
+      "categoryId": "saglik",
+      "text": "Ekran başında çalışırken duruşuna dikkat et.",
+      "verify": false
+    },
+    {
+      "id": 534,
+      "seq": 124,
+      "categoryId": "saglik",
+      "text": "Göz yorgunluğu için ekrandan düzenli olarak uzağa bak.",
+      "verify": false
+    },
+    {
+      "id": 535,
+      "seq": 88,
+      "categoryId": "saglik",
+      "text": "Yatmadan önce ekran kullanımını azalt.",
+      "verify": false
+    },
+    {
+      "id": 536,
+      "seq": 270,
+      "categoryId": "saglik",
+      "text": "Her gün aynı saatte kalkıp yatmaya çalış.",
+      "verify": false
+    },
+    {
+      "id": 537,
+      "seq": 742,
+      "categoryId": "saglik",
+      "text": "Öğleden sonra kafein tüketimini sınırla.",
+      "verify": false
+    },
+    {
+      "id": 538,
+      "seq": 888,
+      "categoryId": "saglik",
+      "text": "Akşamları ağır yemekten ve alkolden kaçın; uykunu bozar.",
+      "verify": false
+    },
+    {
+      "id": 539,
+      "seq": 970,
+      "categoryId": "saglik",
+      "text": "Yatak odanı serin, karanlık ve sessiz tut.",
+      "verify": false
+    },
+    {
+      "id": 540,
+      "seq": 942,
+      "categoryId": "saglik",
+      "text": "Horlama ve gün içi aşırı uykululuk gibi belirtileri doktoruna söyle.",
+      "verify": true
+    },
+    {
+      "id": 541,
+      "seq": 597,
+      "categoryId": "saglik",
+      "text": "Yaşına göre önerilen tarama ve kontrolleri doktorundan öğren: kolon, kolesterol, diyabet ve cinsiyetine özgü taramalar.",
+      "verify": true,
+      "variants": {
+        "male": "Yaşına göre önerilen tarama ve kontrolleri doktorundan öğren: prostat, kolon, kolesterol, diyabet.",
+        "female": "Yaşına göre önerilen tarama ve kontrolleri doktorundan öğren: rahim ağzı, meme, kolon, kolesterol, diyabet."
+      }
+    },
+    {
+      "id": 542,
+      "seq": 915,
+      "categoryId": "saglik",
+      "text": "Ailende kalp hastalığı, diyabet veya kanser öyküsü varsa doktoruna bildir.",
+      "verify": true
+    },
+    {
+      "id": 543,
+      "seq": 606,
+      "categoryId": "saglik",
+      "text": "Tansiyon, kan şekeri ve kolesterol değerlerini bil ve düzenli kontrol ettir.",
+      "verify": true
+    },
+    {
+      "id": 544,
+      "seq": 524,
+      "categoryId": "saglik",
+      "text": "Ani kilo kaybı, kronik öksürük, kanlı idrar ya da dışkı gibi belirtileri ertelemeden doktora göster.",
+      "verify": true
+    },
+    {
+      "id": 545,
+      "seq": 24,
+      "categoryId": "saglik",
+      "text": "Cildini ve vücudundaki benleri ayda bir kendin kontrol etmeyi öğren; şüpheli değişikliği doktora göster.",
+      "verify": true,
+      "variants": {
+        "male": "Testis ve cilt kontrolünü ayda bir kendin yapmayı öğren; şüpheli sertlik veya şişliği doktora göster.",
+        "female": "Meme ve cilt kontrolünü ayda bir kendin yapmayı öğren; şüpheli kitle veya değişikliği doktora göster."
+      }
+    },
+    {
+      "id": 546,
+      "seq": 342,
+      "categoryId": "saglik",
+      "text": "Fark ettiğin şüpheli bir şişlik için ertelemeden doktora git.",
+      "verify": true
+    },
+    {
+      "id": 547,
+      "seq": 6,
+      "categoryId": "saglik",
+      "text": "Ani ve şiddetli ya da kalıcı baş ağrısını ciddiye al ve doktora danış.",
+      "verify": true
+    },
+    {
+      "id": 548,
+      "seq": 224,
+      "categoryId": "saglik",
+      "text": "Doktora gitmeden önce belirtilerini, ne zaman başladığını ve kullandığın ilaçları yaz.",
+      "verify": false
+    },
+    {
+      "id": 549,
+      "seq": 833,
+      "categoryId": "saglik",
+      "text": "Doktora her şeyi dürüstçe anlat; utanmak tanıyı geciktirir.",
+      "verify": false
+    },
+    {
+      "id": 550,
+      "seq": 388,
+      "categoryId": "saglik",
+      "text": "Teşhis ya da tedaviden emin değilsen ikinci görüş al.",
+      "verify": false
+    },
+    {
+      "id": 551,
+      "seq": 233,
+      "categoryId": "saglik",
+      "text": "İnternetten teşhis koymaya çalışma; bilgi toplamak ile tanı koymak farklı şeylerdir.",
+      "verify": false
+    },
+    {
+      "id": 552,
+      "seq": 906,
+      "categoryId": "saglik",
+      "text": "Aşı takvimini ve tetanoz gibi hatırlatma aşılarını takip et.",
+      "verify": true
+    },
+    {
+      "id": 553,
+      "seq": 924,
+      "categoryId": "saglik",
+      "text": "Mevsimsel grip aşısı gibi önerilen aşılar için doktoruna danış.",
+      "verify": true
+    },
+    {
+      "id": 554,
+      "seq": 842,
+      "categoryId": "saglik",
+      "text": "Cinsel yolla bulaşan hastalıklardan korunmak için kondom kullan ve gerekirse düzenli tarama yaptır.",
+      "verify": true,
+      "variants": {
+        "male": "Cinsel yolla bulaşan hastalıklardan korunmak için kondom kullan ve düzenli ürolojik kontrolleri aksatma.",
+        "female": "Cinsel sağlıkta kondom korumasını önemse ve yılda bir rutin jinekolojik kontrolü ihmal etme."
+      }
+    },
+    {
+      "id": 555,
+      "seq": 333,
+      "categoryId": "saglik",
+      "text": "Bulaşıcı bir enfeksiyon şüphesinde partnerine de haber ver ve tedavi ol.",
+      "verify": true
+    },
+    {
+      "id": 556,
+      "seq": 724,
+      "categoryId": "saglik",
+      "text": "Ellerini sık yıka; özellikle yemekten önce ve tuvaletten sonra.",
+      "verify": false
+    },
+    {
+      "id": 557,
+      "seq": 697,
+      "categoryId": "saglik",
+      "text": "Buzdolabı sıcaklığına ve son kullanma tarihine dikkat et.",
+      "verify": false
+    },
+    {
+      "id": 558,
+      "seq": 33,
+      "categoryId": "saglik",
+      "text": "Çiğ et ve diğer gıdaların birbirine bulaşmasını önle; ayrı kesme tahtası kullan.",
+      "verify": false
+    },
+    {
+      "id": 559,
+      "seq": 433,
+      "categoryId": "saglik",
+      "text": "Pişmiş yemeği uzun süre oda sıcaklığında bekletme.",
+      "verify": false
+    },
+    {
+      "id": 560,
+      "seq": 706,
+      "categoryId": "saglik",
+      "text": "Kronik bir hastalığın varsa tedavini düzenli uygula ve kontrolleri aksatma.",
+      "verify": true
+    },
+    {
+      "id": 561,
+      "seq": 651,
+      "categoryId": "saglik",
+      "text": "Hastalandığında dinlen ve başkalarına bulaştırmamak için işe gitmeyi düşün.",
+      "verify": false
+    },
+    {
+      "id": 562,
+      "seq": 15,
+      "categoryId": "saglik",
+      "text": "Ateş, kusma ve ishal durumlarında sıvı kaybını önle.",
+      "verify": false
+    },
+    {
+      "id": 563,
+      "seq": 170,
+      "categoryId": "saglik",
+      "text": "Yanık olursa önce akan serin suyla soğut; buz ya da diş macunu sürme.",
+      "verify": true
+    },
+    {
+      "id": 564,
+      "seq": 151,
+      "categoryId": "saglik",
+      "text": "Kanamada temiz bezle doğrudan baskı uygula ve yardım çağır.",
+      "verify": true
+    },
+    {
+      "id": 565,
+      "seq": 951,
+      "categoryId": "saglik",
+      "text": "Boğulma (yabancı cisim) durumunda ne yapılacağını öğren.",
+      "verify": true
+    },
+    {
+      "id": 566,
+      "seq": 670,
+      "categoryId": "saglik",
+      "text": "Bilinci kapalı ve nefes almayan birine kalp masajı (CPR) yapmayı öğren.",
+      "verify": true
+    },
+    {
+      "id": 567,
+      "seq": 179,
+      "categoryId": "saglik",
+      "text": "Zehirlenme şüphesinde kusturmaya çalışma; 114 (Ulusal Zehir Danışma) veya 112'yi ara.",
+      "verify": true
+    },
+    {
+      "id": 568,
+      "seq": 51,
+      "categoryId": "saglik",
+      "text": "Evde duman dedektörü ve ilk yardım çantası bulundur.",
+      "verify": false
+    },
+    {
+      "id": 569,
+      "seq": 279,
+      "categoryId": "saglik",
+      "text": "Sıcakta uzun süre dışarıda kalırsan sıvı al, gölgeye çekil ve aşırı ısınma belirtilerini bil.",
+      "verify": true
+    },
+    {
+      "id": 570,
+      "seq": 688,
+      "categoryId": "saglik",
+      "text": "Soğukta uzun süre kalırsan katmanlı giyin ve üşümenin tehlikesini bil.",
+      "verify": false
+    },
+    {
+      "id": 571,
+      "seq": 879,
+      "categoryId": "saglik",
+      "text": "Hafif görünen kafa travmasından sonra bulantı, aşırı uyku veya şaşkınlık varsa doktora git.",
+      "verify": true
+    },
+    {
+      "id": 572,
+      "seq": 79,
+      "categoryId": "saglik",
+      "text": "Kulaklığı yüksek sesle uzun süre kullanma; duyma kaybı geri dönmez.",
+      "verify": true
+    },
+    {
+      "id": 573,
+      "seq": 806,
+      "categoryId": "saglik",
+      "text": "Gürültülü ortamlarda kulak koruması kullan.",
+      "verify": false
+    },
+    {
+      "id": 574,
+      "seq": 406,
+      "categoryId": "saglik",
+      "text": "Gözlük veya lens kullanıyorsan düzenli göz muayenesi yaptır.",
+      "verify": true
+    },
+    {
+      "id": 575,
+      "seq": 397,
+      "categoryId": "saglik",
+      "text": "Güneş gözlüğünü UV korumalı seç.",
+      "verify": false
+    },
+    {
+      "id": 576,
+      "seq": 142,
+      "categoryId": "saglik",
+      "text": "Boyun, bel ve omuz ağrılarında erken fizyoterapi desteği al.",
+      "verify": true
+    },
+    {
+      "id": 577,
+      "seq": 324,
+      "categoryId": "saglik",
+      "text": "Ağrı kesicileri sürekli kullanma; sürekli ağrı bir sebeple vardır.",
+      "verify": true
+    },
+    {
+      "id": 578,
+      "seq": 70,
+      "categoryId": "saglik",
+      "text": "Sürekli süren fiziksel şikâyetleri ve ruh hali değişimlerini ciddiye alıp doktora git.",
+      "verify": false
+    },
+    {
+      "id": 579,
+      "seq": 815,
+      "categoryId": "saglik",
+      "text": "Düzenli sosyalleşmek ve doğada vakit geçirmek sağlığı destekler.",
+      "verify": false
+    },
+    {
+      "id": 580,
+      "seq": 751,
+      "categoryId": "saglik",
+      "text": "Sağlık harcamasını ertelemek çoğu zaman daha pahalı tedavi demektir.",
+      "verify": false
+    },
+    {
+      "id": 581,
+      "seq": 97,
+      "categoryId": "saglik",
+      "text": "Sağlık sigortasının neleri kapsadığını bil.",
+      "verify": true
+    },
+    {
+      "id": 582,
+      "seq": 42,
+      "categoryId": "saglik",
+      "text": "Önemli tıbbi kayıtlarını (rapor, tahlil, ilaç listesi) düzenli sakla.",
+      "verify": false
+    },
+    {
+      "id": 583,
+      "seq": 251,
+      "categoryId": "saglik",
+      "text": "Alerjilerini ve kullandığın ilaçları bir yerde not et.",
+      "verify": false
+    },
+    {
+      "id": 584,
+      "seq": 542,
+      "categoryId": "saglik",
+      "text": "Acil durumda ulaşılacak kişinin bilgisini telefonunda hazır tut.",
+      "verify": false
+    },
+    {
+      "id": 585,
+      "seq": 997,
+      "categoryId": "saglik",
+      "text": "Şüphedeysen 112'yi aramaktan çekinme.",
+      "verify": true
+    },
+    {
+      "id": 586,
+      "seq": 933,
+      "categoryId": "saglik",
+      "text": "Çok yorgun, isteksiz ya da sürekli kaygılıysan bunu karakter zayıflığı değil, sağlık sinyali olarak gör.",
+      "verify": false
+    },
+    {
+      "id": 587,
+      "seq": 242,
+      "categoryId": "saglik",
+      "text": "Kas kütleni korumak, yaşlandıkça artan önemde bir sağlık yatırımıdır.",
+      "verify": false
+    },
+    {
+      "id": 588,
+      "seq": 779,
+      "categoryId": "saglik",
+      "text": "Esneme ve mobilite çalışması sakatlıkları azaltır.",
+      "verify": false
+    },
+    {
+      "id": 589,
+      "seq": 306,
+      "categoryId": "saglik",
+      "text": "Merdiven çıkmak ve yürümek gibi gündelik hareketleri artır.",
+      "verify": false
+    },
+    {
+      "id": 590,
+      "seq": 897,
+      "categoryId": "saglik",
+      "text": "Yeni bir spora başlamadan önce doktor kontrolü gereken durumları öğren.",
+      "verify": true
+    },
+    {
+      "id": 591,
+      "seq": 788,
+      "categoryId": "saglik",
+      "text": "40 yaşından sonra kolesterol ve kalp sağlığı kontrollerini sıklaştır.",
+      "verify": true
+    },
+    {
+      "id": 592,
+      "seq": 715,
+      "categoryId": "saglik",
+      "text": "Aşırı kafein ve enerji içeceği tüketimini sınırla.",
+      "verify": true
+    },
+    {
+      "id": 593,
+      "seq": 979,
+      "categoryId": "saglik",
+      "text": "Gece geç saatte yemek yeme alışkanlığını azalt.",
+      "verify": false
+    },
+    {
+      "id": 594,
+      "seq": 379,
+      "categoryId": "saglik",
+      "text": "Tuz ve şeker tüketimini bilinçli takip et.",
+      "verify": false
+    },
+    {
+      "id": 595,
+      "seq": 588,
+      "categoryId": "saglik",
+      "text": "Meyve suyu yerine meyvenin kendisini tercih et.",
+      "verify": false
+    },
+    {
+      "id": 596,
+      "seq": 579,
+      "categoryId": "saglik",
+      "text": "Düzenli spor rutini, motivasyondan çok programa bağlıdır.",
+      "verify": false
+    },
+    {
+      "id": 597,
+      "seq": 797,
+      "categoryId": "saglik",
+      "text": "İlerleme için küçük ve ölçülebilir hedefler belirle.",
+      "verify": false
+    },
+    {
+      "id": 598,
+      "seq": 551,
+      "categoryId": "saglik",
+      "text": "Vücudunu başkalarıyla kıyaslamak yerine kendi gelişimini takip et.",
+      "verify": false
+    },
+    {
+      "id": 599,
+      "seq": 533,
+      "categoryId": "saglik",
+      "text": "Sağlığın değerini kaybedene kadar anlamamak yaygın bir hatadır; bugünden yatırım yap.",
+      "verify": false
+    },
+    {
+      "id": 600,
+      "seq": 451,
+      "categoryId": "saglik",
+      "text": "Bu içerik genel bilgidir; kişisel sağlık kararlarında mutlaka doktoruna danış.",
+      "verify": true
+    },
+    {
+      "id": 601,
+      "seq": 634,
+      "categoryId": "pratik",
+      "text": "Evdeki ana su vanasının ve elektrik panosunun yerini bil.",
+      "verify": false
+    },
+    {
+      "id": 602,
+      "seq": 434,
+      "categoryId": "pratik",
+      "text": "Lastik basıncını ayda bir, lastikler soğukken kontrol et.",
+      "verify": true
+    },
+    {
+      "id": 603,
+      "seq": 661,
+      "categoryId": "pratik",
+      "text": "Lastik değiştirmeyi acil durumdan önce bir kez dene; yedek lastiğin ve krikonun yerini bil.",
+      "verify": false
+    },
+    {
+      "id": 604,
+      "seq": 80,
+      "categoryId": "pratik",
+      "text": "Aküyü takviye kablosuyla doğru sırayla çalıştırmayı öğren; kablo bağlantı sırasını araç kılavuzundan teyit et.",
+      "verify": true
+    },
+    {
+      "id": 605,
+      "seq": 307,
+      "categoryId": "pratik",
+      "text": "Motor yağ seviyesini düz zeminde ve motor soğukken yağ çubuğuyla kontrol et.",
+      "verify": false
+    },
+    {
+      "id": 606,
+      "seq": 325,
+      "categoryId": "pratik",
+      "text": "Gösterge panelindeki uyarı ışıklarının anlamını öğren; kırmızı ışıkta güvenli bir yere çekip dur.",
+      "verify": false
+    },
+    {
+      "id": 607,
+      "seq": 225,
+      "categoryId": "pratik",
+      "text": "Tıkanık lavaboyu önce pompayla aç; farklı kimyasalları asla karıştırma.",
+      "verify": true
+    },
+    {
+      "id": 608,
+      "seq": 707,
+      "categoryId": "pratik",
+      "text": "Elektrik işine başlamadan önce şalteri kapat ve gerilim olmadığını doğrula.",
+      "verify": true
+    },
+    {
+      "id": 609,
+      "seq": 780,
+      "categoryId": "pratik",
+      "text": "Duvara uygun dübel kullan; delmeden önce boru ve kablo hattına dikkat et.",
+      "verify": false
+    },
+    {
+      "id": 610,
+      "seq": 916,
+      "categoryId": "pratik",
+      "text": "Temel bir alet seti edin: tornavida seti, pense, İngiliz anahtarı, çekiç, metre, su terazisi.",
+      "verify": false
+    },
+    {
+      "id": 611,
+      "seq": 843,
+      "categoryId": "pratik",
+      "text": "Doğalgaz kokusu aldığında açık alev ve elektrik anahtarı kullanma, pencereleri aç, dışarı çık ve dışarıdan ara.",
+      "verify": true
+    },
+    {
+      "id": 612,
+      "seq": 98,
+      "categoryId": "pratik",
+      "text": "Evde yangın söndürücü ve duman dedektörü bulundur, kullanımını öğren.",
+      "verify": true
+    },
+    {
+      "id": 613,
+      "seq": 243,
+      "categoryId": "pratik",
+      "text": "Yağ yangınına asla su dökme; kapağı kapat ve ocağı kapat.",
+      "verify": true
+    },
+    {
+      "id": 614,
+      "seq": 161,
+      "categoryId": "pratik",
+      "text": "Çok prizli uzatma kablolarına ağır cihazları bağlama.",
+      "verify": true
+    },
+    {
+      "id": 615,
+      "seq": 498,
+      "categoryId": "pratik",
+      "text": "Islak elle elektrikli cihaza dokunma.",
+      "verify": true
+    },
+    {
+      "id": 616,
+      "seq": 107,
+      "categoryId": "pratik",
+      "text": "Sigortası sık atan bir hattı kendin kurcalama; elektrikçiye göster.",
+      "verify": true
+    },
+    {
+      "id": 617,
+      "seq": 143,
+      "categoryId": "pratik",
+      "text": "Damlayan musluğun contasını ya da kartuşunu değiştirmeyi öğren.",
+      "verify": false
+    },
+    {
+      "id": 618,
+      "seq": 834,
+      "categoryId": "pratik",
+      "text": "Klozet rezervuarı sızdırıyorsa şamandırayı ve contayı kontrol et.",
+      "verify": false
+    },
+    {
+      "id": 619,
+      "seq": 25,
+      "categoryId": "pratik",
+      "text": "Banyo ve mutfak silikonunu yenilemeyi öğren.",
+      "verify": false
+    },
+    {
+      "id": 620,
+      "seq": 825,
+      "categoryId": "pratik",
+      "text": "Derz ve süpürgelik bakımını ihmal etme.",
+      "verify": false
+    },
+    {
+      "id": 621,
+      "seq": 198,
+      "categoryId": "pratik",
+      "text": "Evde nem ve küf oluşmasını havalandırma ile önle.",
+      "verify": false
+    },
+    {
+      "id": 622,
+      "seq": 416,
+      "categoryId": "pratik",
+      "text": "Evi günde birkaç dakika da olsa düzenli havalandır.",
+      "verify": false
+    },
+    {
+      "id": 623,
+      "seq": 616,
+      "categoryId": "pratik",
+      "text": "Kombi basıncını ve yıllık bakımını ihmal etme.",
+      "verify": true
+    },
+    {
+      "id": 624,
+      "seq": 207,
+      "categoryId": "pratik",
+      "text": "Radyatörleri sezon başında havalandır.",
+      "verify": false
+    },
+    {
+      "id": 625,
+      "seq": 589,
+      "categoryId": "pratik",
+      "text": "Klima filtrelerini düzenli temizle.",
+      "verify": false
+    },
+    {
+      "id": 626,
+      "seq": 407,
+      "categoryId": "pratik",
+      "text": "Buzdolabı ve çamaşır makinesi filtrelerini periyodik temizle.",
+      "verify": false
+    },
+    {
+      "id": 627,
+      "seq": 698,
+      "categoryId": "pratik",
+      "text": "Makineye uygun deterjan ve doğru miktar kullan.",
+      "verify": false
+    },
+    {
+      "id": 628,
+      "seq": 789,
+      "categoryId": "pratik",
+      "text": "Çamaşırı renk ve kumaşa göre ayır; etiketteki talimata uy.",
+      "verify": false
+    },
+    {
+      "id": 629,
+      "seq": 216,
+      "categoryId": "pratik",
+      "text": "Gömleği doğru ütülemeyi öğren: yaka, manşet, kol, ön ve arka sırasıyla.",
+      "verify": false
+    },
+    {
+      "id": 630,
+      "seq": 816,
+      "categoryId": "pratik",
+      "text": "Düğme dikmeyi ve basit bir söküğü onarmayı öğren.",
+      "verify": false
+    },
+    {
+      "id": 631,
+      "seq": 943,
+      "categoryId": "pratik",
+      "text": "Lekeyi ovalamak yerine bastırarak emdir; sıcak su kan ve proteinli lekeleri sabitler.",
+      "verify": false
+    },
+    {
+      "id": 632,
+      "seq": 489,
+      "categoryId": "pratik",
+      "text": "Temel yemekleri (menemen, makarna, pilav, çorba, tavuk, et) pişirmeyi öğren.",
+      "verify": false
+    },
+    {
+      "id": 633,
+      "seq": 280,
+      "categoryId": "pratik",
+      "text": "Bıçak tutmayı ve soğan doğramayı doğru öğren.",
+      "verify": false
+    },
+    {
+      "id": 634,
+      "seq": 261,
+      "categoryId": "pratik",
+      "text": "Et ve tavuğu iç sıcaklığına göre güvenli pişir.",
+      "verify": false
+    },
+    {
+      "id": 635,
+      "seq": 889,
+      "categoryId": "pratik",
+      "text": "Buzdolabında çiğ gıdayı en alt rafta tut.",
+      "verify": false
+    },
+    {
+      "id": 636,
+      "seq": 989,
+      "categoryId": "pratik",
+      "text": "Haftalık menü planı yap; yemeği boşa harcama.",
+      "verify": false
+    },
+    {
+      "id": 637,
+      "seq": 907,
+      "categoryId": "pratik",
+      "text": "Alışverişte son kullanma tarihini kontrol et.",
+      "verify": false
+    },
+    {
+      "id": 638,
+      "seq": 252,
+      "categoryId": "pratik",
+      "text": "Mutfakta yangın ve kesik riskine karşı hazırlıklı ol.",
+      "verify": false
+    },
+    {
+      "id": 639,
+      "seq": 507,
+      "categoryId": "pratik",
+      "text": "Temel temizlik malzemelerini (sirke, karbonat, bulaşık deterjanı) tanı ve karıştırma kurallarını bil.",
+      "verify": true
+    },
+    {
+      "id": 640,
+      "seq": 234,
+      "categoryId": "pratik",
+      "text": "Çamaşır suyu ve amonyaklı ürünleri asla karıştırma.",
+      "verify": true
+    },
+    {
+      "id": 641,
+      "seq": 861,
+      "categoryId": "pratik",
+      "text": "Banyoyu düzenli temizle; ıslak bırakma.",
+      "verify": false
+    },
+    {
+      "id": 642,
+      "seq": 7,
+      "categoryId": "pratik",
+      "text": "Evde bir \"arıza ve bakım defteri\" tut: tarih, sorun, çözüm.",
+      "verify": false
+    },
+    {
+      "id": 643,
+      "seq": 880,
+      "categoryId": "pratik",
+      "text": "Kiracıysan küçük arızaları hemen ev sahibine bildir.",
+      "verify": false
+    },
+    {
+      "id": 644,
+      "seq": 352,
+      "categoryId": "pratik",
+      "text": "Taşınmadan önce eşyalarını ayıkla; gereksizleri sat ya da bağışla.",
+      "verify": false
+    },
+    {
+      "id": 645,
+      "seq": 298,
+      "categoryId": "pratik",
+      "text": "Taşınmada kırılgan ve değerli eşyaları kendin taşı ya da fotoğrafını çek.",
+      "verify": false
+    },
+    {
+      "id": 646,
+      "seq": 316,
+      "categoryId": "pratik",
+      "text": "Önemli belgeleri su ve yangına dayanıklı bir yerde sakla.",
+      "verify": false
+    },
+    {
+      "id": 647,
+      "seq": 152,
+      "categoryId": "pratik",
+      "text": "Evden uzun süre ayrılırken su, gaz ve cihazları kapat.",
+      "verify": false
+    },
+    {
+      "id": 648,
+      "seq": 534,
+      "categoryId": "pratik",
+      "text": "Anahtarların yedeğini güvendiğin bir yerde sakla.",
+      "verify": false
+    },
+    {
+      "id": 649,
+      "seq": 652,
+      "categoryId": "pratik",
+      "text": "Eşyaları sabit bir yere koyma alışkanlığı kazan.",
+      "verify": false
+    },
+    {
+      "id": 650,
+      "seq": 807,
+      "categoryId": "pratik",
+      "text": "Deprem çantası hazırla ve içindekileri düzenli güncelle.",
+      "verify": true
+    },
+    {
+      "id": 651,
+      "seq": 89,
+      "categoryId": "pratik",
+      "text": "Çök-kapan-tutun'u bil ve evde güvenli noktaları belirle.",
+      "verify": true
+    },
+    {
+      "id": 652,
+      "seq": 361,
+      "categoryId": "pratik",
+      "text": "Binanın deprem dayanıklılığı ve ilgili yönetmelikleri öğren.",
+      "verify": true
+    },
+    {
+      "id": 653,
+      "seq": 752,
+      "categoryId": "pratik",
+      "text": "Ağır mobilyaları duvara sabitle.",
+      "verify": false
+    },
+    {
+      "id": 654,
+      "seq": 761,
+      "categoryId": "pratik",
+      "text": "Kombi, şofben ve soba kaynaklı karbonmonoksit zehirlenmesi riskini bil.",
+      "verify": true
+    },
+    {
+      "id": 655,
+      "seq": 580,
+      "categoryId": "pratik",
+      "text": "Lastiklerin diş derinliğini ve yaşını kontrol et.",
+      "verify": true
+    },
+    {
+      "id": 656,
+      "seq": 134,
+      "categoryId": "pratik",
+      "text": "Mevsime uygun lastik kullan.",
+      "verify": true
+    },
+    {
+      "id": 657,
+      "seq": 925,
+      "categoryId": "pratik",
+      "text": "Araç bakımlarını kilometre ya da zamana göre yap ve faturalarını sakla.",
+      "verify": false
+    },
+    {
+      "id": 658,
+      "seq": 516,
+      "categoryId": "pratik",
+      "text": "Antifriz, cam suyu ve fren hidroliği gibi sıvıların seviyesini bil.",
+      "verify": false
+    },
+    {
+      "id": 659,
+      "seq": 425,
+      "categoryId": "pratik",
+      "text": "Ampul ve sigorta değiştirmeyi öğren.",
+      "verify": false
+    },
+    {
+      "id": 660,
+      "seq": 725,
+      "categoryId": "pratik",
+      "text": "Silecek lastiklerini sezon başında yenile.",
+      "verify": false
+    },
+    {
+      "id": 661,
+      "seq": 625,
+      "categoryId": "pratik",
+      "text": "Aracın evrak ve muayene tarihlerini takvimine işle.",
+      "verify": true
+    },
+    {
+      "id": 662,
+      "seq": 643,
+      "categoryId": "pratik",
+      "text": "Araçta yedek lastik, kriko, reflektör, ilk yardım çantası ve yangın söndürücü bulundur.",
+      "verify": true
+    },
+    {
+      "id": 663,
+      "seq": 961,
+      "categoryId": "pratik",
+      "text": "Yolda kalırsan güvenli bir yere çek, dörtlüleri yak ve reflektör kur.",
+      "verify": true
+    },
+    {
+      "id": 664,
+      "seq": 116,
+      "categoryId": "pratik",
+      "text": "Otoyolda arızada araçta değil, bariyerin gerisinde bekle.",
+      "verify": true
+    },
+    {
+      "id": 665,
+      "seq": 43,
+      "categoryId": "pratik",
+      "text": "Aracı yokuşta bırakırken el frenini çek, vitesi bırak ve tekerlekleri yola göre çevir.",
+      "verify": false
+    },
+    {
+      "id": 666,
+      "seq": 598,
+      "categoryId": "pratik",
+      "text": "Yağışlı havada takip mesafesini artır ve hızını düşür.",
+      "verify": false
+    },
+    {
+      "id": 667,
+      "seq": 980,
+      "categoryId": "pratik",
+      "text": "Karlı ve buzlu yolda ani fren ve ani direksiyondan kaçın.",
+      "verify": false
+    },
+    {
+      "id": 668,
+      "seq": 480,
+      "categoryId": "pratik",
+      "text": "Aracını bırakırken kapıları kilitle ve değerli eşyayı görünür bırakma.",
+      "verify": false
+    },
+    {
+      "id": 669,
+      "seq": 561,
+      "categoryId": "pratik",
+      "text": "Araç kullanırken telefonla uğraşma.",
+      "verify": false
+    },
+    {
+      "id": 670,
+      "seq": 852,
+      "categoryId": "pratik",
+      "text": "Yorgunken ya da uykusuzken direksiyona geçme.",
+      "verify": false
+    },
+    {
+      "id": 671,
+      "seq": 125,
+      "categoryId": "pratik",
+      "text": "Servise gitmeden önce sorunu not et ve yazılı fiyat teklifi iste.",
+      "verify": false
+    },
+    {
+      "id": 672,
+      "seq": 689,
+      "categoryId": "pratik",
+      "text": "Servise değiştirilen eski parçayı görmek istediğini söyle.",
+      "verify": false
+    },
+    {
+      "id": 673,
+      "seq": 443,
+      "categoryId": "pratik",
+      "text": "Önemli onarımlar için ikinci bir servisten fiyat al.",
+      "verify": false
+    },
+    {
+      "id": 674,
+      "seq": 552,
+      "categoryId": "pratik",
+      "text": "Kullanılan parçanın orijinal mi muadil mi olduğunu sor.",
+      "verify": false
+    },
+    {
+      "id": 675,
+      "seq": 189,
+      "categoryId": "pratik",
+      "text": "Araç bakım fatura ve kayıtlarını sakla; ikinci elde değer katar.",
+      "verify": false
+    },
+    {
+      "id": 676,
+      "seq": 289,
+      "categoryId": "pratik",
+      "text": "Araç satın alırken ekspertiz raporunu ve geçmiş kayıtları kontrol et.",
+      "verify": true
+    },
+    {
+      "id": 677,
+      "seq": 716,
+      "categoryId": "pratik",
+      "text": "Bisikletin basit bakımını ve lastik tamirini öğren.",
+      "verify": false
+    },
+    {
+      "id": 678,
+      "seq": 380,
+      "categoryId": "pratik",
+      "text": "Bisikletle yola çıkarken kask ve ışık kullan.",
+      "verify": false
+    },
+    {
+      "id": 679,
+      "seq": 452,
+      "categoryId": "pratik",
+      "text": "Raf asma ve mobilya montajı gibi basit işleri el aletleriyle yapmayı öğren.",
+      "verify": false
+    },
+    {
+      "id": 680,
+      "seq": 607,
+      "categoryId": "pratik",
+      "text": "Montaj talimatını okumadan mobilyayı kurmaya başlama.",
+      "verify": false
+    },
+    {
+      "id": 681,
+      "seq": 952,
+      "categoryId": "pratik",
+      "text": "Matkap ve elektrikli aletlerle çalışırken koruyucu gözlük kullan.",
+      "verify": false
+    },
+    {
+      "id": 682,
+      "seq": 998,
+      "categoryId": "pratik",
+      "text": "Boya yapmadan önce yüzeyi temizle ve zımparala.",
+      "verify": false
+    },
+    {
+      "id": 683,
+      "seq": 798,
+      "categoryId": "pratik",
+      "text": "Ahşap, metal ve plastiği yapıştırırken doğru yapıştırıcıyı kullan.",
+      "verify": false
+    },
+    {
+      "id": 684,
+      "seq": 461,
+      "categoryId": "pratik",
+      "text": "Birkaç temel düğümü öğren: iskele, kazık, sekizli.",
+      "verify": false
+    },
+    {
+      "id": 685,
+      "seq": 398,
+      "categoryId": "pratik",
+      "text": "Kravat ya da fular bağlamayı bir kez doğru öğren.",
+      "verify": false,
+      "variants": {
+        "male": "Kravat bağlamayı (en azından klasik ve yarım Windsor düğümü) bir kez doğru öğren.",
+        "female": "Fular ve şal bağlama yöntemlerini öğren; küçük bir aksesuarla tarzına şıklık kat."
+      }
+    },
+    {
+      "id": 686,
+      "seq": 734,
+      "categoryId": "pratik",
+      "text": "Haritaya ve pusulaya bakarak yön bulmayı öğren.",
+      "verify": false
+    },
+    {
+      "id": 687,
+      "seq": 343,
+      "categoryId": "pratik",
+      "text": "Telefon çekmeyen yerler için offline harita indir.",
+      "verify": false
+    },
+    {
+      "id": 688,
+      "seq": 743,
+      "categoryId": "pratik",
+      "text": "Kampta ateşi sadece izin verilen ve güvenli alanlarda yak; söndürmeden ayrılma.",
+      "verify": false
+    },
+    {
+      "id": 689,
+      "seq": 543,
+      "categoryId": "pratik",
+      "text": "Yüzme bilmeyi, en azından suda hayatta kalma temelleri düzeyinde öğren.",
+      "verify": true
+    },
+    {
+      "id": 690,
+      "seq": 34,
+      "categoryId": "pratik",
+      "text": "Doğada yürürken yanında su, harita ve yedek giysi bulundur.",
+      "verify": false
+    },
+    {
+      "id": 691,
+      "seq": 180,
+      "categoryId": "pratik",
+      "text": "Seyahatte bavulunu liste ile hazırla.",
+      "verify": false
+    },
+    {
+      "id": 692,
+      "seq": 52,
+      "categoryId": "pratik",
+      "text": "Seyahatte belge ve kart kopyalarını ayrı yerde sakla.",
+      "verify": false
+    },
+    {
+      "id": 693,
+      "seq": 525,
+      "categoryId": "pratik",
+      "text": "Bagaj ve el bagajı kurallarını havayolundan önceden öğren.",
+      "verify": true
+    },
+    {
+      "id": 694,
+      "seq": 334,
+      "categoryId": "pratik",
+      "text": "Yabancı ülkede acil durum numaralarını ve konsolosluğu öğren.",
+      "verify": true
+    },
+    {
+      "id": 695,
+      "seq": 898,
+      "categoryId": "pratik",
+      "text": "Yanında şarj aleti, powerbank ve kablo bulundur.",
+      "verify": false
+    },
+    {
+      "id": 696,
+      "seq": 680,
+      "categoryId": "pratik",
+      "text": "Elektronik cihazlarda temel sorun giderme adımlarını öğren: yeniden başlat, güncelle, kabloyu kontrol et.",
+      "verify": false
+    },
+    {
+      "id": 697,
+      "seq": 61,
+      "categoryId": "pratik",
+      "text": "Wi-Fi modemini yeniden başlatmayı ve şifresini değiştirmeyi bil.",
+      "verify": false
+    },
+    {
+      "id": 698,
+      "seq": 16,
+      "categoryId": "pratik",
+      "text": "Kendin yapamayacağın işler için güvenilir bir usta bul ve iletişimini sakla.",
+      "verify": false
+    },
+    {
+      "id": 699,
+      "seq": 934,
+      "categoryId": "pratik",
+      "text": "Bir işi kendin yapıp yapmayacağına karar verirken güvenlik, maliyet ve zamanı hesaba kat.",
+      "verify": false
+    },
+    {
+      "id": 700,
+      "seq": 389,
+      "categoryId": "pratik",
+      "text": "Basit işleri kendin yapabilmek hem para hem özgüven kazandırır; tehlikeli işlerde uzmana güvenmek ise akıllıcadır.",
+      "verify": false
+    },
+    {
+      "id": 701,
+      "seq": 599,
+      "categoryId": "gorunum",
+      "text": "Üstüne oturan beden giy; gömlek ve ceketin omuz dikişi omzunda bitmeli.",
+      "verify": false,
+      "variants": {
+        "male": "Üstüne oturan beden giy; gömlek ve ceketin omuz dikişi tam omzunda bitmeli.",
+        "female": "Vücut tipine oturan kalıplar seç; omuz dikişi ve bel kesimi proporsiyonunu dengelesin."
+      }
+    },
+    {
+      "id": 702,
+      "seq": 53,
+      "categoryId": "gorunum",
+      "text": "Ayakkabılarını temiz ve bakımlı tut; ilk bakılan yerlerden biridir.",
+      "verify": false
+    },
+    {
+      "id": 703,
+      "seq": 999,
+      "categoryId": "gorunum",
+      "text": "Her gün duş al; kötü koku ilk izlenimin en büyük engellerindendir.",
+      "verify": false
+    },
+    {
+      "id": 704,
+      "seq": 790,
+      "categoryId": "gorunum",
+      "text": "Parfümü az sür; bilek ya da boynuna 1-2 sıkış yeter.",
+      "verify": false
+    },
+    {
+      "id": 705,
+      "seq": 135,
+      "categoryId": "gorunum",
+      "text": "Tırnaklarını kısa ve temiz tut.",
+      "verify": false
+    },
+    {
+      "id": 706,
+      "seq": 671,
+      "categoryId": "gorunum",
+      "text": "Saçını düzenli yaptır ya da şekillendir.",
+      "verify": false,
+      "variants": {
+        "male": "Saç ve sakalını düzenli yaptır ya da şekillendir.",
+        "female": "Saç kesimini ve bakımını düzenli yaptır; kendini rahat ve iyi hissettiğin bir model bul."
+      }
+    },
+    {
+      "id": 707,
+      "seq": 544,
+      "categoryId": "gorunum",
+      "text": "Çamaşırı etikete uygun yıka ve ütüle.",
+      "verify": false
+    },
+    {
+      "id": 708,
+      "seq": 308,
+      "categoryId": "gorunum",
+      "text": "Ceket giyerken en alt düğmeyi açık bırak.",
+      "verify": false,
+      "variants": {
+        "male": "Takım elbise veya ceket giyerken en alt düğmeyi daima açık bırak.",
+        "female": "Blazer ve ceket seçiminde omuz genişliği ile bel oturuşunun dengeli olmasına dikkat et."
+      }
+    },
+    {
+      "id": 709,
+      "seq": 635,
+      "categoryId": "gorunum",
+      "text": "Kemer ile ayakkabı rengini uydur; çorabı pantolonla uyumlu seç.",
+      "verify": false,
+      "variants": {
+        "male": "Kemer ile ayakkabı rengini uydur; çorabı pantolon rengiyle uyumlu seç.",
+        "female": "Çanta ve ayakkabıda birebir aynı renk şart değildir; genel renk paletini ve tarzı uydur."
+      }
+    },
+    {
+      "id": 710,
+      "seq": 726,
+      "categoryId": "gorunum",
+      "text": "Temel gardırop kur: iyi oturan jean, beyaz gömlek, lacivert ceket, deri ayakkabı, sade bir kaban.",
+      "verify": false,
+      "variants": {
+        "male": "Temel gardırop kur: iyi oturan jean, beyaz gömlek, lacivert ceket, deri ayakkabı ve sade bir kaban.",
+        "female": "Kapsül gardırop kur: kaliteli bir jean, beyaz gömlek/tişört, blazer ceket, rahat şık ayakkabı ve sade bir kaban."
+      }
+    },
+    {
+      "id": 711,
+      "seq": 235,
+      "categoryId": "gorunum",
+      "text": "Çok ama vasat parça yerine az ama kaliteli parçayı tercih et.",
+      "verify": false
+    },
+    {
+      "id": 712,
+      "seq": 462,
+      "categoryId": "gorunum",
+      "text": "Satın almadan önce kıyafeti dene ve hareket ederek test et.",
+      "verify": false
+    },
+    {
+      "id": 713,
+      "seq": 244,
+      "categoryId": "gorunum",
+      "text": "Renk uyumunu basit tut: lacivert, gri, siyah, bej, beyaz bol; canlı renkler az.",
+      "verify": false
+    },
+    {
+      "id": 714,
+      "seq": 808,
+      "categoryId": "gorunum",
+      "text": "Desenli parçaları birbirine karıştırırken ölçülü ol.",
+      "verify": false
+    },
+    {
+      "id": 715,
+      "seq": 926,
+      "categoryId": "gorunum",
+      "text": "Pantolon paçasını ayakkabıya göre ayarlat; çok uzun ya da kırışık paça özensiz görünür.",
+      "verify": false
+    },
+    {
+      "id": 716,
+      "seq": 690,
+      "categoryId": "gorunum",
+      "text": "Terzi ile çalışmayı öğren; küçük ayar büyük fark yaratır.",
+      "verify": false
+    },
+    {
+      "id": 717,
+      "seq": 953,
+      "categoryId": "gorunum",
+      "text": "Gömlek ve pantolon ölçünü ve sana uyan kalıbı bil; marka değişse de ölçüne göre al.",
+      "verify": false,
+      "variants": {
+        "male": "Gömlek yaka ve kol boyunu, pantolon bedenini bil; kalıbına göre alışveriş yap.",
+        "female": "Vücut ölçülerini ve sana yakışan kalıpları bil; etiket numarasına değil kumaşın duruşuna bak."
+      }
+    },
+    {
+      "id": 718,
+      "seq": 435,
+      "categoryId": "gorunum",
+      "text": "Kravat, fular ya da eşarp gibi aksesuarları ortama ve kıyafete uygun seç.",
+      "verify": false,
+      "variants": {
+        "male": "Kravat boyu kemer tokasına tam gelecek şekilde ayarlanmalıdır.",
+        "female": "Takı, eşarp ve çanta aksesuarlarını sade tut; kıyafetinde tek bir odak noktası belirle."
+      }
+    },
+    {
+      "id": 719,
+      "seq": 271,
+      "categoryId": "gorunum",
+      "text": "Kravat, papyon ve fular gibi resmi aksesuarları sadece uygun ortamlarda kullan.",
+      "verify": false,
+      "variants": {
+        "male": "Kravat ve papyonu sadece uygun resmi ortamlarda kullan; günlükte abartıdan kaçın.",
+        "female": "Topuklu ayakkabıyı rahat yürüyebileceğin yükseklikte seç; ayak sağlığını bozan modellerden kaçın."
+      }
+    },
+    {
+      "id": 720,
+      "seq": 971,
+      "categoryId": "gorunum",
+      "text": "Takımı ya da ceketi her giyişten sonra havalandır; sık kuru temizlemeye verme.",
+      "verify": false,
+      "variants": {
+        "male": "Takım elbiseyi her giyişten sonra havalandır; sık kuru temizleme kumaş ömrünü kısaltır.",
+        "female": "Hassas elbiseleri ve ceketleri her giyişten sonra havalandır; sık kuru temizlemeyle kumaşı yıpratma."
+      }
+    },
+    {
+      "id": 721,
+      "seq": 826,
+      "categoryId": "gorunum",
+      "text": "Ceket ceplerini eşyayla doldurma; silueti bozar.",
+      "verify": false,
+      "variants": {
+        "male": "Ceket ve pantolon ceplerini telefon ve anahtarla şişirme; silueti bozar.",
+        "female": "Omuz çantana gereksiz ağırlık yükleme; hem duruşunu hem omurga sağlığını bozar."
+      }
+    },
+    {
+      "id": 722,
+      "seq": 862,
+      "categoryId": "gorunum",
+      "text": "Saatini, cüzdanını ve kemerini sade ve kaliteli seç.",
+      "verify": false,
+      "variants": {
+        "male": "Saatini, cüzdanını ve kemerini sade, kaliteli ve birbiriyle uyumlu seç.",
+        "female": "Günlük çanta, saat ve cüzdanında zamansız ve kaliteli parçaları tercih et."
+      }
+    },
+    {
+      "id": 723,
+      "seq": 90,
+      "categoryId": "gorunum",
+      "text": "Cüzdanı ve çantayı şişirme; gereksizleri çıkar.",
+      "verify": false
+    },
+    {
+      "id": 724,
+      "seq": 526,
+      "categoryId": "gorunum",
+      "text": "Gözlük çerçevesini yüz şekline göre seç.",
+      "verify": false
+    },
+    {
+      "id": 725,
+      "seq": 299,
+      "categoryId": "gorunum",
+      "text": "Güneş gözlüğünü UV korumalı ve yüzüne uygun seç.",
+      "verify": true
+    },
+    {
+      "id": 726,
+      "seq": 735,
+      "categoryId": "gorunum",
+      "text": "Beyaz çorabı ve spor ayakkabıyı takım ya da resmi kıyafetle giyme.",
+      "verify": false,
+      "variants": {
+        "male": "Beyaz spor çorabı klasik takım elbise veya kumaş pantolonla asla giyme.",
+        "female": "Resmi ve iş kıyafetlerinde ten veya kıyafete uygun çorap seç; açık spor çoraplardan kaçın."
+      }
+    },
+    {
+      "id": 727,
+      "seq": 571,
+      "categoryId": "gorunum",
+      "text": "Ayakkabını ortama göre seç: spor ayakkabı, loafer ve oxford farklı bağlamlara aittir.",
+      "verify": false,
+      "variants": {
+        "male": "Ayakkabını ortama göre seç: sneaker, loafer ve oxford farklı resmiyet seviyelerine aittir.",
+        "female": "Ayakkabını ortama göre seç: sneaker, babet, loafer ve topuklu farklı kullanım alanlarına aittir."
+      }
+    },
+    {
+      "id": 728,
+      "seq": 908,
+      "categoryId": "gorunum",
+      "text": "Ayakkabı bakımını yap: temizle, boyayı yenile, ayakkabı ağacı kullan.",
+      "verify": false
+    },
+    {
+      "id": 729,
+      "seq": 317,
+      "categoryId": "gorunum",
+      "text": "Aynı ayakkabıyı her gün giyme; dinlendir.",
+      "verify": false
+    },
+    {
+      "id": 730,
+      "seq": 508,
+      "categoryId": "gorunum",
+      "text": "Delinmiş ya da solmuş çorap giyme.",
+      "verify": false
+    },
+    {
+      "id": 731,
+      "seq": 962,
+      "categoryId": "gorunum",
+      "text": "İç çamaşırı ve çorabı düzenli yenile.",
+      "verify": false
+    },
+    {
+      "id": 732,
+      "seq": 717,
+      "categoryId": "gorunum",
+      "text": "Sıkan ve rahatsız eden kıyafet özgüvenini düşürür; rahat giy.",
+      "verify": false
+    },
+    {
+      "id": 733,
+      "seq": 890,
+      "categoryId": "gorunum",
+      "text": "Kıyafetini hava durumuna ve ortama göre seç.",
+      "verify": false
+    },
+    {
+      "id": 734,
+      "seq": 453,
+      "categoryId": "gorunum",
+      "text": "Düğün ve resmi davetlerde kıyafet kuralını önceden öğren.",
+      "verify": false,
+      "variants": {
+        "male": "Düğün ve davetlerde dress codea uy; gereksiz abartılı ya da fazla spor kalmaktan kaçın.",
+        "female": "Düğünlerde gelinle yarışan beyaz tonlarından kaçın; davetin konseptine uygun zarafette giyin."
+      }
+    },
+    {
+      "id": 735,
+      "seq": 417,
+      "categoryId": "gorunum",
+      "text": "Cenazede koyu ve sade giyin.",
+      "verify": false
+    },
+    {
+      "id": 736,
+      "seq": 35,
+      "categoryId": "gorunum",
+      "text": "İş mülakatında şirketin tarzından bir kademe daha resmi giyin.",
+      "verify": false
+    },
+    {
+      "id": 737,
+      "seq": 326,
+      "categoryId": "gorunum",
+      "text": "Spor kıyafetini sokak kıyafetiyle karıştırma ve spor sonrası duş al.",
+      "verify": false
+    },
+    {
+      "id": 738,
+      "seq": 371,
+      "categoryId": "gorunum",
+      "text": "Terlemiş kıyafetleri torbada bekletme; hemen yıka.",
+      "verify": false
+    },
+    {
+      "id": 739,
+      "seq": 699,
+      "categoryId": "gorunum",
+      "text": "Deodorant veya antiperspirant kullan.",
+      "verify": false
+    },
+    {
+      "id": 740,
+      "seq": 817,
+      "categoryId": "gorunum",
+      "text": "Ağız bakımına özen göster: dil temizliği, diş ipi, gargara.",
+      "verify": false
+    },
+    {
+      "id": 741,
+      "seq": 517,
+      "categoryId": "gorunum",
+      "text": "Nefes kokusu ilk izlenimin belirleyicilerindendir.",
+      "verify": false
+    },
+    {
+      "id": 742,
+      "seq": 617,
+      "categoryId": "gorunum",
+      "text": "Cildini temizle, nemlendir ve güneşten koru.",
+      "verify": true
+    },
+    {
+      "id": 743,
+      "seq": 62,
+      "categoryId": "gorunum",
+      "text": "Yüz temizleyicisini cilt tipine göre seç.",
+      "verify": false
+    },
+    {
+      "id": 744,
+      "seq": 362,
+      "categoryId": "gorunum",
+      "text": "Güneş kremini her gün kullan.",
+      "verify": true
+    },
+    {
+      "id": 745,
+      "seq": 662,
+      "categoryId": "gorunum",
+      "text": "Uzun süren cilt sorunlarında (akne, kuruluk, kızarıklık) dermatoloğa git.",
+      "verify": true
+    },
+    {
+      "id": 746,
+      "seq": 499,
+      "categoryId": "gorunum",
+      "text": "Yüz ve saç bakım ürünlerini cildine uygun seç; gece yatmadan önce yüzünü temizle.",
+      "verify": false,
+      "variants": {
+        "male": "Sakal bakımı için düzenli düzeltme yap, temiz tut ve sakal yağıyla besle.",
+        "female": "Makyajla asla uyuma; gece yatmadan önce cildini arındır ve nemlendir."
+      }
+    },
+    {
+      "id": 747,
+      "seq": 162,
+      "categoryId": "gorunum",
+      "text": "Tıraş olurken temiz jilet kullan ve sonrasında cildini nemlendir.",
+      "verify": false,
+      "variants": {
+        "male": "Tıraş olurken temiz jilet kullan, sakal yönünde kes ve sonrasında cildini nemlendir.",
+        "female": "Epilasyon ve cilt temizliğinde hijyene dikkat et; batıkları ve tahrişi önlemek için nemlendir."
+      }
+    },
+    {
+      "id": 748,
+      "seq": 871,
+      "categoryId": "gorunum",
+      "text": "Burun ve kulak kıllarını düzenli kes.",
+      "verify": false,
+      "variants": {
+        "male": "Burun ve kulak kıllarını düzenli temizle; küçük ayrıntılar bakımlı görünümü belirler.",
+        "female": "Yüzdeki istenmeyen tüyleri düzenli temizle; kaş ve cilt pürüzsüzlüğünü koru."
+      }
+    },
+    {
+      "id": 749,
+      "seq": 753,
+      "categoryId": "gorunum",
+      "text": "Kaş ve saç çevresi çizgilerini düzenli aralıklarla düzelttir.",
+      "verify": false,
+      "variants": {
+        "male": "Ense ve sakal sınırlarını temiz tut; kaş ortasını abartmadan toparla.",
+        "female": "Kaş şekillendirirken doğal formunu bozma; aşırı inceltmek yerine yüzüne yakışan kavis ver."
+      }
+    },
+    {
+      "id": 750,
+      "seq": 199,
+      "categoryId": "gorunum",
+      "text": "Kendine uygun saç modelini bir kuaför ya da berberden öğren.",
+      "verify": false,
+      "variants": {
+        "male": "Yüz şekline ve saç yapına uyan saç-sakal modelini profesyonel bir berberden öğren.",
+        "female": "Yüz tipine ve saç dokuna en uygun kesimi ve renk tonunu güvendiğin bir kuaförle belirle."
+      }
+    },
+    {
+      "id": 751,
+      "seq": 744,
+      "categoryId": "gorunum",
+      "text": "Kuaförünü ya da berberini düzenli ziyaret et; aynı kişiyle çalışmak seni tanımasını sağlar.",
+      "verify": false,
+      "variants": {
+        "male": "Berberini düzenli ziyaret et; tarzını ve saç yapını iyi bilen tek bir berberle çalış.",
+        "female": "Kuaförünü düzenli ziyaret et; saçını ve beklentilerini tanıyan uzmanla devam et."
+      }
+    },
+    {
+      "id": 752,
+      "seq": 44,
+      "categoryId": "gorunum",
+      "text": "Saç dökülmesi artarsa bir uzmana danış; kendi başına ürün deneme.",
+      "verify": true
+    },
+    {
+      "id": 753,
+      "seq": 562,
+      "categoryId": "gorunum",
+      "text": "Şampuanı sık değiştirme; saç derine uygun olanı seç.",
+      "verify": false
+    },
+    {
+      "id": 754,
+      "seq": 471,
+      "categoryId": "gorunum",
+      "text": "Saç ürünlerini (jel, wax) aşırı kullanma.",
+      "verify": false,
+      "variants": {
+        "male": "Jel, wax ve köpük gibi saç şekillendiricileri aşırı kullanma; saçın doğal dursun.",
+        "female": "Saç kurutma ve maşada aşırı ısıdan kaçın; ısı koruyucu serum kullanarak saç tellerini koru."
+      }
+    },
+    {
+      "id": 755,
+      "seq": 653,
+      "categoryId": "gorunum",
+      "text": "Parfümü almadan önce cildinde dene ve birkaç saat bekle.",
+      "verify": false
+    },
+    {
+      "id": 756,
+      "seq": 8,
+      "categoryId": "gorunum",
+      "text": "Parfümü mevsime göre seç: yazın hafif, kışın daha yoğun.",
+      "verify": false
+    },
+    {
+      "id": 757,
+      "seq": 208,
+      "categoryId": "gorunum",
+      "text": "İş ortamında yoğun parfümden kaçın.",
+      "verify": false
+    },
+    {
+      "id": 758,
+      "seq": 144,
+      "categoryId": "gorunum",
+      "text": "Tırnak yemek ve el hijyenini ihmal etmek özensiz bir izlenim bırakır.",
+      "verify": false
+    },
+    {
+      "id": 759,
+      "seq": 171,
+      "categoryId": "gorunum",
+      "text": "Ellerini düzenli nemlendir.",
+      "verify": false
+    },
+    {
+      "id": 760,
+      "seq": 899,
+      "categoryId": "gorunum",
+      "text": "Dudaklar için nemlendirici kullan.",
+      "verify": false
+    },
+    {
+      "id": 761,
+      "seq": 944,
+      "categoryId": "gorunum",
+      "text": "Duruşunu düzelt; dik duran biri daha özgüvenli görünür.",
+      "verify": false
+    },
+    {
+      "id": 762,
+      "seq": 444,
+      "categoryId": "gorunum",
+      "text": "Yürüyüşünü ve oturuşunu bilinçli yönet.",
+      "verify": false
+    },
+    {
+      "id": 763,
+      "seq": 17,
+      "categoryId": "gorunum",
+      "text": "Çıkmadan önce aynada saç, yaka, ayakkabı ve dişlerini kontrol et.",
+      "verify": false
+    },
+    {
+      "id": 764,
+      "seq": 153,
+      "categoryId": "gorunum",
+      "text": "Fotoğrafta doğal ve rahat ol; zorlama pozlardan kaçın.",
+      "verify": false
+    },
+    {
+      "id": 765,
+      "seq": 390,
+      "categoryId": "gorunum",
+      "text": "Profil fotoğrafında iyi ışıkta, net ve doğal bir kare kullan.",
+      "verify": false
+    },
+    {
+      "id": 766,
+      "seq": 590,
+      "categoryId": "gorunum",
+      "text": "Kıyafeti özgüvenle taşı; sana ait uyumlu bir tarz bul.",
+      "verify": false
+    },
+    {
+      "id": 767,
+      "seq": 217,
+      "categoryId": "gorunum",
+      "text": "Başkalarının tarzını kopyalamak yerine kendi tarzını geliştir.",
+      "verify": false
+    },
+    {
+      "id": 768,
+      "seq": 335,
+      "categoryId": "gorunum",
+      "text": "Trendleri takip etmek zorunda değilsin; klasik parçalar uzun ömürlüdür.",
+      "verify": false
+    },
+    {
+      "id": 769,
+      "seq": 344,
+      "categoryId": "gorunum",
+      "text": "Alışverişe planla ve ihtiyaç listesiyle git.",
+      "verify": false
+    },
+    {
+      "id": 770,
+      "seq": 99,
+      "categoryId": "gorunum",
+      "text": "Eskiyen ve artık giymediğin kıyafetleri ayıkla.",
+      "verify": false
+    },
+    {
+      "id": 771,
+      "seq": 108,
+      "categoryId": "gorunum",
+      "text": "Gardırobunu yılda iki kez mevsimine göre düzenle.",
+      "verify": false
+    },
+    {
+      "id": 772,
+      "seq": 553,
+      "categoryId": "gorunum",
+      "text": "Kıyafetleri uygun askıda asarak ya da katlayarak sakla.",
+      "verify": false
+    },
+    {
+      "id": 773,
+      "seq": 917,
+      "categoryId": "gorunum",
+      "text": "Kazakları asma, katla; omuzda iz yapar.",
+      "verify": false
+    },
+    {
+      "id": 774,
+      "seq": 762,
+      "categoryId": "gorunum",
+      "text": "Ceketleri geniş omuzlu askıya as.",
+      "verify": false
+    },
+    {
+      "id": 775,
+      "seq": 799,
+      "categoryId": "gorunum",
+      "text": "Deri ürünleri bakım kremi ve doğru saklamayla koru.",
+      "verify": false
+    },
+    {
+      "id": 776,
+      "seq": 126,
+      "categoryId": "gorunum",
+      "text": "Beyaz ve koyu giysileri ayrı yıka.",
+      "verify": false
+    },
+    {
+      "id": 777,
+      "seq": 190,
+      "categoryId": "gorunum",
+      "text": "Çamaşırı gereksiz yüksek sıcaklıkta yıkayıp kumaşa zarar verme.",
+      "verify": false
+    },
+    {
+      "id": 778,
+      "seq": 853,
+      "categoryId": "gorunum",
+      "text": "Kıyafetlerdeki tüy ve atmaları temizle.",
+      "verify": false
+    },
+    {
+      "id": 779,
+      "seq": 71,
+      "categoryId": "gorunum",
+      "text": "Gömlek yakasındaki leke ve sararmayı erken temizle.",
+      "verify": false
+    },
+    {
+      "id": 780,
+      "seq": 990,
+      "categoryId": "gorunum",
+      "text": "Düğmesi kopmuş ya da söküğü olan kıyafeti giyme; hemen onar.",
+      "verify": false
+    },
+    {
+      "id": 781,
+      "seq": 708,
+      "categoryId": "gorunum",
+      "text": "Şort, terlik ve spor kıyafetlerini sosyal ortamlarda dikkatle seç.",
+      "verify": false
+    },
+    {
+      "id": 782,
+      "seq": 771,
+      "categoryId": "gorunum",
+      "text": "Mevsim ve ortam değişince kıyafet kuralını yeniden düşün.",
+      "verify": false
+    },
+    {
+      "id": 783,
+      "seq": 353,
+      "categoryId": "gorunum",
+      "text": "Kıyafet kalitesini şuradan anla: dikiş düzgünlüğü, kumaş yoğunluğu, astar ve düğme sağlamlığı.",
+      "verify": false
+    },
+    {
+      "id": 784,
+      "seq": 290,
+      "categoryId": "gorunum",
+      "text": "Ucuz ve çok almak yerine bir kez ve doğru almayı hedefle.",
+      "verify": false
+    },
+    {
+      "id": 785,
+      "seq": 426,
+      "categoryId": "gorunum",
+      "text": "Aksesuarları (saat, bileklik, kolye) ölçülü tut.",
+      "verify": false
+    },
+    {
+      "id": 786,
+      "seq": 935,
+      "categoryId": "gorunum",
+      "text": "Bir kombinde en fazla bir dikkat çekici parça kullan.",
+      "verify": false
+    },
+    {
+      "id": 787,
+      "seq": 608,
+      "categoryId": "gorunum",
+      "text": "Ten tonuna uygun renkleri öğren.",
+      "verify": false
+    },
+    {
+      "id": 788,
+      "seq": 644,
+      "categoryId": "gorunum",
+      "text": "Uzun süre oturduktan sonra kıyafetindeki kırışıklığı kontrol et.",
+      "verify": false
+    },
+    {
+      "id": 789,
+      "seq": 626,
+      "categoryId": "gorunum",
+      "text": "Sıcak havada nefes alabilen kumaşları (pamuk, keten) tercih et.",
+      "verify": false
+    },
+    {
+      "id": 790,
+      "seq": 226,
+      "categoryId": "gorunum",
+      "text": "Soğukta katmanlı giyin; ince katmanlar tek kalın katmandan daha esnektir.",
+      "verify": false
+    },
+    {
+      "id": 791,
+      "seq": 535,
+      "categoryId": "gorunum",
+      "text": "Yağmurluk ya da şemsiyeyi yanında taşı.",
+      "verify": false
+    },
+    {
+      "id": 792,
+      "seq": 490,
+      "categoryId": "gorunum",
+      "text": "Seyahatte kolay kırışmayan ve birbiriyle kombinlenebilen kıyafetleri seç.",
+      "verify": false
+    },
+    {
+      "id": 793,
+      "seq": 835,
+      "categoryId": "gorunum",
+      "text": "Seyahatte ayakkabıyı kılıfla ya da torbayla taşı.",
+      "verify": false
+    },
+    {
+      "id": 794,
+      "seq": 844,
+      "categoryId": "gorunum",
+      "text": "Kıyafetin yakışmasından önce rahat hissettirmesi gerekir.",
+      "verify": false
+    },
+    {
+      "id": 795,
+      "seq": 253,
+      "categoryId": "gorunum",
+      "text": "Dış görünüm ilk izlenimdir, karakter asıl izlenimdir; ikisine de yatırım yap.",
+      "verify": false
+    },
+    {
+      "id": 796,
+      "seq": 117,
+      "categoryId": "gorunum",
+      "text": "Kendine bakmak bencillik değil, saygıdır.",
+      "verify": false
+    },
+    {
+      "id": 797,
+      "seq": 408,
+      "categoryId": "gorunum",
+      "text": "Bakım rutinini basit tut: temizle, nemlendir, güneşten koru.",
+      "verify": false
+    },
+    {
+      "id": 798,
+      "seq": 262,
+      "categoryId": "gorunum",
+      "text": "Bakımlı olmak lüks harcama değil, düzen gerektirir.",
+      "verify": false
+    },
+    {
+      "id": 799,
+      "seq": 399,
+      "categoryId": "gorunum",
+      "text": "Başkalarını görünüşlerine göre yargılama; sen de buna göre yargılanmak istemezsin.",
+      "verify": false
+    },
+    {
+      "id": 800,
+      "seq": 26,
+      "categoryId": "gorunum",
+      "text": "Kendini iyi hissettiğin şekilde giyin ve bakımlı ol; özgüven en iyi aksesuardır.",
+      "verify": false
+    },
+    {
+      "id": 801,
+      "seq": 463,
+      "categoryId": "dijital",
+      "text": "Her hesap için farklı şifre kullan ve bir şifre yöneticisi edin.",
+      "verify": false
+    },
+    {
+      "id": 802,
+      "seq": 272,
+      "categoryId": "dijital",
+      "text": "E-posta, banka ve sosyal medyada iki adımlı doğrulamayı aç.",
+      "verify": false
+    },
+    {
+      "id": 803,
+      "seq": 936,
+      "categoryId": "dijital",
+      "text": "Şüpheli SMS ya da e-posta bağlantısına tıklama; banka işlemi için bağlantı yerine uygulamayı kendin aç.",
+      "verify": false
+    },
+    {
+      "id": 804,
+      "seq": 409,
+      "categoryId": "dijital",
+      "text": "Banka, polis ya da savcı diyen birine para veya kod verme; telefonu kapat, resmi numarayı kendin ara.",
+      "verify": false
+    },
+    {
+      "id": 805,
+      "seq": 172,
+      "categoryId": "dijital",
+      "text": "Doğrulama kodlarını kimseyle paylaşma.",
+      "verify": false
+    },
+    {
+      "id": 806,
+      "seq": 281,
+      "categoryId": "dijital",
+      "text": "Telefon ve bilgisayarını güncel tut.",
+      "verify": false
+    },
+    {
+      "id": 807,
+      "seq": 536,
+      "categoryId": "dijital",
+      "text": "Fotoğraf ve belgelerini en az iki yerde yedekle.",
+      "verify": false
+    },
+    {
+      "id": 808,
+      "seq": 54,
+      "categoryId": "dijital",
+      "text": "Halka açık Wi-Fi'da bankacılık ve hassas işlem yapma.",
+      "verify": false
+    },
+    {
+      "id": 809,
+      "seq": 436,
+      "categoryId": "dijital",
+      "text": "Konum, bilet ve kimlik gibi bilgileri sosyal medyada paylaşmadan önce düşün.",
+      "verify": false
+    },
+    {
+      "id": 810,
+      "seq": 154,
+      "categoryId": "dijital",
+      "text": "Kimlik ve önemli belge fotoğraflarını galeride açıkta değil, şifreli bir klasörde sakla.",
+      "verify": false
+    },
+    {
+      "id": 811,
+      "seq": 300,
+      "categoryId": "dijital",
+      "text": "Tahmin edilmesi zor, en az 12 karakterlik şifreler kullan; uzun bir parola cümlesi kısa karmaşık şifreden güçlüdür.",
+      "verify": false
+    },
+    {
+      "id": 812,
+      "seq": 927,
+      "categoryId": "dijital",
+      "text": "Mümkünse passkey (geçiş anahtarı) kullan.",
+      "verify": false
+    },
+    {
+      "id": 813,
+      "seq": 527,
+      "categoryId": "dijital",
+      "text": "SMS yerine doğrulama uygulaması ya da donanım anahtarını tercih et.",
+      "verify": false
+    },
+    {
+      "id": 814,
+      "seq": 81,
+      "categoryId": "dijital",
+      "text": "İki adımlı doğrulama için yedek kodlarını güvenli bir yerde sakla.",
+      "verify": false
+    },
+    {
+      "id": 815,
+      "seq": 509,
+      "categoryId": "dijital",
+      "text": "Ana e-posta hesabını en güçlü şekilde koru; diğer tüm hesapların kurtarma yolu oradan geçer.",
+      "verify": false
+    },
+    {
+      "id": 816,
+      "seq": 700,
+      "categoryId": "dijital",
+      "text": "Hesap kurtarma e-postasını ve telefon numaranı güncel tut.",
+      "verify": false
+    },
+    {
+      "id": 817,
+      "seq": 9,
+      "categoryId": "dijital",
+      "text": "Önemli hesaplar için ayrı bir e-posta adresi kullan.",
+      "verify": false
+    },
+    {
+      "id": 818,
+      "seq": 609,
+      "categoryId": "dijital",
+      "text": "Alışveriş ve bültenler için ikinci bir e-posta adresi kullan.",
+      "verify": false
+    },
+    {
+      "id": 819,
+      "seq": 545,
+      "categoryId": "dijital",
+      "text": "Gönderenin e-posta adresine bak; sadece görünen isme güvenme.",
+      "verify": false
+    },
+    {
+      "id": 820,
+      "seq": 472,
+      "categoryId": "dijital",
+      "text": "Aciliyet, korku ya da \"hesabın kapanacak\" baskısı yaratan mesajlar dolandırıcılık işaretidir.",
+      "verify": false
+    },
+    {
+      "id": 821,
+      "seq": 45,
+      "categoryId": "dijital",
+      "text": "Tanımadığın kişilerden gelen ekleri açma.",
+      "verify": false
+    },
+    {
+      "id": 822,
+      "seq": 100,
+      "categoryId": "dijital",
+      "text": "Bilmediğin QR kodu okutma; özellikle park ve ödeme noktalarında kontrol et.",
+      "verify": false
+    },
+    {
+      "id": 823,
+      "seq": 27,
+      "categoryId": "dijital",
+      "text": "Sahte siteleri adres çubuğundaki alan adına bakarak ayırt et.",
+      "verify": false
+    },
+    {
+      "id": 824,
+      "seq": 654,
+      "categoryId": "dijital",
+      "text": "Giriş yapmadan önce sitenin adresini doğru yazdığından emin ol.",
+      "verify": false
+    },
+    {
+      "id": 825,
+      "seq": 681,
+      "categoryId": "dijital",
+      "text": "Reklamdan gelen \"resmi site\" görünümlü sayfalara dikkat et; resmi siteyi doğrudan yaz.",
+      "verify": false
+    },
+    {
+      "id": 826,
+      "seq": 218,
+      "categoryId": "dijital",
+      "text": "Uygulamaları sadece resmi mağazalardan indir.",
+      "verify": false
+    },
+    {
+      "id": 827,
+      "seq": 118,
+      "categoryId": "dijital",
+      "text": "Uygulamanın istediği izinleri kontrol et; fener uygulamasının rehbere erişmek istemesi garip.",
+      "verify": false
+    },
+    {
+      "id": 828,
+      "seq": 636,
+      "categoryId": "dijital",
+      "text": "Kullanmadığın uygulamaları sil.",
+      "verify": false
+    },
+    {
+      "id": 829,
+      "seq": 909,
+      "categoryId": "dijital",
+      "text": "Kırık (crack) yazılım ve kaçak içerik sitelerinden uzak dur; zararlı yazılımın en yaygın yollarından biridir.",
+      "verify": false
+    },
+    {
+      "id": 830,
+      "seq": 709,
+      "categoryId": "dijital",
+      "text": "Telefon ve bilgisayarına ekran kilidi koy ve otomatik kilitlenmeyi aç.",
+      "verify": false
+    },
+    {
+      "id": 831,
+      "seq": 618,
+      "categoryId": "dijital",
+      "text": "Telefonunu kaybetmeye karşı \"cihazımı bul\" özelliğini aç.",
+      "verify": false
+    },
+    {
+      "id": 832,
+      "seq": 872,
+      "categoryId": "dijital",
+      "text": "Telefon ve bilgisayarda disk şifrelemeyi etkin tut.",
+      "verify": false
+    },
+    {
+      "id": 833,
+      "seq": 718,
+      "categoryId": "dijital",
+      "text": "Cihazı satarken ya da verirken fabrika ayarlarına döndür ve hesaplardan çıkış yap.",
+      "verify": false
+    },
+    {
+      "id": 834,
+      "seq": 563,
+      "categoryId": "dijital",
+      "text": "İşletim sisteminin güvenlik özelliklerini ve gerekiyorsa antivirüsü açık tut.",
+      "verify": false
+    },
+    {
+      "id": 835,
+      "seq": 736,
+      "categoryId": "dijital",
+      "text": "Güncellemeleri ertelemek yerine otomatik güncellemeyi aç.",
+      "verify": false
+    },
+    {
+      "id": 836,
+      "seq": 400,
+      "categoryId": "dijital",
+      "text": "Halka açık USB şarj noktalarında kendi kablonu ve adaptörünü kullan.",
+      "verify": false
+    },
+    {
+      "id": 837,
+      "seq": 127,
+      "categoryId": "dijital",
+      "text": "Bluetooth ve AirDrop gibi özellikleri gerekmedikçe herkese açık bırakma.",
+      "verify": false
+    },
+    {
+      "id": 838,
+      "seq": 918,
+      "categoryId": "dijital",
+      "text": "Modemin yönetici şifresini değiştir ve güçlü bir Wi-Fi şifresi kullan.",
+      "verify": false
+    },
+    {
+      "id": 839,
+      "seq": 554,
+      "categoryId": "dijital",
+      "text": "Misafirlerin için ayrı bir Wi-Fi ağı kullan.",
+      "verify": false
+    },
+    {
+      "id": 840,
+      "seq": 863,
+      "categoryId": "dijital",
+      "text": "Halka açık Wi-Fi'da hassas bir hesaba girmen gerekiyorsa mobil veriyi tercih et.",
+      "verify": false
+    },
+    {
+      "id": 841,
+      "seq": 672,
+      "categoryId": "dijital",
+      "text": "VPN'i mutlak koruma değil, güvensiz ağlarda ek koruma olarak gör; güvenilir bir sağlayıcı seç.",
+      "verify": false
+    },
+    {
+      "id": 842,
+      "seq": 236,
+      "categoryId": "dijital",
+      "text": "Şifreleri tarayıcıda değil, güvenilir bir şifre yöneticisinde sakla.",
+      "verify": false
+    },
+    {
+      "id": 843,
+      "seq": 763,
+      "categoryId": "dijital",
+      "text": "Şifreleri kâğıda yazıp ortalıkta bırakma.",
+      "verify": false
+    },
+    {
+      "id": 844,
+      "seq": 372,
+      "categoryId": "dijital",
+      "text": "Aynı şifreyi birden fazla yerde kullanma; biri sızınca hepsi sızar.",
+      "verify": false
+    },
+    {
+      "id": 845,
+      "seq": 800,
+      "categoryId": "dijital",
+      "text": "Hesabının sızıp sızmadığını güvenilir veri sızıntısı kontrol servisleriyle ara sıra sorgula.",
+      "verify": false
+    },
+    {
+      "id": 846,
+      "seq": 754,
+      "categoryId": "dijital",
+      "text": "Bir hesabında sızıntı olduysa o şifreyi ve aynısını kullandığın her yerde değiştir.",
+      "verify": false
+    },
+    {
+      "id": 847,
+      "seq": 600,
+      "categoryId": "dijital",
+      "text": "Hesaplarındaki \"aktif oturumlar\" listesini ara sıra kontrol et.",
+      "verify": false
+    },
+    {
+      "id": 848,
+      "seq": 836,
+      "categoryId": "dijital",
+      "text": "Şüpheli bir giriş bildirimi aldığında hemen şifreni değiştir ve oturumları kapat.",
+      "verify": false
+    },
+    {
+      "id": 849,
+      "seq": 572,
+      "categoryId": "dijital",
+      "text": "Sosyal medya hesaplarının gizlilik ayarlarını düzenle.",
+      "verify": false
+    },
+    {
+      "id": 850,
+      "seq": 209,
+      "categoryId": "dijital",
+      "text": "Kimlik, bilet, uçuş ve kredi kartı fotoğrafı paylaşma.",
+      "verify": false
+    },
+    {
+      "id": 851,
+      "seq": 309,
+      "categoryId": "dijital",
+      "text": "Tatil planını ve evden uzakta olduğunu gerçek zamanlı paylaşma.",
+      "verify": false
+    },
+    {
+      "id": 852,
+      "seq": 900,
+      "categoryId": "dijital",
+      "text": "Çocukların fotoğraflarını paylaşırken gizliliklerini ve güvenliklerini düşün.",
+      "verify": false
+    },
+    {
+      "id": 853,
+      "seq": 227,
+      "categoryId": "dijital",
+      "text": "İnternetteki her bilginin kalıcı olabileceğini varsay.",
+      "verify": false
+    },
+    {
+      "id": 854,
+      "seq": 354,
+      "categoryId": "dijital",
+      "text": "Tanımadığın kişilerden gelen arkadaşlık ve flört isteklerinde temkinli ol.",
+      "verify": false
+    },
+    {
+      "id": 855,
+      "seq": 781,
+      "categoryId": "dijital",
+      "text": "Kimliğini doğrulamadığın kişiye fotoğraf, belge ya da para gönderme.",
+      "verify": false
+    },
+    {
+      "id": 856,
+      "seq": 336,
+      "categoryId": "dijital",
+      "text": "Sahte profillerle duygusal ilişki kurup para isteyen dolandırıcılıklara dikkat et.",
+      "verify": false
+    },
+    {
+      "id": 857,
+      "seq": 200,
+      "categoryId": "dijital",
+      "text": "Tanımadığın biriyle yazışırken sana yatırım ya da kripto öneren kişiyi engelle.",
+      "verify": false
+    },
+    {
+      "id": 858,
+      "seq": 945,
+      "categoryId": "dijital",
+      "text": "Yakının gibi görünen biri mesajla para isterse sesli ya da yüz yüze doğrula.",
+      "verify": false
+    },
+    {
+      "id": 859,
+      "seq": 745,
+      "categoryId": "dijital",
+      "text": "Ses ve görüntü sahteciliği (deepfake) mümkündür; acil para isteyen aramayı başka bir kanaldan teyit et.",
+      "verify": false
+    },
+    {
+      "id": 860,
+      "seq": 345,
+      "categoryId": "dijital",
+      "text": "Ailenle önceden belirlenmiş bir \"doğrulama sözcüğü\" kullan.",
+      "verify": false
+    },
+    {
+      "id": 861,
+      "seq": 981,
+      "categoryId": "dijital",
+      "text": "\"Kargonuz bekliyor\" gibi SMS'lerdeki bağlantıya tıklama; kargo firmasının uygulamasını kendin aç.",
+      "verify": false
+    },
+    {
+      "id": 862,
+      "seq": 327,
+      "categoryId": "dijital",
+      "text": "İkinci el platformlarında kapora, \"güvenli ödeme\" linki ve platform dışına çıkma isteklerine dikkat et.",
+      "verify": false
+    },
+    {
+      "id": 863,
+      "seq": 954,
+      "categoryId": "dijital",
+      "text": "İkinci el alışverişte ödemeyi mümkünse platformun güvenli sistemiyle yap ve ürünü teslim alırken kontrol et.",
+      "verify": false
+    },
+    {
+      "id": 864,
+      "seq": 181,
+      "categoryId": "dijital",
+      "text": "Online alışverişi tanınmış ve değerlendirme geçmişi olan sitelerden yap.",
+      "verify": false
+    },
+    {
+      "id": 865,
+      "seq": 136,
+      "categoryId": "dijital",
+      "text": "Kart bilgilerini kaydetmek yerine tek kullanımlık ya da sanal kart kullan.",
+      "verify": false
+    },
+    {
+      "id": 866,
+      "seq": 500,
+      "categoryId": "dijital",
+      "text": "Kartının internet ve yurt dışı işlem limitlerini ihtiyacına göre ayarla.",
+      "verify": false
+    },
+    {
+      "id": 867,
+      "seq": 254,
+      "categoryId": "dijital",
+      "text": "Banka bildirimlerini (SMS ya da uygulama bildirimi) açık tut.",
+      "verify": false
+    },
+    {
+      "id": 868,
+      "seq": 809,
+      "categoryId": "dijital",
+      "text": "Ekstrende tanımadığın küçük işlemleri de ciddiye al; deneme işlemi olabilir.",
+      "verify": false
+    },
+    {
+      "id": 869,
+      "seq": 645,
+      "categoryId": "dijital",
+      "text": "Kart bilgilerini telefonda söyleme.",
+      "verify": false
+    },
+    {
+      "id": 870,
+      "seq": 663,
+      "categoryId": "dijital",
+      "text": "PIN'ini ve kart şifreni kimseyle paylaşma ve kartının üzerine yazma.",
+      "verify": false
+    },
+    {
+      "id": 871,
+      "seq": 818,
+      "categoryId": "dijital",
+      "text": "ATM'de çevrene dikkat et ve tuş takımını elinle kapat.",
+      "verify": false
+    },
+    {
+      "id": 872,
+      "seq": 318,
+      "categoryId": "dijital",
+      "text": "ATM'de kartın sıkışırsa ya da cihaz şüpheli görünürse bankayı ara.",
+      "verify": false
+    },
+    {
+      "id": 873,
+      "seq": 109,
+      "categoryId": "dijital",
+      "text": "Banka çalışanı \"hesabın güvende değil, paranı aktar\" derse bu dolandırıcılıktır.",
+      "verify": false
+    },
+    {
+      "id": 874,
+      "seq": 445,
+      "categoryId": "dijital",
+      "text": "Kimsenin uzaktan erişim uygulaması (AnyDesk, TeamViewer vb.) kurmasına izin verme.",
+      "verify": false
+    },
+    {
+      "id": 875,
+      "seq": 845,
+      "categoryId": "dijital",
+      "text": "Uzaktan erişim isteyen \"teknik destek\" aramalarını kapat.",
+      "verify": false
+    },
+    {
+      "id": 876,
+      "seq": 454,
+      "categoryId": "dijital",
+      "text": "Kimlik doğrulama için gereken fotoğrafları ve selfie'leri yalnızca resmi, güvenilir yerlerde paylaş.",
+      "verify": false
+    },
+    {
+      "id": 877,
+      "seq": 163,
+      "categoryId": "dijital",
+      "text": "e-Devlet şifreni ve doğrulama kodlarını kimseyle paylaşma.",
+      "verify": false
+    },
+    {
+      "id": 878,
+      "seq": 72,
+      "categoryId": "dijital",
+      "text": "Resmi kurum adıyla gelen SMS'teki bağlantıya değil, kurumun resmi sitesine veya uygulamasına güven.",
+      "verify": false
+    },
+    {
+      "id": 879,
+      "seq": 518,
+      "categoryId": "dijital",
+      "text": "Kripto cüzdanının kurtarma ifadesini (seed) kimseyle paylaşma ve dijital ortamda tutma.",
+      "verify": false
+    },
+    {
+      "id": 880,
+      "seq": 18,
+      "categoryId": "dijital",
+      "text": "Bilmediğin kripto platformlarına cüzdanını bağlama.",
+      "verify": false
+    },
+    {
+      "id": 881,
+      "seq": 245,
+      "categoryId": "dijital",
+      "text": "Numaranı SIM kart dolandırıcılığına karşı operatör şifresiyle koru.",
+      "verify": true
+    },
+    {
+      "id": 882,
+      "seq": 772,
+      "categoryId": "dijital",
+      "text": "Telefon hattın aniden kapanırsa bunu hemen operatörüne bildir.",
+      "verify": false
+    },
+    {
+      "id": 883,
+      "seq": 972,
+      "categoryId": "dijital",
+      "text": "WhatsApp gibi uygulamalarda doğrulama kodunu paylaşma ve iki adımlı doğrulamayı aç.",
+      "verify": false
+    },
+    {
+      "id": 884,
+      "seq": 627,
+      "categoryId": "dijital",
+      "text": "Tanımadığın kişilerin eklediği gruplardaki bağlantılara tıklama.",
+      "verify": false
+    },
+    {
+      "id": 885,
+      "seq": 854,
+      "categoryId": "dijital",
+      "text": "İş bilgilerini kişisel hesaplara göndermekten kaçın.",
+      "verify": false
+    },
+    {
+      "id": 886,
+      "seq": 263,
+      "categoryId": "dijital",
+      "text": "İş cihazını kişisel amaçla riskli kullanma.",
+      "verify": false
+    },
+    {
+      "id": 887,
+      "seq": 727,
+      "categoryId": "dijital",
+      "text": "Yapay zekâ ve bulut araçlarına belge yüklerken gizlilik ayarlarını ve veri kullanım koşullarını bil.",
+      "verify": false
+    },
+    {
+      "id": 888,
+      "seq": 363,
+      "categoryId": "dijital",
+      "text": "Şifre, kimlik numarası ve kart bilgisi gibi bilgileri sohbet araçlarına yazma.",
+      "verify": false
+    },
+    {
+      "id": 889,
+      "seq": 1000,
+      "categoryId": "dijital",
+      "text": "Kamera ve mikrofon izinlerini sadece gerekli uygulamalara ver.",
+      "verify": false
+    },
+    {
+      "id": 890,
+      "seq": 381,
+      "categoryId": "dijital",
+      "text": "Web kameranı kullanmadığında fiziksel kapakla kapat.",
+      "verify": false
+    },
+    {
+      "id": 891,
+      "seq": 36,
+      "categoryId": "dijital",
+      "text": "Tarayıcıda gereksiz eklentileri kaldır; eklentiler tüm verine erişebilir.",
+      "verify": false
+    },
+    {
+      "id": 892,
+      "seq": 963,
+      "categoryId": "dijital",
+      "text": "Tarayıcı çerezlerini ve gizlilik ayarlarını ara sıra gözden geçir.",
+      "verify": false
+    },
+    {
+      "id": 893,
+      "seq": 481,
+      "categoryId": "dijital",
+      "text": "E-posta imzanda ve profilinde gereksiz kişisel bilgi (adres, telefon) paylaşma.",
+      "verify": false
+    },
+    {
+      "id": 894,
+      "seq": 418,
+      "categoryId": "dijital",
+      "text": "Kullanmadığın eski hesapları sil.",
+      "verify": false
+    },
+    {
+      "id": 895,
+      "seq": 63,
+      "categoryId": "dijital",
+      "text": "Dijital mirasını düşün: önemli hesaplarına acil durumda güvendiğin biri ulaşabilsin.",
+      "verify": false
+    },
+    {
+      "id": 896,
+      "seq": 145,
+      "categoryId": "dijital",
+      "text": "Önemli dosyalar için 3-2-1 yedek kuralını uygula: 3 kopya, 2 farklı ortam, 1 uzak konum.",
+      "verify": false
+    },
+    {
+      "id": 897,
+      "seq": 581,
+      "categoryId": "dijital",
+      "text": "Yedek almak yetmez; geri yüklemeyi bir kez dene.",
+      "verify": false
+    },
+    {
+      "id": 898,
+      "seq": 427,
+      "categoryId": "dijital",
+      "text": "Şüpheli bir durumda acele etme; duraklamak çoğu dolandırıcılığı durdurur.",
+      "verify": false
+    },
+    {
+      "id": 899,
+      "seq": 827,
+      "categoryId": "dijital",
+      "text": "Mağdur olursan utanma; hemen bankanı, ilgili kurumları ve gerekirse kolluk kuvvetlerini bilgilendir.",
+      "verify": false
+    },
+    {
+      "id": 900,
+      "seq": 881,
+      "categoryId": "dijital",
+      "text": "Güvenlik bir kerelik iş değil, alışkanlık meselesidir.",
+      "verify": false
+    },
+    {
+      "id": 901,
+      "seq": 846,
+      "categoryId": "zihin",
+      "text": "Verdiğin küçük sözleri de tut; karakter küçük şeylerde belli olur.",
+      "verify": false
+    },
+    {
+      "id": 902,
+      "seq": 355,
+      "categoryId": "zihin",
+      "text": "Hatanı kabul et ve düzelt; savunmaya geçme.",
+      "verify": false
+    },
+    {
+      "id": 903,
+      "seq": 391,
+      "categoryId": "zihin",
+      "text": "Öfkelendiğinde 10 dakika ara ver, sonra konuş.",
+      "verify": false
+    },
+    {
+      "id": 904,
+      "seq": 628,
+      "categoryId": "zihin",
+      "text": "Disiplini motivasyona değil sisteme dayandır: sabit uyku, sabit hareket, haftalık plan.",
+      "verify": false
+    },
+    {
+      "id": 905,
+      "seq": 782,
+      "categoryId": "zihin",
+      "text": "Okumayı sürdür; ayda en az bir kitap.",
+      "verify": false
+    },
+    {
+      "id": 906,
+      "seq": 419,
+      "categoryId": "zihin",
+      "text": "Sosyal medyadaki insanların en iyi anlarıyla kendi hayatını kıyaslama.",
+      "verify": false
+    },
+    {
+      "id": 907,
+      "seq": 137,
+      "categoryId": "zihin",
+      "text": "Yardım istemeyi öğren; her şeyi yalnız çözmeye çalışmak çoğu zaman daha uzun sürer.",
+      "verify": false
+    },
+    {
+      "id": 908,
+      "seq": 528,
+      "categoryId": "zihin",
+      "text": "Büyük bir karardan önce en kötü senaryoyu ve geri dönüş yolunu düşün.",
+      "verify": false
+    },
+    {
+      "id": 909,
+      "seq": 219,
+      "categoryId": "zihin",
+      "text": "Gücünü zayıf olanı ezmek için değil, korumak için kullan.",
+      "verify": false
+    },
+    {
+      "id": 910,
+      "seq": 864,
+      "categoryId": "zihin",
+      "text": "Bir mentor bul, sonra başka birine mentor ol.",
+      "verify": false
+    },
+    {
+      "id": 911,
+      "seq": 919,
+      "categoryId": "zihin",
+      "text": "Kontrol edebildiklerine odaklan, edemediklerini kabullen.",
+      "verify": false
+    },
+    {
+      "id": 912,
+      "seq": 73,
+      "categoryId": "zihin",
+      "text": "Her sabah günün en önemli üç işini belirle.",
+      "verify": false
+    },
+    {
+      "id": 913,
+      "seq": 973,
+      "categoryId": "zihin",
+      "text": "Alışkanlık değiştirmek için hedefi küçült: bir kitap yerine günde iki sayfa.",
+      "verify": false
+    },
+    {
+      "id": 914,
+      "seq": 182,
+      "categoryId": "zihin",
+      "text": "Yeni bir alışkanlığı mevcut bir alışkanlığa bağla.",
+      "verify": false
+    },
+    {
+      "id": 915,
+      "seq": 682,
+      "categoryId": "zihin",
+      "text": "Bir günü kaçırırsan iki gün üst üste kaçırma.",
+      "verify": false
+    },
+    {
+      "id": 916,
+      "seq": 255,
+      "categoryId": "zihin",
+      "text": "Başlamak için motive olmayı bekleme; küçük bir adım at, motivasyon sonra gelir.",
+      "verify": false
+    },
+    {
+      "id": 917,
+      "seq": 364,
+      "categoryId": "zihin",
+      "text": "Mükemmeliyetçilik ertelemenin güzel bir maskesidir.",
+      "verify": false
+    },
+    {
+      "id": 918,
+      "seq": 464,
+      "categoryId": "zihin",
+      "text": "Yapılmış iş, mükemmel olacak ama hiç başlamamış işten değerlidir.",
+      "verify": false
+    },
+    {
+      "id": 919,
+      "seq": 646,
+      "categoryId": "zihin",
+      "text": "Ertelediğin işe beş dakika başlayarak direnci kır.",
+      "verify": false
+    },
+    {
+      "id": 920,
+      "seq": 664,
+      "categoryId": "zihin",
+      "text": "Dikkatini korumak için telefonu görüş alanının dışına koy.",
+      "verify": false
+    },
+    {
+      "id": 921,
+      "seq": 910,
+      "categoryId": "zihin",
+      "text": "Her gün birkaç dakika sessizlik, nefes ve yürüyüşe ayır.",
+      "verify": false
+    },
+    {
+      "id": 922,
+      "seq": 37,
+      "categoryId": "zihin",
+      "text": "Stresliyken yavaş ve derin nefes al.",
+      "verify": false
+    },
+    {
+      "id": 923,
+      "seq": 882,
+      "categoryId": "zihin",
+      "text": "Sorunun gerçek boyutunu görmek için yaz; yazı zihindeki karmaşayı sadeleştirir.",
+      "verify": false
+    },
+    {
+      "id": 924,
+      "seq": 146,
+      "categoryId": "zihin",
+      "text": "Endişeni bir eylem planına çevir; planı olmayan endişe sadece yorgunluktur.",
+      "verify": false
+    },
+    {
+      "id": 925,
+      "seq": 282,
+      "categoryId": "zihin",
+      "text": "Endişelendiğin şeylerin çoğunun hiç olmayacağını hatırla.",
+      "verify": false
+    },
+    {
+      "id": 926,
+      "seq": 710,
+      "categoryId": "zihin",
+      "text": "Kötü bir günün kötü bir hayat olmadığını bil.",
+      "verify": false
+    },
+    {
+      "id": 927,
+      "seq": 964,
+      "categoryId": "zihin",
+      "text": "Kendine bir arkadaşına davrandığın gibi davran.",
+      "verify": false
+    },
+    {
+      "id": 928,
+      "seq": 946,
+      "categoryId": "zihin",
+      "text": "İç sesinin eleştirmen olmasına değil, yapıcı olmasına çalış.",
+      "verify": false
+    },
+    {
+      "id": 929,
+      "seq": 673,
+      "categoryId": "zihin",
+      "text": "Başkalarının fikri seni tanımlamaz.",
+      "verify": false
+    },
+    {
+      "id": 930,
+      "seq": 773,
+      "categoryId": "zihin",
+      "text": "Başarısızlık veridir, hüküm değildir.",
+      "verify": false
+    },
+    {
+      "id": 931,
+      "seq": 891,
+      "categoryId": "zihin",
+      "text": "Başarılarını kutla; sadece eksikleri sayma.",
+      "verify": false
+    },
+    {
+      "id": 932,
+      "seq": 437,
+      "categoryId": "zihin",
+      "text": "Minnettarlığı pratik et: her gün üç şeyi düşün.",
+      "verify": false
+    },
+    {
+      "id": 933,
+      "seq": 455,
+      "categoryId": "zihin",
+      "text": "Sahip olmadıklarına değil, sahip olduklarına odaklan.",
+      "verify": false
+    },
+    {
+      "id": 934,
+      "seq": 937,
+      "categoryId": "zihin",
+      "text": "Şikâyet etmek ile çözüm üretmek arasındaki farkı bil.",
+      "verify": false
+    },
+    {
+      "id": 935,
+      "seq": 655,
+      "categoryId": "zihin",
+      "text": "Kurban rolü rahatlatır ama güç alır.",
+      "verify": false
+    },
+    {
+      "id": 936,
+      "seq": 328,
+      "categoryId": "zihin",
+      "text": "Her zorluk bir şey öğretir; ne öğrettiğini sor.",
+      "verify": false
+    },
+    {
+      "id": 937,
+      "seq": 764,
+      "categoryId": "zihin",
+      "text": "Gerçekçi iyimser ol: en iyisini hedefle, en kötüsüne hazırlan.",
+      "verify": false
+    },
+    {
+      "id": 938,
+      "seq": 791,
+      "categoryId": "zihin",
+      "text": "Uzun vadeli düşün; kısa vadeli rahatlığın uzun vadeli bir bedeli olabilir.",
+      "verify": false
+    },
+    {
+      "id": 939,
+      "seq": 582,
+      "categoryId": "zihin",
+      "text": "Büyük hedefleri yıllık, aylık ve haftalık adımlara böl.",
+      "verify": false
+    },
+    {
+      "id": 940,
+      "seq": 164,
+      "categoryId": "zihin",
+      "text": "Hedeflerini yaz ve görünür bir yere koy.",
+      "verify": false
+    },
+    {
+      "id": 941,
+      "seq": 82,
+      "categoryId": "zihin",
+      "text": "Her hafta kısa bir gözden geçirme yap: neyi iyi yaptım, neyi değiştirmeliyim?",
+      "verify": false
+    },
+    {
+      "id": 942,
+      "seq": 346,
+      "categoryId": "zihin",
+      "text": "Gün sonunda kendine \"bugün ne öğrendim?\" diye sor.",
+      "verify": false
+    },
+    {
+      "id": 943,
+      "seq": 273,
+      "categoryId": "zihin",
+      "text": "Karar vermekte zorlanıyorsan seçenekleri yaz ve her birinin sonucunu düşün.",
+      "verify": false
+    },
+    {
+      "id": 944,
+      "seq": 155,
+      "categoryId": "zihin",
+      "text": "Kararlarını geri döndürülebilir olup olmadığına göre ayır; geri dönüşü olmayanlara daha çok zaman ver.",
+      "verify": false
+    },
+    {
+      "id": 945,
+      "seq": 510,
+      "categoryId": "zihin",
+      "text": "Yorgunken, açken ya da öfkeliyken önemli karar verme.",
+      "verify": false
+    },
+    {
+      "id": 946,
+      "seq": 291,
+      "categoryId": "zihin",
+      "text": "Başkalarının tavsiyesini dinle ama kararı kendin ver.",
+      "verify": false
+    },
+    {
+      "id": 947,
+      "seq": 319,
+      "categoryId": "zihin",
+      "text": "Bilgi ile görüşü ayır; görüşün kanıtla desteklenmiyorsa değiştirmekten çekinme.",
+      "verify": false
+    },
+    {
+      "id": 948,
+      "seq": 573,
+      "categoryId": "zihin",
+      "text": "Yanıldığını kabul etmek zekânın işaretidir.",
+      "verify": false
+    },
+    {
+      "id": 949,
+      "seq": 264,
+      "categoryId": "zihin",
+      "text": "Farklı düşünen insanları dinlemek kendi görüşünü sağlamlaştırır.",
+      "verify": false
+    },
+    {
+      "id": 950,
+      "seq": 46,
+      "categoryId": "zihin",
+      "text": "Her şeyi bildiğini sanma; \"bilmiyorum\" demek öğrenmenin kapısıdır.",
+      "verify": false
+    },
+    {
+      "id": 951,
+      "seq": 610,
+      "categoryId": "zihin",
+      "text": "Merak et, soru sor, öğrenmeyi bırakma.",
+      "verify": false
+    },
+    {
+      "id": 952,
+      "seq": 91,
+      "categoryId": "zihin",
+      "text": "Yılda en az bir konuyu derinlemesine öğren.",
+      "verify": false
+    },
+    {
+      "id": 953,
+      "seq": 837,
+      "categoryId": "zihin",
+      "text": "Kitap, podcast ve belgeselleri sadece tüketme; not al ve uygula.",
+      "verify": false
+    },
+    {
+      "id": 954,
+      "seq": 428,
+      "categoryId": "zihin",
+      "text": "Öğrendiğini başkasına anlatmak en iyi pekiştirme yoludur.",
+      "verify": false
+    },
+    {
+      "id": 955,
+      "seq": 691,
+      "categoryId": "zihin",
+      "text": "Haber ve sosyal medya tüketimini bilinçli sınırla.",
+      "verify": false
+    },
+    {
+      "id": 956,
+      "seq": 246,
+      "categoryId": "zihin",
+      "text": "Her gün birkaç dakika ekransız zaman geçir.",
+      "verify": false
+    },
+    {
+      "id": 957,
+      "seq": 55,
+      "categoryId": "zihin",
+      "text": "Başkalarının kriz ve öfke dalgasına kendini kaptırma.",
+      "verify": false
+    },
+    {
+      "id": 958,
+      "seq": 828,
+      "categoryId": "zihin",
+      "text": "Gerçek ile duyguyu ayır: \"hissediyorum\" ile \"doğru\" aynı şey değildir.",
+      "verify": false
+    },
+    {
+      "id": 959,
+      "seq": 746,
+      "categoryId": "zihin",
+      "text": "Düşüncelerin sen değilsin; onları gözlemleyebilirsin.",
+      "verify": false
+    },
+    {
+      "id": 960,
+      "seq": 491,
+      "categoryId": "zihin",
+      "text": "Uzun süren çökkünlük, umutsuzluk, aşırı kaygı ya da uyku ve iştah değişimlerinde bir ruh sağlığı uzmanından destek al.",
+      "verify": true
+    },
+    {
+      "id": 961,
+      "seq": 810,
+      "categoryId": "zihin",
+      "text": "Duygularını bastırmak yerine adlandır ve güvendiğin biriyle paylaş.",
+      "verify": false
+    },
+    {
+      "id": 962,
+      "seq": 110,
+      "categoryId": "zihin",
+      "text": "Ağlamak zayıflık değil, duygusal bir boşalmadır.",
+      "verify": false
+    },
+    {
+      "id": 963,
+      "seq": 64,
+      "categoryId": "zihin",
+      "text": "Duygularını konuşmak olgunluktur.",
+      "verify": false
+    },
+    {
+      "id": 964,
+      "seq": 19,
+      "categoryId": "zihin",
+      "text": "Yakınını kaybettiysen yas tutmak için kendine zaman tanı ve destek iste.",
+      "verify": false
+    },
+    {
+      "id": 965,
+      "seq": 546,
+      "categoryId": "zihin",
+      "text": "Duygularından kaçmak için alkol ya da başka maddelere yönelme.",
+      "verify": true
+    },
+    {
+      "id": 966,
+      "seq": 446,
+      "categoryId": "zihin",
+      "text": "Bir alışkanlık hayatını bozmaya başladıysa yardım almak güçlülüktür.",
+      "verify": true
+    },
+    {
+      "id": 967,
+      "seq": 591,
+      "categoryId": "zihin",
+      "text": "Kumar ve bahis kazanç değil kayıp üretir; başlamadan uzak dur.",
+      "verify": true
+    },
+    {
+      "id": 968,
+      "seq": 537,
+      "categoryId": "zihin",
+      "text": "Kazanma hırsını, kaybetmeyi kaldırabilme kapasitesiyle dengele.",
+      "verify": false
+    },
+    {
+      "id": 969,
+      "seq": 337,
+      "categoryId": "zihin",
+      "text": "Seni tanımlayan kazanmak değil, kaybederken nasıl davrandığındır.",
+      "verify": false
+    },
+    {
+      "id": 970,
+      "seq": 310,
+      "categoryId": "zihin",
+      "text": "Alçakgönüllülük zayıflık değil, öğrenmeye açık olmaktır.",
+      "verify": false
+    },
+    {
+      "id": 971,
+      "seq": 873,
+      "categoryId": "zihin",
+      "text": "Gurur ile özgüven farklıdır: biri kırılgan, diğeri sağlamdır.",
+      "verify": false
+    },
+    {
+      "id": 972,
+      "seq": 228,
+      "categoryId": "zihin",
+      "text": "Cesaret korkusuzluk değil, korkuya rağmen harekete geçmektir.",
+      "verify": false
+    },
+    {
+      "id": 973,
+      "seq": 519,
+      "categoryId": "zihin",
+      "text": "Doğru olanı yapmak zorlaştığında bile doğru olandır.",
+      "verify": false
+    },
+    {
+      "id": 974,
+      "seq": 637,
+      "categoryId": "zihin",
+      "text": "Kimse seni görmüyorken nasıl davrandığın karakterindir.",
+      "verify": false
+    },
+    {
+      "id": 975,
+      "seq": 410,
+      "categoryId": "zihin",
+      "text": "Dürüstlük kısa vadede pahalı, uzun vadede en ucuz yoldur.",
+      "verify": false
+    },
+    {
+      "id": 976,
+      "seq": 555,
+      "categoryId": "zihin",
+      "text": "Sözünün arkasında dur; söyleyemeyeceğini yazma, yazamayacağını yapma.",
+      "verify": false
+    },
+    {
+      "id": 977,
+      "seq": 819,
+      "categoryId": "zihin",
+      "text": "Söylediğin ile yaptığın arasındaki uçurum itibarını belirler.",
+      "verify": false
+    },
+    {
+      "id": 978,
+      "seq": 728,
+      "categoryId": "zihin",
+      "text": "Başkasını suçlamadan önce kendi payını gör.",
+      "verify": false
+    },
+    {
+      "id": 979,
+      "seq": 991,
+      "categoryId": "zihin",
+      "text": "Sorumluluk almak, güç almaktır.",
+      "verify": false
+    },
+    {
+      "id": 980,
+      "seq": 237,
+      "categoryId": "zihin",
+      "text": "Hayatındaki sonuçların büyük kısmı kararlarının ürünüdür; kararlarını iyileştir.",
+      "verify": false
+    },
+    {
+      "id": 981,
+      "seq": 955,
+      "categoryId": "zihin",
+      "text": "Sınırlarını bilmek, onlara uymaktan önce gelir.",
+      "verify": false
+    },
+    {
+      "id": 982,
+      "seq": 755,
+      "categoryId": "zihin",
+      "text": "Her şeye \"evet\" demek yerine neye \"evet\" dediğini seç.",
+      "verify": false
+    },
+    {
+      "id": 983,
+      "seq": 173,
+      "categoryId": "zihin",
+      "text": "Zamanını ve enerjini koruyan bir takvim kur.",
+      "verify": false
+    },
+    {
+      "id": 984,
+      "seq": 564,
+      "categoryId": "zihin",
+      "text": "Boş zamanı da planla; sadece iş planlanırsa hayat iş olur.",
+      "verify": false
+    },
+    {
+      "id": 985,
+      "seq": 928,
+      "categoryId": "zihin",
+      "text": "Bir hobi edin: bir şeyi sırf keyif için yapmak zihnini yeniler.",
+      "verify": false
+    },
+    {
+      "id": 986,
+      "seq": 373,
+      "categoryId": "zihin",
+      "text": "Doğada vakit geçirmek zihni sakinleştirir.",
+      "verify": false
+    },
+    {
+      "id": 987,
+      "seq": 737,
+      "categoryId": "zihin",
+      "text": "Egzersiz zihinsel sağlık için de en güçlü araçlardandır.",
+      "verify": false
+    },
+    {
+      "id": 988,
+      "seq": 473,
+      "categoryId": "zihin",
+      "text": "Yeterli uyku ruh halini ve kararlarını doğrudan etkiler.",
+      "verify": false
+    },
+    {
+      "id": 989,
+      "seq": 128,
+      "categoryId": "zihin",
+      "text": "Dinlenmeyi ödül değil, ihtiyaç olarak gör.",
+      "verify": false
+    },
+    {
+      "id": 990,
+      "seq": 191,
+      "categoryId": "zihin",
+      "text": "Bulunduğun anda olmaya çalış; sürekli geçmişte ya da gelecekte olma.",
+      "verify": false
+    },
+    {
+      "id": 991,
+      "seq": 855,
+      "categoryId": "zihin",
+      "text": "İnsanlara değil, davranışlara odaklan.",
+      "verify": false
+    },
+    {
+      "id": 992,
+      "seq": 619,
+      "categoryId": "zihin",
+      "text": "Başkalarını anlamak için önce kendi varsayımlarını sorgula.",
+      "verify": false
+    },
+    {
+      "id": 993,
+      "seq": 10,
+      "categoryId": "zihin",
+      "text": "Empati katılmak değil, anlamaya çalışmaktır.",
+      "verify": false
+    },
+    {
+      "id": 994,
+      "seq": 719,
+      "categoryId": "zihin",
+      "text": "Hayranlık duyduğun insanların hangi niteliklerine değer verdiğini düşün ve kendine uygula.",
+      "verify": false
+    },
+    {
+      "id": 995,
+      "seq": 982,
+      "categoryId": "zihin",
+      "text": "Kendi değerlerini yaz: neye önem veriyorsun, neyi asla yapmazsın?",
+      "verify": false
+    },
+    {
+      "id": 996,
+      "seq": 482,
+      "categoryId": "zihin",
+      "text": "Anlam sadece başarıda değil; ilişkilerde, katkıda ve öğrenmede de bulunur.",
+      "verify": false
+    },
+    {
+      "id": 997,
+      "seq": 210,
+      "categoryId": "zihin",
+      "text": "Başkalarına yardım etmek, kendi sorunlarına bakış açını genişletir.",
+      "verify": false
+    },
+    {
+      "id": 998,
+      "seq": 119,
+      "categoryId": "zihin",
+      "text": "Topluma katkı sağlayan bir işe (gönüllülük) zaman ayır.",
+      "verify": false
+    },
+    {
+      "id": 999,
+      "seq": 382,
+      "categoryId": "zihin",
+      "text": "Zor zamanlarda \"bu da geçecek\" de, ama geçene kadar kendine iyi bak.",
+      "verify": false
+    },
+    {
+      "id": 1000,
+      "seq": 28,
+      "categoryId": "zihin",
+      "text": "Her gün dünden biraz daha iyi bir sürüm olmak için küçük bir adım at.",
+      "verify": false
+    }
+  ]
+}

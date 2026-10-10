@@ -1,0 +1,65 @@
+name: Dustur
+options:
+  bundleIdPrefix: com.omeredebal
+  deploymentTarget:
+    iOS: "17.0"
+
+settings:
+  base:
+    DEVELOPMENT_TEAM: 3BV56Q32SD
+    CODE_SIGN_STYLE: Automatic
+    SWIFT_VERSION: "5.9"
+    MARKETING_VERSION: "2.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+
+targets:
+  Dustur:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: Dustur/App
+      - path: Dustur/Core
+      - path: Dustur/Models
+      - path: Dustur/Services
+      - path: Dustur/Views
+      - path: Dustur/Resources/rules.json
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.omeredebal.dustur
+        PRODUCT_NAME: Düstur
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Düstur
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: "UIInterfaceOrientationPortrait"
+        DEVELOPMENT_TEAM: 3BV56Q32SD
+        CODE_SIGN_STYLE: Automatic
+    dependencies:
+      - target: DusturWidget
+
+  DusturWidget:
+    type: app-extension
+    platform: iOS
+    deploymentTarget: "17.0"
+    info:
+      path: Dustur/WidgetExtension/Info.plist
+      properties:
+        CFBundleDisplayName: Günün Düsturu
+        CFBundleShortVersionString: "2.1.0"
+        CFBundleVersion: "1"
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    sources:
+      - path: Dustur/WidgetExtension/DusturWidget.swift
+      - path: Dustur/Core
+      - path: Dustur/Models
+      - path: Dustur/Services
+      - path: Dustur/Views/WidgetSetup/RuleCardViews.swift
+      - path: Dustur/Resources/rules.json
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.omeredebal.dustur.widget
+        PRODUCT_NAME: DusturWidget
+        GENERATE_INFOPLIST_FILE: NO
+        DEVELOPMENT_TEAM: 3BV56Q32SD
+        CODE_SIGN_STYLE: Automatic

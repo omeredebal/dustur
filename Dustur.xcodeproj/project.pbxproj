@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0782C56A6A6DD464E3D00BEB /* RuleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D9693332D062EC3AF956C /* RuleListView.swift */; };
+		0A67A417E00059CB30250345 /* RuleCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B3896EA1AEEDD7986AB075 /* RuleCategory.swift */; };
+		1919D3AA2BB7A97A7254DC43 /* Rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31825B28EC2D5201B4E0F23 /* Rule.swift */; };
+		2607006A5851EE3FA93CB1A7 /* WidgetModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BCE75962692940F0A15D2B /* WidgetModels.swift */; };
+		32268316DAEA4FE20CBD79F4 /* RuleCardViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0568276646006E4E52050EE /* RuleCardViews.swift */; };
+		43F97EE7F65B161B23298300 /* DusturWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658B37C247BA26899E7DEEBE /* DusturWidget.swift */; };
+		54353AE348B364BDC0C4F12B /* WidgetModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BCE75962692940F0A15D2B /* WidgetModels.swift */; };
+		5636FC5ED49FF84468590992 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A172DE0A88C083BC9F7327 /* AppSettings.swift */; };
+		574E8CF9BAC76CCD72BA9A68 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529D8A3A7D9A7487159BA397 /* HomeView.swift */; };
+		5C8A5E9EC53A0DC991B2104E /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F244D7A39FEB5A10B2A9C2 /* NotificationManager.swift */; };
+		616A8F5C26EE418244DEAAFB /* RuleCardViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0568276646006E4E52050EE /* RuleCardViews.swift */; };
+		657334C4F7BF02380FC3ACF0 /* AppGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AC3128EDC784A3AC15626 /* AppGender.swift */; };
+		787AFDBFC5035ABFC2D98938 /* RotationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FC280522D1D5A3647A1DC8 /* RotationEngine.swift */; };
+		7ADB9B309354F69C3BCC006C /* RuleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8298CA3567603114437FF92E /* RuleRepository.swift */; };
+		7CDCDB44EC02242DAF71161D /* AppGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7AC3128EDC784A3AC15626 /* AppGender.swift */; };
+		8B65F049048C404988F396CE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1244D36F2A9037DF80D7406E /* Theme.swift */; };
+		8FE995EE35410913A57A1656 /* rules.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E125DC4E62B042BFD4A2600 /* rules.json */; };
+		9D1C3D7EAF4C5D5782161C2C /* CategoryTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554DFAC271D5C0B4D60565F1 /* CategoryTile.swift */; };
+		A027B40FBF2742DBDCC59F19 /* AddWidgetSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C24D86953DD877AD95DC9C1 /* AddWidgetSheet.swift */; };
+		A95DB442E302C9F1298A109E /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D51A3DADBDDCB18A1E4A0FB /* AppInfo.swift */; };
+		B0FAB58ED6FE9B69CD85B77D /* DusturWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CAC2E3F3987CB1546BE0E68A /* DusturWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CB2C3BDCE0F015C6422DBB50 /* RuleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8298CA3567603114437FF92E /* RuleRepository.swift */; };
+		CC23DB687EBE5020A64D0E33 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F244D7A39FEB5A10B2A9C2 /* NotificationManager.swift */; };
+		CE4BDC44D6577122BFCE470E /* RuleCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B3896EA1AEEDD7986AB075 /* RuleCategory.swift */; };
+		CEAF14DACA8E1D72BC376CDE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1244D36F2A9037DF80D7406E /* Theme.swift */; };
+		DCE8D2697DC62FF4DE289A57 /* RotationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FC280522D1D5A3647A1DC8 /* RotationEngine.swift */; };
+		E1AF37D71491058548386072 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A172DE0A88C083BC9F7327 /* AppSettings.swift */; };
+		E8F60F757C6EE9D4DBD07EE8 /* rules.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E125DC4E62B042BFD4A2600 /* rules.json */; };
+		F226DA069BEC600C05ACCCE2 /* Rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31825B28EC2D5201B4E0F23 /* Rule.swift */; };
+		F3CD286E9E2314A3CC7ECF26 /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB4311EE92699624B23B6E /* SettingsSheet.swift */; };
+		F616304444F88543A0E01225 /* DusturApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75B065E2A713F80D6BAA67D /* DusturApp.swift */; };
+		F8935D8F3430960B9F423273 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D51A3DADBDDCB18A1E4A0FB /* AppInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FD9E4368B4670A1647046E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3472916F988C4906C14CF2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FE1D64A4F29B2991BA1E799;
+			remoteInfo = DusturWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E8D6EB07CE2CFB467C5C21E2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B0FAB58ED6FE9B69CD85B77D /* DusturWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C24D86953DD877AD95DC9C1 /* AddWidgetSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWidgetSheet.swift; sourceTree = "<group>"; };
+		0E125DC4E62B042BFD4A2600 /* rules.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = rules.json; sourceTree = "<group>"; };
+		1244D36F2A9037DF80D7406E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		1E9D9693332D062EC3AF956C /* RuleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleListView.swift; sourceTree = "<group>"; };
+		38FC280522D1D5A3647A1DC8 /* RotationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationEngine.swift; sourceTree = "<group>"; };
+		529D8A3A7D9A7487159BA397 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		53A172DE0A88C083BC9F7327 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		54BCE75962692940F0A15D2B /* WidgetModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetModels.swift; sourceTree = "<group>"; };
+		554DFAC271D5C0B4D60565F1 /* CategoryTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTile.swift; sourceTree = "<group>"; };
+		628E6E1F30AAAA5E7EBFF8E0 /* Dustur.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Dustur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		658B37C247BA26899E7DEEBE /* DusturWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DusturWidget.swift; sourceTree = "<group>"; };
+		8298CA3567603114437FF92E /* RuleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleRepository.swift; sourceTree = "<group>"; };
+		82F244D7A39FEB5A10B2A9C2 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		8D51A3DADBDDCB18A1E4A0FB /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		9A7AC3128EDC784A3AC15626 /* AppGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGender.swift; sourceTree = "<group>"; };
+		B75B065E2A713F80D6BAA67D /* DusturApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DusturApp.swift; sourceTree = "<group>"; };
+		B7B3896EA1AEEDD7986AB075 /* RuleCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleCategory.swift; sourceTree = "<group>"; };
+		BCFB4311EE92699624B23B6E /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
+		C0568276646006E4E52050EE /* RuleCardViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleCardViews.swift; sourceTree = "<group>"; };
+		CAC2E3F3987CB1546BE0E68A /* DusturWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = DusturWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31825B28EC2D5201B4E0F23 /* Rule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rule.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3672A9D0460EB7F52E5DB6BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C8C6DB0712245C723924A4BD /* Home */,
+				53B30D692E512C6ED002A77C /* Rules */,
+				F1AE9B00CB7D99A422DD76D1 /* Settings */,
+				81109132BFA6E8B34D855D71 /* WidgetSetup */,
+			);
+			name = Views;
+			path = Dustur/Views;
+			sourceTree = "<group>";
+		};
+		38B693165807BB90A6F606A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E125DC4E62B042BFD4A2600 /* rules.json */,
+			);
+			name = Resources;
+			path = Dustur/Resources;
+			sourceTree = "<group>";
+		};
+		3DDF8E3C2B4F463B91B0E68C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				628E6E1F30AAAA5E7EBFF8E0 /* Dustur.app */,
+				CAC2E3F3987CB1546BE0E68A /* DusturWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53B30D692E512C6ED002A77C /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				1E9D9693332D062EC3AF956C /* RuleListView.swift */,
+			);
+			path = Rules;
+			sourceTree = "<group>";
+		};
+		55ED0554C9732F180856E4D8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B75B065E2A713F80D6BAA67D /* DusturApp.swift */,
+			);
+			name = App;
+			path = Dustur/App;
+			sourceTree = "<group>";
+		};
+		6EA75EB693ED75E3675D3A7C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9A7AC3128EDC784A3AC15626 /* AppGender.swift */,
+				53A172DE0A88C083BC9F7327 /* AppSettings.swift */,
+				F31825B28EC2D5201B4E0F23 /* Rule.swift */,
+				B7B3896EA1AEEDD7986AB075 /* RuleCategory.swift */,
+				54BCE75962692940F0A15D2B /* WidgetModels.swift */,
+			);
+			name = Models;
+			path = Dustur/Models;
+			sourceTree = "<group>";
+		};
+		72005B4AF8BB2E3CC0506000 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8D51A3DADBDDCB18A1E4A0FB /* AppInfo.swift */,
+				1244D36F2A9037DF80D7406E /* Theme.swift */,
+			);
+			name = Core;
+			path = Dustur/Core;
+			sourceTree = "<group>";
+		};
+		7B81DFC45294DDD8C4B6E69F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				82F244D7A39FEB5A10B2A9C2 /* NotificationManager.swift */,
+				38FC280522D1D5A3647A1DC8 /* RotationEngine.swift */,
+				8298CA3567603114437FF92E /* RuleRepository.swift */,
+			);
+			name = Services;
+			path = Dustur/Services;
+			sourceTree = "<group>";
+		};
+		7D68E403566C18400B51428D = {
+			isa = PBXGroup;
+			children = (
+				55ED0554C9732F180856E4D8 /* App */,
+				72005B4AF8BB2E3CC0506000 /* Core */,
+				6EA75EB693ED75E3675D3A7C /* Models */,
+				38B693165807BB90A6F606A8 /* Resources */,
+				7B81DFC45294DDD8C4B6E69F /* Services */,
+				3672A9D0460EB7F52E5DB6BC /* Views */,
+				838AE75B0C1B4A9779EDC840 /* WidgetExtension */,
+				3DDF8E3C2B4F463B91B0E68C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81109132BFA6E8B34D855D71 /* WidgetSetup */ = {
+			isa = PBXGroup;
+			children = (
+				0C24D86953DD877AD95DC9C1 /* AddWidgetSheet.swift */,
+				C0568276646006E4E52050EE /* RuleCardViews.swift */,
+			);
+			path = WidgetSetup;
+			sourceTree = "<group>";
+		};
+		838AE75B0C1B4A9779EDC840 /* WidgetExtension */ = {
+			isa = PBXGroup;
+			children = (
+				658B37C247BA26899E7DEEBE /* DusturWidget.swift */,
+			);
+			name = WidgetExtension;
+			path = Dustur/WidgetExtension;
+			sourceTree = "<group>";
+		};
+		C8C6DB0712245C723924A4BD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				554DFAC271D5C0B4D60565F1 /* CategoryTile.swift */,
+				529D8A3A7D9A7487159BA397 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F1AE9B00CB7D99A422DD76D1 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				BCFB4311EE92699624B23B6E /* SettingsSheet.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FE1D64A4F29B2991BA1E799 /* DusturWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A78ECC1CCEB7ADD19D3DEBD /* Build configuration list for PBXNativeTarget "DusturWidget" */;
+			buildPhases = (
+				2DF871E00A20635305B89BD1 /* Sources */,
+				7A6BAE2A067B9B120770352B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DusturWidget;
+			packageProductDependencies = (
+			);
+			productName = DusturWidget;
+			productReference = CAC2E3F3987CB1546BE0E68A /* DusturWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		3EF3A450B6497573A4AF1B74 /* Dustur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FDAB92B9E096AE4C6895DAC /* Build configuration list for PBXNativeTarget "Dustur" */;
+			buildPhases = (
+				3DF31D01541223EE44B8D847 /* Sources */,
+				535ED2558FB9439312FE5002 /* Resources */,
+				E8D6EB07CE2CFB467C5C21E2 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BDA2798C824225C7DEAF042 /* PBXTargetDependency */,
+			);
+			name = Dustur;
+			packageProductDependencies = (
+			);
+			productName = Dustur;
+			productReference = 628E6E1F30AAAA5E7EBFF8E0 /* Dustur.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3472916F988C4906C14CF2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2FE1D64A4F29B2991BA1E799 = {
+						DevelopmentTeam = 3BV56Q32SD;
+						ProvisioningStyle = Automatic;
+					};
+					3EF3A450B6497573A4AF1B74 = {
+						DevelopmentTeam = 3BV56Q32SD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 44C3AA475E2C4C1218F9A4C4 /* Build configuration list for PBXProject "Dustur" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7D68E403566C18400B51428D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3DDF8E3C2B4F463B91B0E68C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EF3A450B6497573A4AF1B74 /* Dustur */,
+				2FE1D64A4F29B2991BA1E799 /* DusturWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		535ED2558FB9439312FE5002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE995EE35410913A57A1656 /* rules.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6BAE2A067B9B120770352B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F60F757C6EE9D4DBD07EE8 /* rules.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DF871E00A20635305B89BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657334C4F7BF02380FC3ACF0 /* AppGender.swift in Sources */,
+				F8935D8F3430960B9F423273 /* AppInfo.swift in Sources */,
+				E1AF37D71491058548386072 /* AppSettings.swift in Sources */,
+				43F97EE7F65B161B23298300 /* DusturWidget.swift in Sources */,
+				CC23DB687EBE5020A64D0E33 /* NotificationManager.swift in Sources */,
+				DCE8D2697DC62FF4DE289A57 /* RotationEngine.swift in Sources */,
+				1919D3AA2BB7A97A7254DC43 /* Rule.swift in Sources */,
+				616A8F5C26EE418244DEAAFB /* RuleCardViews.swift in Sources */,
+				CE4BDC44D6577122BFCE470E /* RuleCategory.swift in Sources */,
+				7ADB9B309354F69C3BCC006C /* RuleRepository.swift in Sources */,
+				8B65F049048C404988F396CE /* Theme.swift in Sources */,
+				2607006A5851EE3FA93CB1A7 /* WidgetModels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF31D01541223EE44B8D847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A027B40FBF2742DBDCC59F19 /* AddWidgetSheet.swift in Sources */,
+				7CDCDB44EC02242DAF71161D /* AppGender.swift in Sources */,
+				A95DB442E302C9F1298A109E /* AppInfo.swift in Sources */,
+				5636FC5ED49FF84468590992 /* AppSettings.swift in Sources */,
+				9D1C3D7EAF4C5D5782161C2C /* CategoryTile.swift in Sources */,
+				F616304444F88543A0E01225 /* DusturApp.swift in Sources */,
+				574E8CF9BAC76CCD72BA9A68 /* HomeView.swift in Sources */,
+				5C8A5E9EC53A0DC991B2104E /* NotificationManager.swift in Sources */,
+				787AFDBFC5035ABFC2D98938 /* RotationEngine.swift in Sources */,
+				F226DA069BEC600C05ACCCE2 /* Rule.swift in Sources */,
+				32268316DAEA4FE20CBD79F4 /* RuleCardViews.swift in Sources */,
+				0A67A417E00059CB30250345 /* RuleCategory.swift in Sources */,
+				0782C56A6A6DD464E3D00BEB /* RuleListView.swift in Sources */,
+				CB2C3BDCE0F015C6422DBB50 /* RuleRepository.swift in Sources */,
+				F3CD286E9E2314A3CC7ECF26 /* SettingsSheet.swift in Sources */,
+				CEAF14DACA8E1D72BC376CDE /* Theme.swift in Sources */,
+				54353AE348B364BDC0C4F12B /* WidgetModels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BDA2798C824225C7DEAF042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FE1D64A4F29B2991BA1E799 /* DusturWidget */;
+			targetProxy = 9FD9E4368B4670A1647046E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22E0AE92CD688BBE73F7DB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BV56Q32SD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Düstur";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omeredebal.dustur;
+				PRODUCT_NAME = "Düstur";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2563348FB4142C0B3BFB65FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3BV56Q32SD;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 2.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		361A713AE63CE01657180F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3BV56Q32SD;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 2.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		95EE379BF05421081F11FBDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BV56Q32SD;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Dustur/WidgetExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omeredebal.dustur.widget;
+				PRODUCT_NAME = DusturWidget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C67F5ECFC466AFDCFC82FE6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BV56Q32SD;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Dustur/WidgetExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omeredebal.dustur.widget;
+				PRODUCT_NAME = DusturWidget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7BFE3C184DFCD1712E2DCBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BV56Q32SD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Düstur";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omeredebal.dustur;
+				PRODUCT_NAME = "Düstur";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FDAB92B9E096AE4C6895DAC /* Build configuration list for PBXNativeTarget "Dustur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E0AE92CD688BBE73F7DB96 /* Debug */,
+				C7BFE3C184DFCD1712E2DCBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		44C3AA475E2C4C1218F9A4C4 /* Build configuration list for PBXProject "Dustur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361A713AE63CE01657180F4C /* Debug */,
+				2563348FB4142C0B3BFB65FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6A78ECC1CCEB7ADD19D3DEBD /* Build configuration list for PBXNativeTarget "DusturWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95EE379BF05421081F11FBDE /* Debug */,
+				C67F5ECFC466AFDCFC82FE6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3472916F988C4906C14CF2E /* Project object */;
+}
