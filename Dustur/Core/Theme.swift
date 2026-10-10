@@ -2,6 +2,12 @@ import SwiftUI
 
 /// Düstur — Sade, modern ve Apple Human Interface Guidelines uyumlu tasarım sistemi.
 public enum DusturTheme {
+    // MARK: - Tipografi
+    
+    public static func monoNumber(size: CGFloat = 14, weight: Font.Weight = .bold) -> Font {
+        .system(size: size, weight: weight, design: .serif).monospacedDigit()
+    }
+
     // MARK: - Kategori Renkleri (Sakin, Muted & Apple HIG Uyumlu)
     
     public static func categoryColor(for id: String) -> Color {

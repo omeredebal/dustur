@@ -1,47 +1,137 @@
 import SwiftUI
 
-/// Sade, profesyonel ve Apple yerel tasarım diline uygun kare kategori kartı.
+/// 3D Krom & Cam menü ikonlarıyla kaplanmış, ultra-lüks ve zarif kare kategori kartı.
 public struct CategoryTile: View {
     public let category: RuleCategory
-    private let color: Color
     private let count: Int
 
     public init(category: RuleCategory) {
         self.category = category
-        self.color = DusturTheme.categoryColor(for: category.id)
         self.count = RuleRepository.rules(in: category.id).count
     }
 
     public var body: some View {
-        ZStack(alignment: .topLeading) {
-            // Mat, asil ve göz yormayan gradyan zemin
-            RoundedRectangle(cornerRadius: 20, style: .continuous)
-                .fill(color.gradient)
+        ZStack(alignment: .bottomLeading) {
+            // MARK: - 1. Zemin (Derin Siyah)
+            Color.black
 
+            // MARK: - 2. 3D Krom & Cam Kategori İkonu (Kartı Tam Kaplar)
+            CategoryIconLoader(id: category.id)
+                .scaledToFill()
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .clipped()
+
+            // MARK: - 3. Sinematik Karartma Gradyanı (Okunabilirlik ve Derinlik)
+            LinearGradient(
+                colors: [
+                    Color.black.opacity(0.0),
+                    Color.black.opacity(0.20),
+                    Color.black.opacity(0.85)
+                ],
+                startPoint: .center,
+                endPoint: .bottom
+            )
+
+            // MARK: - 4. İnce Lüks Krom Kontur
+            RoundedRectangle(cornerRadius: 22, style: .continuous)
+                .stroke(
+                    LinearGradient(
+                        colors: [
+                            Color.white.opacity(0.35),
+                            Color.white.opacity(0.10),
+                            Color.white.opacity(0.05)
+                        ],
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                    ),
+                    lineWidth: 1
+                )
+
+            // MARK: - 5. Kart İçi Bilgiler
             VStack(alignment: .leading, spacing: 0) {
-                // SF Symbol İkonu
-                Image(systemName: category.symbol)
-                    .font(.title2.weight(.semibold))
-                    .foregroundStyle(.white)
+                // Üst Sağ: Sıra Numarası Rozeti
+                HStack {
+                    Spacer()
+                    Text(String(format: "%02d", category.order))
+                        .font(DusturTheme.monoNumber(size: 11, weight: .bold))
+                        .foregroundStyle(.white.opacity(0.80))
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 3.5)
+                        .background(
+                            Capsule().fill(Color.black.opacity(0.55))
+                        )
+                        .overlay(
+                            Capsule().stroke(Color.white.opacity(0.20), lineWidth: 0.8)
+                        )
+                }
 
                 Spacer()
 
-                // Kategori Adı
-                Text(category.name)
-                    .font(.headline)
-                    .foregroundStyle(.white)
-                    .lineLimit(2)
-                    .multilineTextAlignment(.leading)
-                    .minimumScaleFactor(0.85)
+                // Alt Kısım: Kategori Adı ve Kural Sayısı
+                VStack(alignment: .leading, spacing: 3) {
+                    Text(category.name)
+                        .font(.system(size: 16.5, weight: .bold, design: .serif))
+                        .foregroundStyle(.white)
+                        .lineLimit(2)
+                        .minimumScaleFactor(0.85)
+                        .multilineTextAlignment(.leading)
+                        .shadow(color: .black.opacity(0.60), radius: 4, x: 0, y: 2)
 
-                // Kural Sayısı
-                Text("\(count) kural")
-                    .font(.caption)
-                    .foregroundStyle(.white.opacity(0.80))
-                    .padding(.top, 4)
+                    HStack(spacing: 4) {
+                        Text("\(count) İlke")
+                            .font(.system(size: 11, weight: .medium))
+                            .foregroundStyle(.white.opacity(0.70))
+
+                        Spacer()
+
+                        Image(systemName: "arrow.up.right")
+                            .font(.system(size: 9, weight: .bold))
+                            .foregroundStyle(.white.opacity(0.60))
+                            .padding(4)
+                            .background(Circle().fill(Color.white.opacity(0.12)))
+                    }
+                }
             }
-            .padding(16)
+            .padding(14)
         }
         .aspectRatio(1, contentMode: .fit)
+        .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
+        .shadow(color: .black.opacity(0.40), radius: 8, x: 0, y: 4)
+    }
+}
+
+/// İkonu hem Asset Catalog'dan hem dosya sisteminden yükleyen optimize loader
+public struct CategoryIconLoader: View {
+    let id: String
+
+    public var body: some View {
+        if let uiImage = loadImage(for: id) {
+            Image(uiImage: uiImage)
+                .resizable()
+        } else {
+            // SF Symbol Fallback
+            ZStack {
+                Color(hex: "#1A1D24")
+                Image(systemName: "sparkles")
+                    .font(.largeTitle)
+                    .foregroundStyle(.white.opacity(0.3))
+            }
+        }
+    }
+
+    private func loadImage(for id: String) -> UIImage? {
+        // 1. Asset Catalog'dan dene
+        if let img = UIImage(named: id) {
+            return img
+        }
+        // 2. MenuIcons klasörü içinden dene
+        if let path = Bundle.main.path(forResource: id, ofType: "png", inDirectory: "MenuIcons") {
+            return UIImage(contentsOfFile: path)
+        }
+        // 3. Ana Bundle root içinden dene
+        if let path = Bundle.main.path(forResource: id, ofType: "png") {
+            return UIImage(contentsOfFile: path)
+        }
+        return nil
     }
 }
